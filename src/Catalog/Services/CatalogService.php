@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Catalog\Services;
+namespace DKH\eBaySDK\Catalog\Services;
 
-class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
+class CatalogService extends \DKH\eBaySDK\Catalog\Services\CatalogBaseService
 {
     const API_VERSION = 'v1_beta';
 
@@ -21,7 +21,7 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
         'GetProduct' => [
             'method' => 'GET',
             'resource' => 'product/{epid}',
-            'responseClass' => '\DTS\eBaySDK\Catalog\Types\GetProductRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Catalog\Types\GetProductRestResponse',
             'params' => [
                 'epid' => [
                     'valid' => ['string'],
@@ -32,7 +32,7 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
         'Search' => [
             'method' => 'GET',
             'resource' => 'product_summary/search',
-            'responseClass' => '\DTS\eBaySDK\Catalog\Types\SearchRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Catalog\Types\SearchRestResponse',
             'params' => [
                 'offset' => [
                     'valid' => ['string']
@@ -63,7 +63,7 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
         'GetProductMetadata' => [
             'method' => 'GET',
             'resource' => 'get_product_metadata',
-            'responseClass' => '\DTS\eBaySDK\Catalog\Types\GetProductMetadataRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Catalog\Types\GetProductMetadataRestResponse',
             'params' => [
                 'other_applicable_category_ids' => [
                     'valid' => ['string']
@@ -80,7 +80,7 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
         'GetProductMetadataForCategories' => [
             'method' => 'GET',
             'resource' => 'get_product_metadata_for_categories',
-            'responseClass' => '\DTS\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestResponse',
             'params' => [
                 'other_applicable_category_ids' => [
                     'valid' => ['string']
@@ -94,7 +94,7 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
         'GetChangeRequest' => [
             'method' => 'GET',
             'resource' => 'change_request/{change_request_id}',
-            'responseClass' => '\DTS\eBaySDK\Catalog\Types\GetChangeRequestRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Catalog\Types\GetChangeRequestRestResponse',
             'params' => [
                 'change_request_id' => [
                     'valid' => ['string'],
@@ -105,7 +105,7 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
         'GetChangeRequests' => [
             'method' => 'GET',
             'resource' => 'change_request',
-            'responseClass' => '\DTS\eBaySDK\Catalog\Types\GetChangeRequestsRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Catalog\Types\GetChangeRequestsRestResponse',
             'params' => [
                 'offset' => [
                     'valid' => ['string']
@@ -121,7 +121,7 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
         'CreateChangeRequest' => [
             'method' => 'PUT',
             'resource' => 'change_request',
-            'responseClass' => '\DTS\eBaySDK\Catalog\Types\CreateChangeRequestRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Catalog\Types\CreateChangeRequestRestResponse',
             'params' => [
             ]
         ]
@@ -136,127 +136,127 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetProductRestRequest $request
-     * @return \DTS\eBaySDK\Catalog\Types\GetProductRestResponse
+     * @param \DKH\eBaySDK\Catalog\Types\GetProductRestRequest $request
+     * @return \DKH\eBaySDK\Catalog\Types\GetProductRestResponse
      */
-    public function getProduct(\DTS\eBaySDK\Catalog\Types\GetProductRestRequest $request)
+    public function getProduct(\DKH\eBaySDK\Catalog\Types\GetProductRestRequest $request)
     {
         return $this->getProductAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetProductRestRequest $request
+     * @param \DKH\eBaySDK\Catalog\Types\GetProductRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getProductAsync(\DTS\eBaySDK\Catalog\Types\GetProductRestRequest $request)
+    public function getProductAsync(\DKH\eBaySDK\Catalog\Types\GetProductRestRequest $request)
     {
         return $this->callOperationAsync('GetProduct', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\SearchRestRequest $request
-     * @return \DTS\eBaySDK\Catalog\Types\SearchRestResponse
+     * @param \DKH\eBaySDK\Catalog\Types\SearchRestRequest $request
+     * @return \DKH\eBaySDK\Catalog\Types\SearchRestResponse
      */
-    public function search(\DTS\eBaySDK\Catalog\Types\SearchRestRequest $request)
+    public function search(\DKH\eBaySDK\Catalog\Types\SearchRestRequest $request)
     {
         return $this->searchAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\SearchRestRequest $request
+     * @param \DKH\eBaySDK\Catalog\Types\SearchRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function searchAsync(\DTS\eBaySDK\Catalog\Types\SearchRestRequest $request)
+    public function searchAsync(\DKH\eBaySDK\Catalog\Types\SearchRestRequest $request)
     {
         return $this->callOperationAsync('Search', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetProductMetadataRestRequest $request
-     * @return \DTS\eBaySDK\Catalog\Types\GetProductMetadataRestResponse
+     * @param \DKH\eBaySDK\Catalog\Types\GetProductMetadataRestRequest $request
+     * @return \DKH\eBaySDK\Catalog\Types\GetProductMetadataRestResponse
      */
-    public function getProductMetadata(\DTS\eBaySDK\Catalog\Types\GetProductMetadataRestRequest $request)
+    public function getProductMetadata(\DKH\eBaySDK\Catalog\Types\GetProductMetadataRestRequest $request)
     {
         return $this->getProductMetadataAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetProductMetadataRestRequest $request
+     * @param \DKH\eBaySDK\Catalog\Types\GetProductMetadataRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getProductMetadataAsync(\DTS\eBaySDK\Catalog\Types\GetProductMetadataRestRequest $request)
+    public function getProductMetadataAsync(\DKH\eBaySDK\Catalog\Types\GetProductMetadataRestRequest $request)
     {
         return $this->callOperationAsync('GetProductMetadata', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestRequest $request
-     * @return \DTS\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestResponse
+     * @param \DKH\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestRequest $request
+     * @return \DKH\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestResponse
      */
-    public function getProductMetadataForCategories(\DTS\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestRequest $request)
+    public function getProductMetadataForCategories(\DKH\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestRequest $request)
     {
         return $this->getProductMetadataForCategoriesAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestRequest $request
+     * @param \DKH\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getProductMetadataForCategoriesAsync(\DTS\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestRequest $request)
+    public function getProductMetadataForCategoriesAsync(\DKH\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestRequest $request)
     {
         return $this->callOperationAsync('GetProductMetadataForCategories', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetChangeRequestRestRequest $request
-     * @return \DTS\eBaySDK\Catalog\Types\GetChangeRequestRestResponse
+     * @param \DKH\eBaySDK\Catalog\Types\GetChangeRequestRestRequest $request
+     * @return \DKH\eBaySDK\Catalog\Types\GetChangeRequestRestResponse
      */
-    public function getChangeRequest(\DTS\eBaySDK\Catalog\Types\GetChangeRequestRestRequest $request)
+    public function getChangeRequest(\DKH\eBaySDK\Catalog\Types\GetChangeRequestRestRequest $request)
     {
         return $this->getChangeRequestAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetChangeRequestRestRequest $request
+     * @param \DKH\eBaySDK\Catalog\Types\GetChangeRequestRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getChangeRequestAsync(\DTS\eBaySDK\Catalog\Types\GetChangeRequestRestRequest $request)
+    public function getChangeRequestAsync(\DKH\eBaySDK\Catalog\Types\GetChangeRequestRestRequest $request)
     {
         return $this->callOperationAsync('GetChangeRequest', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetChangeRequestsRestRequest $request
-     * @return \DTS\eBaySDK\Catalog\Types\GetChangeRequestsRestResponse
+     * @param \DKH\eBaySDK\Catalog\Types\GetChangeRequestsRestRequest $request
+     * @return \DKH\eBaySDK\Catalog\Types\GetChangeRequestsRestResponse
      */
-    public function getChangeRequests(\DTS\eBaySDK\Catalog\Types\GetChangeRequestsRestRequest $request)
+    public function getChangeRequests(\DKH\eBaySDK\Catalog\Types\GetChangeRequestsRestRequest $request)
     {
         return $this->getChangeRequestsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetChangeRequestsRestRequest $request
+     * @param \DKH\eBaySDK\Catalog\Types\GetChangeRequestsRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getChangeRequestsAsync(\DTS\eBaySDK\Catalog\Types\GetChangeRequestsRestRequest $request)
+    public function getChangeRequestsAsync(\DKH\eBaySDK\Catalog\Types\GetChangeRequestsRestRequest $request)
     {
         return $this->callOperationAsync('GetChangeRequests', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\CreateChangeRequestRestRequest $request
-     * @return \DTS\eBaySDK\Catalog\Types\CreateChangeRequestRestResponse
+     * @param \DKH\eBaySDK\Catalog\Types\CreateChangeRequestRestRequest $request
+     * @return \DKH\eBaySDK\Catalog\Types\CreateChangeRequestRestResponse
      */
-    public function createChangeRequest(\DTS\eBaySDK\Catalog\Types\CreateChangeRequestRestRequest $request)
+    public function createChangeRequest(\DKH\eBaySDK\Catalog\Types\CreateChangeRequestRestRequest $request)
     {
         return $this->createChangeRequestAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\CreateChangeRequestRestRequest $request
+     * @param \DKH\eBaySDK\Catalog\Types\CreateChangeRequestRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function createChangeRequestAsync(\DTS\eBaySDK\Catalog\Types\CreateChangeRequestRestRequest $request)
+    public function createChangeRequestAsync(\DKH\eBaySDK\Catalog\Types\CreateChangeRequestRestRequest $request)
     {
         return $this->callOperationAsync('CreateChangeRequest', $request);
     }

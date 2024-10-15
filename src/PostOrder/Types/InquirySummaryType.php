@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace DKH\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $buyer
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $claimAmount
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
+ * @property \DKH\eBaySDK\PostOrder\Types\Amount $claimAmount
+ * @property \DKH\eBaySDK\PostOrder\Types\DateTime $creationDate
  * @property integer $inquiryId
- * @property \DTS\eBaySDK\PostOrder\Enums\InquiryStatusEnum $inquiryStatusEnum
+ * @property \DKH\eBaySDK\PostOrder\Enums\InquiryStatusEnum $inquiryStatusEnum
  * @property integer $itemId
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $lastModifiedDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $respondByDate
+ * @property \DKH\eBaySDK\PostOrder\Types\DateTime $lastModifiedDate
+ * @property \DKH\eBaySDK\PostOrder\Types\DateTime $respondByDate
  * @property string $seller
  * @property integer $transactionId
  */
-class InquirySummaryType extends \DTS\eBaySDK\Types\BaseType
+class InquirySummaryType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -36,13 +36,13 @@ class InquirySummaryType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'buyer'
         ],
         'claimAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'claimAmount'
         ],
         'creationDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'creationDate'
@@ -66,13 +66,13 @@ class InquirySummaryType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'itemId'
         ],
         'lastModifiedDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'lastModifiedDate'
         ],
         'respondByDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'respondByDate'

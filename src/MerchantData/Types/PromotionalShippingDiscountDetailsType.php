@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace DKH\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Enums\DiscountNameCodeType $DiscountName
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ShippingCost
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $OrderAmount
+ * @property \DKH\eBaySDK\MerchantData\Enums\DiscountNameCodeType $DiscountName
+ * @property \DKH\eBaySDK\MerchantData\Types\AmountType $ShippingCost
+ * @property \DKH\eBaySDK\MerchantData\Types\AmountType $OrderAmount
  * @property integer $ItemCount
  */
-class PromotionalShippingDiscountDetailsType extends \DTS\eBaySDK\Types\BaseType
+class PromotionalShippingDiscountDetailsType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,13 +30,13 @@ class PromotionalShippingDiscountDetailsType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'DiscountName'
         ],
         'ShippingCost' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingCost'
         ],
         'OrderAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OrderAmount'

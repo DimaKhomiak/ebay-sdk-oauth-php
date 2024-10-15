@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace DKH\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
- * @property \DTS\eBaySDK\PostOrder\Types\RefundDetailType $refundDetail
+ * @property \DKH\eBaySDK\PostOrder\Types\Text $comments
+ * @property \DKH\eBaySDK\PostOrder\Types\RefundDetailType $refundDetail
  */
-class IssueRefundRequest extends \DTS\eBaySDK\Types\BaseType
+class IssueRefundRequest extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'comments' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'comments'
         ],
         'refundDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RefundDetailType',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\RefundDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'refundDetail'

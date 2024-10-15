@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Finding\Types;
+namespace DKH\eBaySDK\Finding\Types;
 
 /**
  *
  * @property string $name
  * @property string $value
  */
-class ItemAttribute extends \DTS\eBaySDK\Types\BaseType
+class ItemAttribute extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\OfferType $Offer
+ * @property \DKH\eBaySDK\Trading\Types\OfferType $Offer
  * @property string $ItemID
  * @property boolean $BlockOnWarning
- * @property \DTS\eBaySDK\Trading\Types\AffiliateTrackingDetailsType $AffiliateTrackingDetails
- * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
+ * @property \DKH\eBaySDK\Trading\Types\AffiliateTrackingDetailsType $AffiliateTrackingDetails
+ * @property \DKH\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
  */
-class PlaceOfferRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class PlaceOfferRequestType extends \DKH\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Offer' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\OfferType',
+            'type' => 'DKH\eBaySDK\Trading\Types\OfferType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Offer'
@@ -43,13 +43,13 @@ class PlaceOfferRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTy
             'elementName' => 'BlockOnWarning'
         ],
         'AffiliateTrackingDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AffiliateTrackingDetailsType',
+            'type' => 'DKH\eBaySDK\Trading\Types\AffiliateTrackingDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AffiliateTrackingDetails'
         ],
         'VariationSpecifics' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
+            'type' => 'DKH\eBaySDK\Trading\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VariationSpecifics'

@@ -8,25 +8,25 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\MyMessagesFolderSummaryType[] $FolderSummary
+ * @property \DKH\eBaySDK\Trading\Types\MyMessagesFolderSummaryType[] $FolderSummary
  * @property integer $NewMessageCount
  * @property integer $FlaggedMessageCount
  * @property integer $TotalMessageCount
  * @property integer $NewHighPriorityCount
  * @property integer $TotalHighPriorityCount
  */
-class MyMessagesSummaryType extends \DTS\eBaySDK\Types\BaseType
+class MyMessagesSummaryType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'FolderSummary' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesFolderSummaryType',
+            'type' => 'DKH\eBaySDK\Trading\Types\MyMessagesFolderSummaryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'FolderSummary'

@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property double $SalesTaxPercent
  * @property string $SalesTaxState
  * @property boolean $ShippingIncludedInTax
- * @property \DTS\eBaySDK\Trading\Types\AmountType $SalesTaxAmount
+ * @property \DKH\eBaySDK\Trading\Types\AmountType $SalesTaxAmount
  */
-class SalesTaxType extends \DTS\eBaySDK\Types\BaseType
+class SalesTaxType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -42,7 +42,7 @@ class SalesTaxType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'ShippingIncludedInTax'
         ],
         'SalesTaxAmount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DKH\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SalesTaxAmount'

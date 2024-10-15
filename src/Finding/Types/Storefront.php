@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Finding\Types;
+namespace DKH\eBaySDK\Finding\Types;
 
 /**
  *
  * @property string $storeName
  * @property string $storeURL
  */
-class Storefront extends \DTS\eBaySDK\Types\BaseType
+class Storefront extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

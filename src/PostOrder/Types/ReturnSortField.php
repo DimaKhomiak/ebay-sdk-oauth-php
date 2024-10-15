@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace DKH\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property boolean $ascending
- * @property \DTS\eBaySDK\PostOrder\Enums\ReturnSortEnum $enumValue
+ * @property \DKH\eBaySDK\PostOrder\Enums\ReturnSortEnum $enumValue
  * @property string $field
  */
-class ReturnSortField extends \DTS\eBaySDK\Types\BaseType
+class ReturnSortField extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

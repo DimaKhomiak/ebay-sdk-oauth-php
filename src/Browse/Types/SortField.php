@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Browse\Types;
+namespace DKH\eBaySDK\Browse\Types;
 
 /**
  *
  * @property boolean $ascending
  * @property string $field
  */
-class SortField extends \DTS\eBaySDK\Types\BaseType
+class SortField extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

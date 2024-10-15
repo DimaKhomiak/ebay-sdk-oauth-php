@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\DiscountNameCodeType $DiscountName
- * @property \DTS\eBaySDK\Trading\Types\DiscountProfileType[] $DiscountProfile
+ * @property \DKH\eBaySDK\Trading\Enums\DiscountNameCodeType $DiscountName
+ * @property \DKH\eBaySDK\Trading\Types\DiscountProfileType[] $DiscountProfile
  */
-class FlatShippingDiscountType extends \DTS\eBaySDK\Types\BaseType
+class FlatShippingDiscountType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class FlatShippingDiscountType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'DiscountName'
         ],
         'DiscountProfile' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DiscountProfileType',
+            'type' => 'DKH\eBaySDK\Trading\Types\DiscountProfileType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'DiscountProfile'

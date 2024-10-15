@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Enums;
+namespace DKH\eBaySDK\Trading\Enums;
 
 class ShippingServiceType
 {

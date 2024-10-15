@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $CategoryVersion
  * @property \DateTime $UpdateTime
- * @property \DTS\eBaySDK\Trading\Types\CategoryFeatureType[] $Category
- * @property \DTS\eBaySDK\Trading\Types\SiteDefaultsType $SiteDefaults
- * @property \DTS\eBaySDK\Trading\Types\FeatureDefinitionsType $FeatureDefinitions
+ * @property \DKH\eBaySDK\Trading\Types\CategoryFeatureType[] $Category
+ * @property \DKH\eBaySDK\Trading\Types\SiteDefaultsType $SiteDefaults
+ * @property \DKH\eBaySDK\Trading\Types\FeatureDefinitionsType $FeatureDefinitions
  */
-class GetCategoryFeaturesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetCategoryFeaturesResponseType extends \DKH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -37,19 +37,19 @@ class GetCategoryFeaturesResponseType extends \DTS\eBaySDK\Trading\Types\Abstrac
             'elementName' => 'UpdateTime'
         ],
         'Category' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CategoryFeatureType',
+            'type' => 'DKH\eBaySDK\Trading\Types\CategoryFeatureType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Category'
         ],
         'SiteDefaults' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SiteDefaultsType',
+            'type' => 'DKH\eBaySDK\Trading\Types\SiteDefaultsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SiteDefaults'
         ],
         'FeatureDefinitions' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\FeatureDefinitionsType',
+            'type' => 'DKH\eBaySDK\Trading\Types\FeatureDefinitionsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FeatureDefinitions'

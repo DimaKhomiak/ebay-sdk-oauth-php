@@ -8,41 +8,41 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ProductMetadata\Types;
+namespace DKH\eBaySDK\ProductMetadata\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ProductMetadata\Types\URITypeSpecificInformation $uriTypeSpecificInformation
- * @property \DTS\eBaySDK\ProductMetadata\Types\NumericTypeSpecificInformation $numericTypeSpecificInformation
- * @property \DTS\eBaySDK\ProductMetadata\Types\MediaTypeSpecificInformation $mediaTypeSpecificInformation
- * @property \DTS\eBaySDK\ProductMetadata\Types\StringTypeSpecificInformation $stringTypeSpecificInformation
+ * @property \DKH\eBaySDK\ProductMetadata\Types\URITypeSpecificInformation $uriTypeSpecificInformation
+ * @property \DKH\eBaySDK\ProductMetadata\Types\NumericTypeSpecificInformation $numericTypeSpecificInformation
+ * @property \DKH\eBaySDK\ProductMetadata\Types\MediaTypeSpecificInformation $mediaTypeSpecificInformation
+ * @property \DKH\eBaySDK\ProductMetadata\Types\StringTypeSpecificInformation $stringTypeSpecificInformation
  */
-class TypeSpecificInformation extends \DTS\eBaySDK\Types\BaseType
+class TypeSpecificInformation extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'uriTypeSpecificInformation' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\URITypeSpecificInformation',
+            'type' => 'DKH\eBaySDK\ProductMetadata\Types\URITypeSpecificInformation',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'uriTypeSpecificInformation'
         ],
         'numericTypeSpecificInformation' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\NumericTypeSpecificInformation',
+            'type' => 'DKH\eBaySDK\ProductMetadata\Types\NumericTypeSpecificInformation',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'numericTypeSpecificInformation'
         ],
         'mediaTypeSpecificInformation' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\MediaTypeSpecificInformation',
+            'type' => 'DKH\eBaySDK\ProductMetadata\Types\MediaTypeSpecificInformation',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'mediaTypeSpecificInformation'
         ],
         'stringTypeSpecificInformation' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\StringTypeSpecificInformation',
+            'type' => 'DKH\eBaySDK\ProductMetadata\Types\StringTypeSpecificInformation',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'stringTypeSpecificInformation'

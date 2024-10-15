@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Shopping\Types;
+namespace DKH\eBaySDK\Shopping\Types;
 
 /**
  *
  * @property string $VariationSpecificName
- * @property \DTS\eBaySDK\Shopping\Types\VariationSpecificPictureSetType[] $VariationSpecificPictureSet
+ * @property \DKH\eBaySDK\Shopping\Types\VariationSpecificPictureSetType[] $VariationSpecificPictureSet
  */
-class PicturesType extends \DTS\eBaySDK\Types\BaseType
+class PicturesType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class PicturesType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'VariationSpecificName'
         ],
         'VariationSpecificPictureSet' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\VariationSpecificPictureSetType',
+            'type' => 'DKH\eBaySDK\Shopping\Types\VariationSpecificPictureSetType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'VariationSpecificPictureSet'

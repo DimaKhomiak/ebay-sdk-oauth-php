@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace DKH\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\CustomListDetailType[] $listDetail
+ * @property \DKH\eBaySDK\PostOrder\Types\CustomListDetailType[] $listDetail
  */
-class GetCustomListsResponse extends \DTS\eBaySDK\Types\BaseType
+class GetCustomListsResponse extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'listDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\CustomListDetailType',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\CustomListDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'listDetail'

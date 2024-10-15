@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace DKH\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  */
-class OfferOtherSolutionResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
+class OfferOtherSolutionResponse extends \DKH\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

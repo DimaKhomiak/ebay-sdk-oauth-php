@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace DKH\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $FeeDescription
- * @property \DTS\eBaySDK\MerchantData\Types\ListingTransactionType[] $ListingTransaction
+ * @property \DKH\eBaySDK\MerchantData\Types\ListingTransactionType[] $ListingTransaction
  */
-class TransactionListType extends \DTS\eBaySDK\Types\BaseType
+class TransactionListType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class TransactionListType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'FeeDescription'
         ],
         'ListingTransaction' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ListingTransactionType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\ListingTransactionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ListingTransaction'

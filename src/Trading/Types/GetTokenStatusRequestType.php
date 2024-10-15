@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  */
-class GetTokenStatusRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetTokenStatusRequestType extends \DKH\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

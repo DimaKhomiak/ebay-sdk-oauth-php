@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace DKH\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $campaign_id
  */
-class UpdateCampaignIDentificationRestRequest extends \DTS\eBaySDK\Marketing\Types\UpdateCampaignIdentificationRequest
+class UpdateCampaignIDentificationRestRequest extends \DKH\eBaySDK\Marketing\Types\UpdateCampaignIdentificationRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

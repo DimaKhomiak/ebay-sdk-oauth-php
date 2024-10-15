@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Catalog\Types;
+namespace DKH\eBaySDK\Catalog\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace DTS\eBaySDK\Catalog\Types;
  * @property string $limit
  * @property string $filter
  */
-class GetChangeRequestsRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetChangeRequestsRestRequest extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property \DateTime $InventoryCountLastCalculatedDate
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductType[] $SellingManagerProduct
- * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DKH\eBaySDK\Trading\Types\SellingManagerProductType[] $SellingManagerProduct
+ * @property \DKH\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  */
-class GetSellingManagerInventoryResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetSellingManagerInventoryResponseType extends \DKH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,13 +29,13 @@ class GetSellingManagerInventoryResponseType extends \DTS\eBaySDK\Trading\Types\
             'elementName' => 'InventoryCountLastCalculatedDate'
         ],
         'SellingManagerProduct' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductType',
+            'type' => 'DKH\eBaySDK\Trading\Types\SellingManagerProductType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'SellingManagerProduct'
         ],
         'PaginationResult' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
+            'type' => 'DKH\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaginationResult'

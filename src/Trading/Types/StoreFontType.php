@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType $NameFace
- * @property \DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType $NameSize
+ * @property \DKH\eBaySDK\Trading\Enums\StoreFontFaceCodeType $NameFace
+ * @property \DKH\eBaySDK\Trading\Enums\StoreFontSizeCodeType $NameSize
  * @property string $NameColor
- * @property \DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType $TitleFace
- * @property \DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType $TitleSize
+ * @property \DKH\eBaySDK\Trading\Enums\StoreFontFaceCodeType $TitleFace
+ * @property \DKH\eBaySDK\Trading\Enums\StoreFontSizeCodeType $TitleSize
  * @property string $TitleColor
- * @property \DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType $DescFace
- * @property \DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType $DescSize
+ * @property \DKH\eBaySDK\Trading\Enums\StoreFontFaceCodeType $DescFace
+ * @property \DKH\eBaySDK\Trading\Enums\StoreFontSizeCodeType $DescSize
  * @property string $DescColor
  */
-class StoreFontType extends \DTS\eBaySDK\Types\BaseType
+class StoreFontType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

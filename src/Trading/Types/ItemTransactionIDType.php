@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
@@ -17,7 +17,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $SKU
  * @property string $OrderLineItemID
  */
-class ItemTransactionIDType extends \DTS\eBaySDK\Types\BaseType
+class ItemTransactionIDType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

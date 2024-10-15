@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $FeedbackID
  */
-class LeaveFeedbackResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class LeaveFeedbackResponseType extends \DKH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Feedback\Enums;
+namespace DKH\eBaySDK\Feedback\Enums;
 
 class ErrorCategory
 {

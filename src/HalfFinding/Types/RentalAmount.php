@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\HalfFinding\Types;
+namespace DKH\eBaySDK\HalfFinding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\HalfFinding\Enums\RentalDurationType $duration
+ * @property \DKH\eBaySDK\HalfFinding\Enums\RentalDurationType $duration
  * @property string $currencyId
  */
-class RentalAmount extends \DTS\eBaySDK\Types\DoubleType
+class RentalAmount extends \DKH\eBaySDK\Types\DoubleType
 {
     /**
      * @var array Properties belonging to objects of this class.

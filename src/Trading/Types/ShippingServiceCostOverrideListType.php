@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ShippingServiceCostOverrideType[] $ShippingServiceCostOverride
+ * @property \DKH\eBaySDK\Trading\Types\ShippingServiceCostOverrideType[] $ShippingServiceCostOverride
  */
-class ShippingServiceCostOverrideListType extends \DTS\eBaySDK\Types\BaseType
+class ShippingServiceCostOverrideListType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ShippingServiceCostOverride' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ShippingServiceCostOverrideType',
+            'type' => 'DKH\eBaySDK\Trading\Types\ShippingServiceCostOverrideType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ShippingServiceCostOverride'

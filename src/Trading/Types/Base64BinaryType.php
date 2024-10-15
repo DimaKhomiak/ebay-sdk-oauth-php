@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $contentType
  */
-class Base64BinaryType extends \DTS\eBaySDK\Types\Base64BinaryType
+class Base64BinaryType extends \DKH\eBaySDK\Types\Base64BinaryType
 {
     /**
      * @var array Properties belonging to objects of this class.

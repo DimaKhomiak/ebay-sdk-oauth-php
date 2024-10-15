@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Shopping\Types;
+namespace DKH\eBaySDK\Shopping\Types;
 
 /**
  *
  * @property string $VariationSpecificValue
  * @property string[] $PictureURL
  */
-class VariationSpecificPictureSetType extends \DTS\eBaySDK\Types\BaseType
+class VariationSpecificPictureSetType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Shopping\Types;
+namespace DKH\eBaySDK\Shopping\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Shopping\Types\NameValueListType[] $NameValueList
+ * @property \DKH\eBaySDK\Shopping\Types\NameValueListType[] $NameValueList
  */
-class NameValueListArrayType extends \DTS\eBaySDK\Types\BaseType
+class NameValueListArrayType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'NameValueList' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\NameValueListType',
+            'type' => 'DKH\eBaySDK\Shopping\Types\NameValueListType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'NameValueList'

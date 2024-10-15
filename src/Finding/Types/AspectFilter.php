@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Finding\Types;
+namespace DKH\eBaySDK\Finding\Types;
 
 /**
  *
  * @property string $aspectName
  * @property string[] $aspectValueName
  */
-class AspectFilter extends \DTS\eBaySDK\Types\BaseType
+class AspectFilter extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

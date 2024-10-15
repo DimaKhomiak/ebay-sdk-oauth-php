@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace DKH\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $adId
  * @property string $bidPercentage
  * @property string $inventoryReferenceId
- * @property \DTS\eBaySDK\Marketing\Enums\InventoryReferenceTypeEnum $inventoryReferenceType
+ * @property \DKH\eBaySDK\Marketing\Enums\InventoryReferenceTypeEnum $inventoryReferenceType
  * @property string $listingId
  */
-class Ad extends \DTS\eBaySDK\Types\BaseType
+class Ad extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

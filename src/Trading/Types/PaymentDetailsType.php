@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $HoursToDeposit
  * @property integer $DaysToFullPayment
- * @property \DTS\eBaySDK\Trading\Types\AmountType $DepositAmount
- * @property \DTS\eBaySDK\Trading\Enums\DepositTypeCodeType $DepositType
+ * @property \DKH\eBaySDK\Trading\Types\AmountType $DepositAmount
+ * @property \DKH\eBaySDK\Trading\Enums\DepositTypeCodeType $DepositType
  */
-class PaymentDetailsType extends \DTS\eBaySDK\Types\BaseType
+class PaymentDetailsType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -36,7 +36,7 @@ class PaymentDetailsType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'DaysToFullPayment'
         ],
         'DepositAmount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DKH\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DepositAmount'

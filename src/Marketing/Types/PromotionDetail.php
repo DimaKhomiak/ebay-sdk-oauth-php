@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace DKH\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $description
  * @property string $endDate
- * @property \DTS\eBaySDK\Marketing\Enums\MarketplaceIdEnum $marketplaceId
+ * @property \DKH\eBaySDK\Marketing\Enums\MarketplaceIdEnum $marketplaceId
  * @property string $name
- * @property \DTS\eBaySDK\Marketing\Enums\PromotionPriorityEnum $priority
+ * @property \DKH\eBaySDK\Marketing\Enums\PromotionPriorityEnum $priority
  * @property string $promotionHref
  * @property string $promotionId
  * @property string $promotionImageUrl
- * @property \DTS\eBaySDK\Marketing\Enums\PromotionStatusEnum $promotionStatus
+ * @property \DKH\eBaySDK\Marketing\Enums\PromotionStatusEnum $promotionStatus
  * @property string $startDate
  */
-class PromotionDetail extends \DTS\eBaySDK\Types\BaseType
+class PromotionDetail extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

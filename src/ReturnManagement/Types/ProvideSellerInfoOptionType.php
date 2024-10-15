@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace DKH\eBaySDK\ReturnManagement\Types;
 
 /**
  *
  */
-class ProvideSellerInfoOptionType extends \DTS\eBaySDK\ReturnManagement\Types\BaseActivityOptionType
+class ProvideSellerInfoOptionType extends \DKH\eBaySDK\ReturnManagement\Types\BaseActivityOptionType
 {
     /**
      * @var array Properties belonging to objects of this class.

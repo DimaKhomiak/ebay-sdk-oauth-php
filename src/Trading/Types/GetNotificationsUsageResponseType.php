@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property \DateTime $StartTime
  * @property \DateTime $EndTime
- * @property \DTS\eBaySDK\Trading\Types\NotificationDetailsArrayType $NotificationDetailsArray
- * @property \DTS\eBaySDK\Trading\Types\MarkUpMarkDownHistoryType $MarkUpMarkDownHistory
- * @property \DTS\eBaySDK\Trading\Types\NotificationStatisticsType $NotificationStatistics
+ * @property \DKH\eBaySDK\Trading\Types\NotificationDetailsArrayType $NotificationDetailsArray
+ * @property \DKH\eBaySDK\Trading\Types\MarkUpMarkDownHistoryType $MarkUpMarkDownHistory
+ * @property \DKH\eBaySDK\Trading\Types\NotificationStatisticsType $NotificationStatistics
  */
-class GetNotificationsUsageResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetNotificationsUsageResponseType extends \DKH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -37,19 +37,19 @@ class GetNotificationsUsageResponseType extends \DTS\eBaySDK\Trading\Types\Abstr
             'elementName' => 'EndTime'
         ],
         'NotificationDetailsArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NotificationDetailsArrayType',
+            'type' => 'DKH\eBaySDK\Trading\Types\NotificationDetailsArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'NotificationDetailsArray'
         ],
         'MarkUpMarkDownHistory' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MarkUpMarkDownHistoryType',
+            'type' => 'DKH\eBaySDK\Trading\Types\MarkUpMarkDownHistoryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MarkUpMarkDownHistory'
         ],
         'NotificationStatistics' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NotificationStatisticsType',
+            'type' => 'DKH\eBaySDK\Trading\Types\NotificationStatisticsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'NotificationStatistics'

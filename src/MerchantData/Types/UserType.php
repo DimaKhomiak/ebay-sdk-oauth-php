@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace DKH\eBaySDK\MerchantData\Types;
 
 /**
  *
@@ -20,42 +20,42 @@ namespace DTS\eBaySDK\MerchantData\Types;
  * @property integer $UniquePositiveFeedbackCount
  * @property double $PositiveFeedbackPercent
  * @property boolean $FeedbackPrivate
- * @property \DTS\eBaySDK\MerchantData\Enums\FeedbackRatingStarCodeType $FeedbackRatingStar
+ * @property \DKH\eBaySDK\MerchantData\Enums\FeedbackRatingStarCodeType $FeedbackRatingStar
  * @property boolean $IDVerified
  * @property boolean $eBayGoodStanding
  * @property boolean $NewUser
- * @property \DTS\eBaySDK\MerchantData\Types\AddressType $RegistrationAddress
+ * @property \DKH\eBaySDK\MerchantData\Types\AddressType $RegistrationAddress
  * @property \DateTime $RegistrationDate
- * @property \DTS\eBaySDK\MerchantData\Enums\SiteCodeType $Site
- * @property \DTS\eBaySDK\MerchantData\Enums\UserStatusCodeType $Status
+ * @property \DKH\eBaySDK\MerchantData\Enums\SiteCodeType $Site
+ * @property \DKH\eBaySDK\MerchantData\Enums\UserStatusCodeType $Status
  * @property string $UserID
  * @property boolean $UserIDChanged
  * @property \DateTime $UserIDLastChanged
- * @property \DTS\eBaySDK\MerchantData\Enums\VATStatusCodeType $VATStatus
- * @property \DTS\eBaySDK\MerchantData\Types\BuyerType $BuyerInfo
- * @property \DTS\eBaySDK\MerchantData\Types\SellerType $SellerInfo
- * @property \DTS\eBaySDK\MerchantData\Enums\BusinessRoleType $BusinessRole
- * @property \DTS\eBaySDK\MerchantData\Enums\PayPalAccountLevelCodeType $PayPalAccountLevel
- * @property \DTS\eBaySDK\MerchantData\Enums\PayPalAccountTypeCodeType $PayPalAccountType
- * @property \DTS\eBaySDK\MerchantData\Enums\PayPalAccountStatusCodeType $PayPalAccountStatus
- * @property \DTS\eBaySDK\MerchantData\Enums\EBaySubscriptionTypeCodeType[] $UserSubscription
+ * @property \DKH\eBaySDK\MerchantData\Enums\VATStatusCodeType $VATStatus
+ * @property \DKH\eBaySDK\MerchantData\Types\BuyerType $BuyerInfo
+ * @property \DKH\eBaySDK\MerchantData\Types\SellerType $SellerInfo
+ * @property \DKH\eBaySDK\MerchantData\Enums\BusinessRoleType $BusinessRole
+ * @property \DKH\eBaySDK\MerchantData\Enums\PayPalAccountLevelCodeType $PayPalAccountLevel
+ * @property \DKH\eBaySDK\MerchantData\Enums\PayPalAccountTypeCodeType $PayPalAccountType
+ * @property \DKH\eBaySDK\MerchantData\Enums\PayPalAccountStatusCodeType $PayPalAccountStatus
+ * @property \DKH\eBaySDK\MerchantData\Enums\EBaySubscriptionTypeCodeType[] $UserSubscription
  * @property string[] $SkypeID
  * @property boolean $eBayWikiReadOnly
  * @property integer $TUVLevel
  * @property string $VATID
  * @property boolean $MotorsDealer
- * @property \DTS\eBaySDK\MerchantData\Types\BiddingSummaryType $BiddingSummary
+ * @property \DKH\eBaySDK\MerchantData\Types\BiddingSummaryType $BiddingSummary
  * @property boolean $UserAnonymized
  * @property integer $UniqueNeutralFeedbackCount
  * @property boolean $EnterpriseSeller
  * @property string $BillingEmail
  * @property boolean $QualifiesForSelling
  * @property string $StaticAlias
- * @property \DTS\eBaySDK\MerchantData\Types\AddressType $ShippingAddress
+ * @property \DKH\eBaySDK\MerchantData\Types\AddressType $ShippingAddress
  * @property string $UserFirstName
  * @property string $UserLastName
  */
-class UserType extends \DTS\eBaySDK\Types\BaseType
+class UserType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -134,7 +134,7 @@ class UserType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'NewUser'
         ],
         'RegistrationAddress' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AddressType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RegistrationAddress'
@@ -182,13 +182,13 @@ class UserType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'VATStatus'
         ],
         'BuyerInfo' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\BuyerType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\BuyerType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BuyerInfo'
         ],
         'SellerInfo' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\SellerType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\SellerType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerInfo'
@@ -254,7 +254,7 @@ class UserType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'MotorsDealer'
         ],
         'BiddingSummary' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\BiddingSummaryType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\BiddingSummaryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BiddingSummary'
@@ -296,7 +296,7 @@ class UserType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'StaticAlias'
         ],
         'ShippingAddress' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AddressType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingAddress'

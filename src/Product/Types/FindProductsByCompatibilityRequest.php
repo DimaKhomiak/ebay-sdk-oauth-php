@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Types;
+namespace DKH\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\ProductByCompatibilityRequest[] $productByCompatibilitySearch
+ * @property \DKH\eBaySDK\Product\Types\ProductByCompatibilityRequest[] $productByCompatibilitySearch
  */
-class FindProductsByCompatibilityRequest extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
+class FindProductsByCompatibilityRequest extends \DKH\eBaySDK\Product\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'productByCompatibilitySearch' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ProductByCompatibilityRequest',
+            'type' => 'DKH\eBaySDK\Product\Types\ProductByCompatibilityRequest',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'productByCompatibilitySearch'

@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace DKH\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnUserType $party
+ * @property \DKH\eBaySDK\ReturnManagement\Types\ReturnUserType $party
  * @property \DateTime $respondByDate
  */
-class ReturnResponseDueType extends \DTS\eBaySDK\Types\BaseType
+class ReturnResponseDueType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'party' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnUserType',
+            'type' => 'DKH\eBaySDK\ReturnManagement\Types\ReturnUserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'party'

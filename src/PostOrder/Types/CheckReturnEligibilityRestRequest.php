@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace DKH\eBaySDK\PostOrder\Types;
 
 /**
  *
  */
-class CheckReturnEligibilityRestRequest extends \DTS\eBaySDK\PostOrder\Types\CheckEligibilityRequest
+class CheckReturnEligibilityRestRequest extends \DKH\eBaySDK\PostOrder\Types\CheckEligibilityRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

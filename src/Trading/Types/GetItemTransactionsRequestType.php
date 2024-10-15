@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
@@ -16,15 +16,15 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DateTime $ModTimeFrom
  * @property \DateTime $ModTimeTo
  * @property string $TransactionID
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \DKH\eBaySDK\Trading\Types\PaginationType $Pagination
  * @property boolean $IncludeFinalValueFee
  * @property boolean $IncludeContainingOrder
- * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType $Platform
+ * @property \DKH\eBaySDK\Trading\Enums\TransactionPlatformCodeType $Platform
  * @property integer $NumberOfDays
  * @property boolean $IncludeVariations
  * @property string $OrderLineItemID
  */
-class GetItemTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetItemTransactionsRequestType extends \DKH\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -55,7 +55,7 @@ class GetItemTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\Abstract
             'elementName' => 'TransactionID'
         ],
         'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'type' => 'DKH\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Pagination'

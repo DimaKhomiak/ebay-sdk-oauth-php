@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\MyMessagesSummaryType $Summary
- * @property \DTS\eBaySDK\Trading\Types\MyMessagesMessageArrayType $Messages
+ * @property \DKH\eBaySDK\Trading\Types\MyMessagesSummaryType $Summary
+ * @property \DKH\eBaySDK\Trading\Types\MyMessagesMessageArrayType $Messages
  */
-class GetMyMessagesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetMyMessagesResponseType extends \DKH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Summary' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesSummaryType',
+            'type' => 'DKH\eBaySDK\Trading\Types\MyMessagesSummaryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Summary'
         ],
         'Messages' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesMessageArrayType',
+            'type' => 'DKH\eBaySDK\Trading\Types\MyMessagesMessageArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Messages'

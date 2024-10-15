@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SuggestedCategoryType[] $SuggestedCategory
+ * @property \DKH\eBaySDK\Trading\Types\SuggestedCategoryType[] $SuggestedCategory
  */
-class SuggestedCategoryArrayType extends \DTS\eBaySDK\Types\BaseType
+class SuggestedCategoryArrayType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'SuggestedCategory' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SuggestedCategoryType',
+            'type' => 'DKH\eBaySDK\Trading\Types\SuggestedCategoryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'SuggestedCategory'

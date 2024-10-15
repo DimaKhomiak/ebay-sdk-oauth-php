@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\DisputeFilterTypeCodeType $DisputeFilterType
- * @property \DTS\eBaySDK\Trading\Enums\DisputeSortTypeCodeType $DisputeSortType
+ * @property \DKH\eBaySDK\Trading\Enums\DisputeFilterTypeCodeType $DisputeFilterType
+ * @property \DKH\eBaySDK\Trading\Enums\DisputeSortTypeCodeType $DisputeSortType
  * @property \DateTime $ModTimeFrom
  * @property \DateTime $ModTimeTo
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \DKH\eBaySDK\Trading\Types\PaginationType $Pagination
  */
-class GetUserDisputesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetUserDisputesRequestType extends \DKH\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -49,7 +49,7 @@ class GetUserDisputesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequ
             'elementName' => 'ModTimeTo'
         ],
         'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'type' => 'DKH\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Pagination'

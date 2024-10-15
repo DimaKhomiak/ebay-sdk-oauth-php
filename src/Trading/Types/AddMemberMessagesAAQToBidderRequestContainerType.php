@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $CorrelationID
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Types\MemberMessageType $MemberMessage
+ * @property \DKH\eBaySDK\Trading\Types\MemberMessageType $MemberMessage
  */
-class AddMemberMessagesAAQToBidderRequestContainerType extends \DTS\eBaySDK\Types\BaseType
+class AddMemberMessagesAAQToBidderRequestContainerType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -35,7 +35,7 @@ class AddMemberMessagesAAQToBidderRequestContainerType extends \DTS\eBaySDK\Type
             'elementName' => 'ItemID'
         ],
         'MemberMessage' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MemberMessageType',
+            'type' => 'DKH\eBaySDK\Trading\Types\MemberMessageType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MemberMessage'

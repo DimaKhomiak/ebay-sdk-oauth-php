@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BulkDataExchange\Types;
+namespace DKH\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
  * @property integer $errorId
  * @property string $domain
- * @property \DTS\eBaySDK\BulkDataExchange\Enums\ErrorSeverity $severity
- * @property \DTS\eBaySDK\BulkDataExchange\Enums\ErrorCategory $category
+ * @property \DKH\eBaySDK\BulkDataExchange\Enums\ErrorSeverity $severity
+ * @property \DKH\eBaySDK\BulkDataExchange\Enums\ErrorCategory $category
  * @property string $message
  * @property string $subdomain
  * @property string $exceptionId
- * @property \DTS\eBaySDK\BulkDataExchange\Types\ErrorParameter[] $parameter
+ * @property \DKH\eBaySDK\BulkDataExchange\Types\ErrorParameter[] $parameter
  */
-class ErrorData extends \DTS\eBaySDK\Types\BaseType
+class ErrorData extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -70,7 +70,7 @@ class ErrorData extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'exceptionId'
         ],
         'parameter' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\ErrorParameter',
+            'type' => 'DKH\eBaySDK\BulkDataExchange\Types\ErrorParameter',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'parameter'

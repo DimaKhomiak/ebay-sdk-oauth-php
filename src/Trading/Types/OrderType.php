@@ -8,56 +8,56 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $OrderID
- * @property \DTS\eBaySDK\Trading\Enums\OrderStatusCodeType $OrderStatus
- * @property \DTS\eBaySDK\Trading\Types\AmountType $AdjustmentAmount
- * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountPaid
- * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountSaved
- * @property \DTS\eBaySDK\Trading\Types\CheckoutStatusType $CheckoutStatus
- * @property \DTS\eBaySDK\Trading\Types\ShippingDetailsType $ShippingDetails
- * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType $CreatingUserRole
+ * @property \DKH\eBaySDK\Trading\Enums\OrderStatusCodeType $OrderStatus
+ * @property \DKH\eBaySDK\Trading\Types\AmountType $AdjustmentAmount
+ * @property \DKH\eBaySDK\Trading\Types\AmountType $AmountPaid
+ * @property \DKH\eBaySDK\Trading\Types\AmountType $AmountSaved
+ * @property \DKH\eBaySDK\Trading\Types\CheckoutStatusType $CheckoutStatus
+ * @property \DKH\eBaySDK\Trading\Types\ShippingDetailsType $ShippingDetails
+ * @property \DKH\eBaySDK\Trading\Enums\TradingRoleCodeType $CreatingUserRole
  * @property \DateTime $CreatedTime
- * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType[] $PaymentMethods
+ * @property \DKH\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType[] $PaymentMethods
  * @property string $SellerEmail
- * @property \DTS\eBaySDK\Trading\Types\AddressType $ShippingAddress
- * @property \DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType $ShippingServiceSelected
- * @property \DTS\eBaySDK\Trading\Types\AmountType $Subtotal
- * @property \DTS\eBaySDK\Trading\Types\AmountType $Total
- * @property \DTS\eBaySDK\Trading\Types\ExternalTransactionType[] $ExternalTransaction
- * @property \DTS\eBaySDK\Trading\Types\TransactionArrayType $TransactionArray
+ * @property \DKH\eBaySDK\Trading\Types\AddressType $ShippingAddress
+ * @property \DKH\eBaySDK\Trading\Types\ShippingServiceOptionsType $ShippingServiceSelected
+ * @property \DKH\eBaySDK\Trading\Types\AmountType $Subtotal
+ * @property \DKH\eBaySDK\Trading\Types\AmountType $Total
+ * @property \DKH\eBaySDK\Trading\Types\ExternalTransactionType[] $ExternalTransaction
+ * @property \DKH\eBaySDK\Trading\Types\TransactionArrayType $TransactionArray
  * @property string $BuyerUserID
  * @property \DateTime $PaidTime
  * @property \DateTime $ShippedTime
  * @property boolean $IntegratedMerchantCreditCardEnabled
  * @property string $BuyerCheckoutMessage
  * @property string $EIASToken
- * @property \DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType $PaymentHoldStatus
- * @property \DTS\eBaySDK\Trading\Types\PaymentHoldDetailType $PaymentHoldDetails
- * @property \DTS\eBaySDK\Trading\Types\AmountType $RefundAmount
+ * @property \DKH\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType $PaymentHoldStatus
+ * @property \DKH\eBaySDK\Trading\Types\PaymentHoldDetailType $PaymentHoldDetails
+ * @property \DKH\eBaySDK\Trading\Types\AmountType $RefundAmount
  * @property string $RefundStatus
  * @property boolean $IsMultiLegShipping
- * @property \DTS\eBaySDK\Trading\Types\MultiLegShippingDetailsType $MultiLegShippingDetails
- * @property \DTS\eBaySDK\Trading\Types\PaymentsInformationType $MonetaryDetails
- * @property \DTS\eBaySDK\Trading\Types\PickupDetailsType $PickupDetails
- * @property \DTS\eBaySDK\Trading\Types\PickupMethodSelectedType $PickupMethodSelected
+ * @property \DKH\eBaySDK\Trading\Types\MultiLegShippingDetailsType $MultiLegShippingDetails
+ * @property \DKH\eBaySDK\Trading\Types\PaymentsInformationType $MonetaryDetails
+ * @property \DKH\eBaySDK\Trading\Types\PickupDetailsType $PickupDetails
+ * @property \DKH\eBaySDK\Trading\Types\PickupMethodSelectedType $PickupMethodSelected
  * @property string $SellerUserID
  * @property string $SellerEIASToken
  * @property string $CancelReason
- * @property \DTS\eBaySDK\Trading\Enums\CancelStatusCodeType $CancelStatus
+ * @property \DKH\eBaySDK\Trading\Enums\CancelStatusCodeType $CancelStatus
  * @property string $CancelReasonDetails
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingConvenienceCharge
- * @property \DTS\eBaySDK\Trading\Types\CancelDetailType[] $CancelDetail
+ * @property \DKH\eBaySDK\Trading\Types\AmountType $ShippingConvenienceCharge
+ * @property \DKH\eBaySDK\Trading\Types\CancelDetailType[] $CancelDetail
  * @property string $LogisticsPlanType
- * @property \DTS\eBaySDK\Trading\Types\TaxIdentifierType[] $BuyerTaxIdentifier
- * @property \DTS\eBaySDK\Trading\Types\BuyerPackageEnclosuresType $BuyerPackageEnclosures
+ * @property \DKH\eBaySDK\Trading\Types\TaxIdentifierType[] $BuyerTaxIdentifier
+ * @property \DKH\eBaySDK\Trading\Types\BuyerPackageEnclosuresType $BuyerPackageEnclosures
  * @property string $ExtendedOrderID
  * @property boolean $ContainseBayPlusTransaction
  */
-class OrderType extends \DTS\eBaySDK\Types\BaseType
+class OrderType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -76,31 +76,31 @@ class OrderType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'OrderStatus'
         ],
         'AdjustmentAmount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DKH\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AdjustmentAmount'
         ],
         'AmountPaid' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DKH\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AmountPaid'
         ],
         'AmountSaved' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DKH\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AmountSaved'
         ],
         'CheckoutStatus' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CheckoutStatusType',
+            'type' => 'DKH\eBaySDK\Trading\Types\CheckoutStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CheckoutStatus'
         ],
         'ShippingDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ShippingDetailsType',
+            'type' => 'DKH\eBaySDK\Trading\Types\ShippingDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingDetails'
@@ -130,37 +130,37 @@ class OrderType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'SellerEmail'
         ],
         'ShippingAddress' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AddressType',
+            'type' => 'DKH\eBaySDK\Trading\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingAddress'
         ],
         'ShippingServiceSelected' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType',
+            'type' => 'DKH\eBaySDK\Trading\Types\ShippingServiceOptionsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceSelected'
         ],
         'Subtotal' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DKH\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Subtotal'
         ],
         'Total' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DKH\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Total'
         ],
         'ExternalTransaction' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ExternalTransactionType',
+            'type' => 'DKH\eBaySDK\Trading\Types\ExternalTransactionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ExternalTransaction'
         ],
         'TransactionArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\TransactionArrayType',
+            'type' => 'DKH\eBaySDK\Trading\Types\TransactionArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TransactionArray'
@@ -208,13 +208,13 @@ class OrderType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'PaymentHoldStatus'
         ],
         'PaymentHoldDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaymentHoldDetailType',
+            'type' => 'DKH\eBaySDK\Trading\Types\PaymentHoldDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaymentHoldDetails'
         ],
         'RefundAmount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DKH\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RefundAmount'
@@ -232,25 +232,25 @@ class OrderType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'IsMultiLegShipping'
         ],
         'MultiLegShippingDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MultiLegShippingDetailsType',
+            'type' => 'DKH\eBaySDK\Trading\Types\MultiLegShippingDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MultiLegShippingDetails'
         ],
         'MonetaryDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaymentsInformationType',
+            'type' => 'DKH\eBaySDK\Trading\Types\PaymentsInformationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MonetaryDetails'
         ],
         'PickupDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PickupDetailsType',
+            'type' => 'DKH\eBaySDK\Trading\Types\PickupDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PickupDetails'
         ],
         'PickupMethodSelected' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PickupMethodSelectedType',
+            'type' => 'DKH\eBaySDK\Trading\Types\PickupMethodSelectedType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PickupMethodSelected'
@@ -286,13 +286,13 @@ class OrderType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'CancelReasonDetails'
         ],
         'ShippingConvenienceCharge' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DKH\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingConvenienceCharge'
         ],
         'CancelDetail' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CancelDetailType',
+            'type' => 'DKH\eBaySDK\Trading\Types\CancelDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'CancelDetail'
@@ -304,13 +304,13 @@ class OrderType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'LogisticsPlanType'
         ],
         'BuyerTaxIdentifier' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\TaxIdentifierType',
+            'type' => 'DKH\eBaySDK\Trading\Types\TaxIdentifierType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'BuyerTaxIdentifier'
         ],
         'BuyerPackageEnclosures' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\BuyerPackageEnclosuresType',
+            'type' => 'DKH\eBaySDK\Trading\Types\BuyerPackageEnclosuresType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BuyerPackageEnclosures'

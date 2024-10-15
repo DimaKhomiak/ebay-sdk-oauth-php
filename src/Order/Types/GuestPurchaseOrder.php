@@ -8,33 +8,33 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Order\Types;
+namespace DKH\eBaySDK\Order\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Order\Types\LineItem[] $lineItems
- * @property \DTS\eBaySDK\Order\Types\PricingSummary $pricingSummary
+ * @property \DKH\eBaySDK\Order\Types\LineItem[] $lineItems
+ * @property \DKH\eBaySDK\Order\Types\PricingSummary $pricingSummary
  * @property string $purchaseOrderCreationDate
  * @property string $purchaseOrderId
- * @property \DTS\eBaySDK\Order\Enums\PurchaseOrderPaymentStatusEnum $purchaseOrderPaymentStatus
- * @property \DTS\eBaySDK\Order\Enums\PurchaseOrderStatusEnum $purchaseOrderStatus
- * @property \DTS\eBaySDK\Order\Types\Amount $refundedAmount
- * @property \DTS\eBaySDK\Order\Types\ErrorDetailV3[] $warnings
+ * @property \DKH\eBaySDK\Order\Enums\PurchaseOrderPaymentStatusEnum $purchaseOrderPaymentStatus
+ * @property \DKH\eBaySDK\Order\Enums\PurchaseOrderStatusEnum $purchaseOrderStatus
+ * @property \DKH\eBaySDK\Order\Types\Amount $refundedAmount
+ * @property \DKH\eBaySDK\Order\Types\ErrorDetailV3[] $warnings
  */
-class GuestPurchaseOrder extends \DTS\eBaySDK\Types\BaseType
+class GuestPurchaseOrder extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'lineItems' => [
-            'type' => 'DTS\eBaySDK\Order\Types\LineItem',
+            'type' => 'DKH\eBaySDK\Order\Types\LineItem',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'lineItems'
         ],
         'pricingSummary' => [
-            'type' => 'DTS\eBaySDK\Order\Types\PricingSummary',
+            'type' => 'DKH\eBaySDK\Order\Types\PricingSummary',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'pricingSummary'
@@ -64,13 +64,13 @@ class GuestPurchaseOrder extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'purchaseOrderStatus'
         ],
         'refundedAmount' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
+            'type' => 'DKH\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'refundedAmount'
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\Order\Types\ErrorDetailV3',
+            'type' => 'DKH\eBaySDK\Order\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

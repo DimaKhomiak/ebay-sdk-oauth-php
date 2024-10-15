@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace DKH\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnIdType $ReturnId
+ * @property \DKH\eBaySDK\ReturnManagement\Types\ReturnIdType $ReturnId
  * @property string $returnMerchandiseAuthorization
- * @property \DTS\eBaySDK\ReturnManagement\Types\Address $returnAddress
+ * @property \DKH\eBaySDK\ReturnManagement\Types\Address $returnAddress
  */
-class ProvideSellerInfoRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequest
+class ProvideSellerInfoRequest extends \DKH\eBaySDK\ReturnManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ReturnId' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
+            'type' => 'DKH\eBaySDK\ReturnManagement\Types\ReturnIdType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReturnId'
@@ -35,7 +35,7 @@ class ProvideSellerInfoRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseR
             'elementName' => 'returnMerchandiseAuthorization'
         ],
         'returnAddress' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\Address',
+            'type' => 'DKH\eBaySDK\ReturnManagement\Types\Address',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnAddress'

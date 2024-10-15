@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
+ * @property \DKH\eBaySDK\Trading\Types\FeesType $Fees
  * @property \DateTime $StartTime
  * @property \DateTime $EndTime
  * @property string $CategoryID
  * @property string $Category2ID
- * @property \DTS\eBaySDK\Trading\Enums\DiscountReasonCodeType[] $DiscountReason
- * @property \DTS\eBaySDK\Trading\Types\ProductSuggestionsType $ProductSuggestions
- * @property \DTS\eBaySDK\Trading\Types\ListingRecommendationsType $ListingRecommendations
+ * @property \DKH\eBaySDK\Trading\Enums\DiscountReasonCodeType[] $DiscountReason
+ * @property \DKH\eBaySDK\Trading\Types\ProductSuggestionsType $ProductSuggestions
+ * @property \DKH\eBaySDK\Trading\Types\ListingRecommendationsType $ListingRecommendations
  */
-class RelistItemResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class RelistItemResponseType extends \DKH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -35,7 +35,7 @@ class RelistItemResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponse
             'elementName' => 'ItemID'
         ],
         'Fees' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\FeesType',
+            'type' => 'DKH\eBaySDK\Trading\Types\FeesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Fees'
@@ -71,13 +71,13 @@ class RelistItemResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponse
             'elementName' => 'DiscountReason'
         ],
         'ProductSuggestions' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ProductSuggestionsType',
+            'type' => 'DKH\eBaySDK\Trading\Types\ProductSuggestionsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ProductSuggestions'
         ],
         'ListingRecommendations' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ListingRecommendationsType',
+            'type' => 'DKH\eBaySDK\Trading\Types\ListingRecommendationsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ListingRecommendations'

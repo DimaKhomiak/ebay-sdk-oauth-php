@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ItemID
  * @property string $TransactionID
  * @property string $OrderID
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType $SellingManagerSoldOrder
+ * @property \DKH\eBaySDK\Trading\Types\SellingManagerSoldOrderType $SellingManagerSoldOrder
  * @property string $OrderLineItemID
  */
-class ReviseSellingManagerSaleRecordRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class ReviseSellingManagerSaleRecordRequestType extends \DKH\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -43,7 +43,7 @@ class ReviseSellingManagerSaleRecordRequestType extends \DTS\eBaySDK\Trading\Typ
             'elementName' => 'OrderID'
         ],
         'SellingManagerSoldOrder' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType',
+            'type' => 'DKH\eBaySDK\Trading\Types\SellingManagerSoldOrderType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerSoldOrder'

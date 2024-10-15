@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\Marketing\Services;
+namespace DKH\eBaySDK\Marketing\Services;
 
 /**
  * Base class for the Marketing service.
  */
-class MarketingBaseService extends \DTS\eBaySDK\Services\BaseRestService
+class MarketingBaseService extends \DKH\eBaySDK\Services\BaseRestService
 {
     /**
      * @var array $endPoints The API endpoints.
@@ -44,7 +44,7 @@ class MarketingBaseService extends \DTS\eBaySDK\Services\BaseRestService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Marketing\Services\MarketingService::API_VERSION,
+                'default' => \DKH\eBaySDK\Marketing\Services\MarketingService::API_VERSION,
                 'required' => true
             ],
             'authorization' => [

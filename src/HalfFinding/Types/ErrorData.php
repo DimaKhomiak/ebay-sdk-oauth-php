@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\HalfFinding\Types;
+namespace DKH\eBaySDK\HalfFinding\Types;
 
 /**
  *
  * @property integer $errorId
  * @property string $domain
  * @property string $subdomain
- * @property \DTS\eBaySDK\HalfFinding\Enums\ErrorSeverity $severity
- * @property \DTS\eBaySDK\HalfFinding\Enums\ErrorCategory $category
+ * @property \DKH\eBaySDK\HalfFinding\Enums\ErrorSeverity $severity
+ * @property \DKH\eBaySDK\HalfFinding\Enums\ErrorCategory $category
  * @property string $message
  * @property string $exceptionId
- * @property \DTS\eBaySDK\HalfFinding\Types\ErrorParameter[] $parameter
+ * @property \DKH\eBaySDK\HalfFinding\Types\ErrorParameter[] $parameter
  */
-class ErrorData extends \DTS\eBaySDK\Types\BaseType
+class ErrorData extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -70,7 +70,7 @@ class ErrorData extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'exceptionId'
         ],
         'parameter' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\ErrorParameter',
+            'type' => 'DKH\eBaySDK\HalfFinding\Types\ErrorParameter',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'parameter'

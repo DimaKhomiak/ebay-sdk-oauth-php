@@ -8,37 +8,37 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace DKH\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property boolean $active
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $actualDeliveryDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $actualShipDate
+ * @property \DKH\eBaySDK\PostOrder\Types\DateTime $actualDeliveryDate
+ * @property \DKH\eBaySDK\PostOrder\Types\DateTime $actualShipDate
  * @property string $carrierEnum
  * @property integer $carrierId
  * @property string $carrierName
  * @property string $carrierUsed
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $deliveryDate
- * @property \DTS\eBaySDK\PostOrder\Enums\TrackingStatusEnum $deliveryStatus
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnAddressType $destinationAddress
+ * @property \DKH\eBaySDK\PostOrder\Types\DateTime $deliveryDate
+ * @property \DKH\eBaySDK\PostOrder\Enums\TrackingStatusEnum $deliveryStatus
+ * @property \DKH\eBaySDK\PostOrder\Types\ReturnAddressType $destinationAddress
  * @property string $errorCode
  * @property string $labelAvailableUntilDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $labelDate
+ * @property \DKH\eBaySDK\PostOrder\Types\DateTime $labelDate
  * @property string $labelId
  * @property boolean $labelPrintExpired
  * @property boolean $labelVoidExpired
  * @property boolean $markAsReceived
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $maxDeliveryEstimate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $minDeliveryEstimate
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnAddressType $originAddress
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $shipDate
+ * @property \DKH\eBaySDK\PostOrder\Types\DateTime $maxDeliveryEstimate
+ * @property \DKH\eBaySDK\PostOrder\Types\DateTime $minDeliveryEstimate
+ * @property \DKH\eBaySDK\PostOrder\Types\ReturnAddressType $originAddress
+ * @property \DKH\eBaySDK\PostOrder\Types\DateTime $shipDate
  * @property string $shipmentId
  * @property string $shippedBy
- * @property \DTS\eBaySDK\PostOrder\Enums\ShippingMethodEnum $shippingMethod
+ * @property \DKH\eBaySDK\PostOrder\Enums\ShippingMethodEnum $shippingMethod
  * @property string $trackingNumber
  */
-class ShipmentTrackingType extends \DTS\eBaySDK\Types\BaseType
+class ShipmentTrackingType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -51,13 +51,13 @@ class ShipmentTrackingType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'active'
         ],
         'actualDeliveryDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'actualDeliveryDate'
         ],
         'actualShipDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'actualShipDate'
@@ -87,7 +87,7 @@ class ShipmentTrackingType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'carrierUsed'
         ],
         'deliveryDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'deliveryDate'
@@ -99,7 +99,7 @@ class ShipmentTrackingType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'deliveryStatus'
         ],
         'destinationAddress' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnAddressType',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\ReturnAddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'destinationAddress'
@@ -117,7 +117,7 @@ class ShipmentTrackingType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'labelAvailableUntilDate'
         ],
         'labelDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'labelDate'
@@ -147,25 +147,25 @@ class ShipmentTrackingType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'markAsReceived'
         ],
         'maxDeliveryEstimate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'maxDeliveryEstimate'
         ],
         'minDeliveryEstimate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'minDeliveryEstimate'
         ],
         'originAddress' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnAddressType',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\ReturnAddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'originAddress'
         ],
         'shipDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shipDate'

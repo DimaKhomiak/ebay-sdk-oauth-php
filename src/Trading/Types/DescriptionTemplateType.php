@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
@@ -17,9 +17,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $ImageURL
  * @property string $Name
  * @property string $TemplateXML
- * @property \DTS\eBaySDK\Trading\Enums\DescriptionTemplateCodeType $Type
+ * @property \DKH\eBaySDK\Trading\Enums\DescriptionTemplateCodeType $Type
  */
-class DescriptionTemplateType extends \DTS\eBaySDK\Types\BaseType
+class DescriptionTemplateType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

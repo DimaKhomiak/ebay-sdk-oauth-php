@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Fulfillment\Enums;
+namespace DKH\eBaySDK\Fulfillment\Enums;
 
 class RefundStatusEnum
 {

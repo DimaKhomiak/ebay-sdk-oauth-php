@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\ValueTypeCodeType $ValueType
+ * @property \DKH\eBaySDK\Trading\Enums\ValueTypeCodeType $ValueType
  * @property integer $MinValues
  * @property integer $MaxValues
- * @property \DTS\eBaySDK\Trading\Enums\SelectionModeCodeType $SelectionMode
- * @property \DTS\eBaySDK\Trading\Enums\AspectUsageCodeType $AspectUsage
+ * @property \DKH\eBaySDK\Trading\Enums\SelectionModeCodeType $SelectionMode
+ * @property \DKH\eBaySDK\Trading\Enums\AspectUsageCodeType $AspectUsage
  * @property integer $MaxValueLength
- * @property \DTS\eBaySDK\Trading\Enums\ProductRequiredCodeType $ProductRequired
+ * @property \DKH\eBaySDK\Trading\Enums\ProductRequiredCodeType $ProductRequired
  * @property integer $Confidence
- * @property \DTS\eBaySDK\Trading\Types\NameValueRelationshipType[] $Relationship
- * @property \DTS\eBaySDK\Trading\Enums\VariationPictureRuleCodeType $VariationPicture
- * @property \DTS\eBaySDK\Trading\Enums\VariationSpecificsRuleCodeType $VariationSpecifics
- * @property \DTS\eBaySDK\Trading\Enums\ValueFormatCodeType $ValueFormat
+ * @property \DKH\eBaySDK\Trading\Types\NameValueRelationshipType[] $Relationship
+ * @property \DKH\eBaySDK\Trading\Enums\VariationPictureRuleCodeType $VariationPicture
+ * @property \DKH\eBaySDK\Trading\Enums\VariationSpecificsRuleCodeType $VariationSpecifics
+ * @property \DKH\eBaySDK\Trading\Enums\ValueFormatCodeType $ValueFormat
  */
-class RecommendationValidationRulesType extends \DTS\eBaySDK\Types\BaseType
+class RecommendationValidationRulesType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -80,7 +80,7 @@ class RecommendationValidationRulesType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'Confidence'
         ],
         'Relationship' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NameValueRelationshipType',
+            'type' => 'DKH\eBaySDK\Trading\Types\NameValueRelationshipType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Relationship'

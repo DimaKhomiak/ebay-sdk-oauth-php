@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Order\Types;
+namespace DKH\eBaySDK\Order\Types;
 
 /**
  *
  * @property string $label
- * @property \DTS\eBaySDK\Order\Types\Image $logoImage
- * @property \DTS\eBaySDK\Order\Types\PaymentMethodBrand[] $paymentMethodBrands
- * @property \DTS\eBaySDK\Order\Types\PaymentMethodMessage[] $paymentMethodMessages
- * @property \DTS\eBaySDK\Order\Enums\PaymentMethodTypeEnum $paymentMethodType
+ * @property \DKH\eBaySDK\Order\Types\Image $logoImage
+ * @property \DKH\eBaySDK\Order\Types\PaymentMethodBrand[] $paymentMethodBrands
+ * @property \DKH\eBaySDK\Order\Types\PaymentMethodMessage[] $paymentMethodMessages
+ * @property \DKH\eBaySDK\Order\Enums\PaymentMethodTypeEnum $paymentMethodType
  */
-class PaymentMethod extends \DTS\eBaySDK\Types\BaseType
+class PaymentMethod extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -31,19 +31,19 @@ class PaymentMethod extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'label'
         ],
         'logoImage' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Image',
+            'type' => 'DKH\eBaySDK\Order\Types\Image',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'logoImage'
         ],
         'paymentMethodBrands' => [
-            'type' => 'DTS\eBaySDK\Order\Types\PaymentMethodBrand',
+            'type' => 'DKH\eBaySDK\Order\Types\PaymentMethodBrand',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'paymentMethodBrands'
         ],
         'paymentMethodMessages' => [
-            'type' => 'DTS\eBaySDK\Order\Types\PaymentMethodMessage',
+            'type' => 'DKH\eBaySDK\Order\Types\PaymentMethodMessage',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'paymentMethodMessages'

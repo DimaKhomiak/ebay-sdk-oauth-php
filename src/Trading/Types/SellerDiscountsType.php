@@ -8,29 +8,29 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AmountType $OriginalItemPrice
- * @property \DTS\eBaySDK\Trading\Types\AmountType $OriginalItemShippingCost
+ * @property \DKH\eBaySDK\Trading\Types\AmountType $OriginalItemPrice
+ * @property \DKH\eBaySDK\Trading\Types\AmountType $OriginalItemShippingCost
  * @property string $OriginalShippingService
- * @property \DTS\eBaySDK\Trading\Types\SellerDiscountType[] $SellerDiscount
+ * @property \DKH\eBaySDK\Trading\Types\SellerDiscountType[] $SellerDiscount
  */
-class SellerDiscountsType extends \DTS\eBaySDK\Types\BaseType
+class SellerDiscountsType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'OriginalItemPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DKH\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OriginalItemPrice'
         ],
         'OriginalItemShippingCost' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DKH\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OriginalItemShippingCost'
@@ -42,7 +42,7 @@ class SellerDiscountsType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'OriginalShippingService'
         ],
         'SellerDiscount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellerDiscountType',
+            'type' => 'DKH\eBaySDK\Trading\Types\SellerDiscountType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'SellerDiscount'

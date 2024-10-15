@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\FeedbackSummaryPeriodCodeType $FeedbackSummaryPeriod
- * @property \DTS\eBaySDK\Trading\Types\AverageRatingDetailsType[] $AverageRatingDetails
+ * @property \DKH\eBaySDK\Trading\Enums\FeedbackSummaryPeriodCodeType $FeedbackSummaryPeriod
+ * @property \DKH\eBaySDK\Trading\Types\AverageRatingDetailsType[] $AverageRatingDetails
  */
-class AverageRatingSummaryType extends \DTS\eBaySDK\Types\BaseType
+class AverageRatingSummaryType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class AverageRatingSummaryType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'FeedbackSummaryPeriod'
         ],
         'AverageRatingDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AverageRatingDetailsType',
+            'type' => 'DKH\eBaySDK\Trading\Types\AverageRatingDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'AverageRatingDetails'

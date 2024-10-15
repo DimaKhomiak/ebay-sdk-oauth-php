@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $CategoryID
- * @property \DTS\eBaySDK\Trading\Types\NameRecommendationType[] $NameRecommendation
+ * @property \DKH\eBaySDK\Trading\Types\NameRecommendationType[] $NameRecommendation
  * @property boolean $Updated
  */
-class RecommendationsType extends \DTS\eBaySDK\Types\BaseType
+class RecommendationsType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,7 +29,7 @@ class RecommendationsType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'CategoryID'
         ],
         'NameRecommendation' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NameRecommendationType',
+            'type' => 'DKH\eBaySDK\Trading\Types\NameRecommendationType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'NameRecommendation'

@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\DisputeType[] $Dispute
+ * @property \DKH\eBaySDK\Trading\Types\DisputeType[] $Dispute
  */
-class DisputeArrayType extends \DTS\eBaySDK\Types\BaseType
+class DisputeArrayType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Dispute' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DisputeType',
+            'type' => 'DKH\eBaySDK\Trading\Types\DisputeType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Dispute'

@@ -1,13 +1,13 @@
 <?php
 
-namespace DTS\eBaySDK\ServicesOAuth;
+namespace DKH\eBaySDK\ServicesOAuth;
 
-use DTS\eBaySDK as Functions;
-use DTS\eBaySDK\ConfigurationResolver;
-use DTS\eBaySDK\Parser\XmlParser;
+use DKH\eBaySDK as Functions;
+use DKH\eBaySDK\ConfigurationResolver;
+use DKH\eBaySDK\Parser\XmlParser;
 use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\ResponseInterface;
-use DTS\eBaySDK\Credentials\CredentialsProvider;
+use DKH\eBaySDK\Credentials\CredentialsProvider;
 
 /**
  * The base class for every eBay service class.
@@ -70,25 +70,25 @@ abstract class BaseServiceOAuth
         return [
             'profile' => [
                 'valid' => ['string'],
-                'fn'    => 'DTS\eBaySDK\applyProfile',
+                'fn'    => 'DKH\eBaySDK\applyProfile',
             ],
             'compressResponse' => [
                 'valid'   => ['bool'],
                 'default' => false,
             ],
             'credentials' => [
-                'valid'   => ['DTS\eBaySDK\CredentialsOAuth\CredentialsOAuthInterface', 'array', 'callable'],
-                'fn'      => 'DTS\eBaySDK\applyCredentialsOAuth',
+                'valid'   => ['DKH\eBaySDK\CredentialsOAuth\CredentialsOAuthInterface', 'array', 'callable'],
+                'fn'      => 'DKH\eBaySDK\applyCredentialsOAuth',
                 'default' => [CredentialsOAuthProvider::class, 'defaultProvider'],
             ],
             'debug' => [
                 'valid'   => ['bool', 'array'],
-                'fn'      => 'DTS\eBaySDK\applyDebug',
+                'fn'      => 'DKH\eBaySDK\applyDebug',
                 'default' => false,
             ],
             'httpHandler' => [
                 'valid'   => ['callable'],
-                'default' => 'DTS\eBaySDK\defaultHttpHandler',
+                'default' => 'DKH\eBaySDK\defaultHttpHandler',
             ],
             'httpOptions' => [
                 'valid'   => ['array'],

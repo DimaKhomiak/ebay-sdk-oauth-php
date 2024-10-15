@@ -20,7 +20,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-namespace DTS\eBaySDK\JmesPath;
+namespace DKH\eBaySDK\JmesPath;
 
 /**
  * Returns data from the input array that matches a JMESPath expression.

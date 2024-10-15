@@ -8,30 +8,30 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace DKH\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\AdReference[] $ads
- * @property \DTS\eBaySDK\Marketing\Types\ErrorDetailV3[] $errors
+ * @property \DKH\eBaySDK\Marketing\Types\AdReference[] $ads
+ * @property \DKH\eBaySDK\Marketing\Types\ErrorDetailV3[] $errors
  * @property string $inventoryReferenceId
- * @property \DTS\eBaySDK\Marketing\Enums\InventoryReferenceTypeEnum $inventoryReferenceType
+ * @property \DKH\eBaySDK\Marketing\Enums\InventoryReferenceTypeEnum $inventoryReferenceType
  * @property integer $statusCode
  */
-class CreateAdsByInventoryReferenceResponse extends \DTS\eBaySDK\Types\BaseType
+class CreateAdsByInventoryReferenceResponse extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ads' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\AdReference',
+            'type' => 'DKH\eBaySDK\Marketing\Types\AdReference',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ads'
         ],
         'errors' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\ErrorDetailV3',
+            'type' => 'DKH\eBaySDK\Marketing\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'errors'

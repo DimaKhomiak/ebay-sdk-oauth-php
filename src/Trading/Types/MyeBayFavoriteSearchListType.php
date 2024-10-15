@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $TotalAvailable
- * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchType[] $FavoriteSearch
+ * @property \DKH\eBaySDK\Trading\Types\MyeBayFavoriteSearchType[] $FavoriteSearch
  */
-class MyeBayFavoriteSearchListType extends \DTS\eBaySDK\Types\BaseType
+class MyeBayFavoriteSearchListType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class MyeBayFavoriteSearchListType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'TotalAvailable'
         ],
         'FavoriteSearch' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchType',
+            'type' => 'DKH\eBaySDK\Trading\Types\MyeBayFavoriteSearchType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'FavoriteSearch'

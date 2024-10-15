@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
@@ -26,19 +26,19 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DateTime $ReceiveDate
  * @property \DateTime $ExpirationDate
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Types\MyMessagesResponseDetailsType $ResponseDetails
- * @property \DTS\eBaySDK\Trading\Types\MyMessagesFolderType $Folder
+ * @property \DKH\eBaySDK\Trading\Types\MyMessagesResponseDetailsType $ResponseDetails
+ * @property \DKH\eBaySDK\Trading\Types\MyMessagesFolderType $Folder
  * @property string $Content
- * @property \DTS\eBaySDK\Trading\Enums\MessageTypeCodeType $MessageType
- * @property \DTS\eBaySDK\Trading\Enums\ListingStatusCodeType $ListingStatus
- * @property \DTS\eBaySDK\Trading\Enums\QuestionTypeCodeType $QuestionType
+ * @property \DKH\eBaySDK\Trading\Enums\MessageTypeCodeType $MessageType
+ * @property \DKH\eBaySDK\Trading\Enums\ListingStatusCodeType $ListingStatus
+ * @property \DKH\eBaySDK\Trading\Enums\QuestionTypeCodeType $QuestionType
  * @property boolean $Replied
  * @property boolean $HighPriority
  * @property \DateTime $ItemEndTime
  * @property string $ItemTitle
- * @property \DTS\eBaySDK\Trading\Types\MessageMediaType[] $MessageMedia
+ * @property \DKH\eBaySDK\Trading\Types\MessageMediaType[] $MessageMedia
  */
-class MyMessagesMessageType extends \DTS\eBaySDK\Types\BaseType
+class MyMessagesMessageType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -129,13 +129,13 @@ class MyMessagesMessageType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'ItemID'
         ],
         'ResponseDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesResponseDetailsType',
+            'type' => 'DKH\eBaySDK\Trading\Types\MyMessagesResponseDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ResponseDetails'
         ],
         'Folder' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesFolderType',
+            'type' => 'DKH\eBaySDK\Trading\Types\MyMessagesFolderType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Folder'
@@ -189,7 +189,7 @@ class MyMessagesMessageType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'ItemTitle'
         ],
         'MessageMedia' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MessageMediaType',
+            'type' => 'DKH\eBaySDK\Trading\Types\MessageMediaType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'MessageMedia'

@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Types;
+namespace DKH\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\StringValue $text
- * @property \DTS\eBaySDK\Product\Types\NumericValue $number
- * @property \DTS\eBaySDK\Product\Types\URIValue $URL
+ * @property \DKH\eBaySDK\Product\Types\StringValue $text
+ * @property \DKH\eBaySDK\Product\Types\NumericValue $number
+ * @property \DKH\eBaySDK\Product\Types\URIValue $URL
  */
-class Value extends \DTS\eBaySDK\Types\BaseType
+class Value extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'text' => [
-            'type' => 'DTS\eBaySDK\Product\Types\StringValue',
+            'type' => 'DKH\eBaySDK\Product\Types\StringValue',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'text'
         ],
         'number' => [
-            'type' => 'DTS\eBaySDK\Product\Types\NumericValue',
+            'type' => 'DKH\eBaySDK\Product\Types\NumericValue',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'number'
         ],
         'URL' => [
-            'type' => 'DTS\eBaySDK\Product\Types\URIValue',
+            'type' => 'DKH\eBaySDK\Product\Types\URIValue',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'URL'

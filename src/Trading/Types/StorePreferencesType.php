@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\StoreVacationPreferencesType $VacationPreferences
+ * @property \DKH\eBaySDK\Trading\Types\StoreVacationPreferencesType $VacationPreferences
  */
-class StorePreferencesType extends \DTS\eBaySDK\Types\BaseType
+class StorePreferencesType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'VacationPreferences' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreVacationPreferencesType',
+            'type' => 'DKH\eBaySDK\Trading\Types\StoreVacationPreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VacationPreferences'

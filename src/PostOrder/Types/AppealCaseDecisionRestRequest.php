@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace DKH\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $caseId
  */
-class AppealCaseDecisionRestRequest extends \DTS\eBaySDK\PostOrder\Types\AppealRequest
+class AppealCaseDecisionRestRequest extends \DKH\eBaySDK\PostOrder\Types\AppealRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

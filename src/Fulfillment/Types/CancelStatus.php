@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Fulfillment\Types;
+namespace DKH\eBaySDK\Fulfillment\Types;
 
 /**
  *
  * @property string $cancelledDate
- * @property \DTS\eBaySDK\Fulfillment\Types\CancelRequest[] $cancelRequests
- * @property \DTS\eBaySDK\Fulfillment\Enums\CancelStateEnum $cancelState
+ * @property \DKH\eBaySDK\Fulfillment\Types\CancelRequest[] $cancelRequests
+ * @property \DKH\eBaySDK\Fulfillment\Enums\CancelStateEnum $cancelState
  */
-class CancelStatus extends \DTS\eBaySDK\Types\BaseType
+class CancelStatus extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,7 +29,7 @@ class CancelStatus extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'cancelledDate'
         ],
         'cancelRequests' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\CancelRequest',
+            'type' => 'DKH\eBaySDK\Fulfillment\Types\CancelRequest',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'cancelRequests'

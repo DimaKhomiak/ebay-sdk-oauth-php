@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace DKH\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $Name
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $Fee
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $PromotionalDiscount
+ * @property \DKH\eBaySDK\MerchantData\Types\AmountType $Fee
+ * @property \DKH\eBaySDK\MerchantData\Types\AmountType $PromotionalDiscount
  */
-class FeeType extends \DTS\eBaySDK\Types\BaseType
+class FeeType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,13 +29,13 @@ class FeeType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'Name'
         ],
         'Fee' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Fee'
         ],
         'PromotionalDiscount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PromotionalDiscount'

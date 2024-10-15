@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Enums;
+namespace DKH\eBaySDK\ReturnManagement\Enums;
 
 class ActivityOptionType
 {

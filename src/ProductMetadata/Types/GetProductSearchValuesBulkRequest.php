@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ProductMetadata\Types;
+namespace DKH\eBaySDK\ProductMetadata\Types;
 
 /**
  *
  * @property string[] $propertyName
  */
-class GetProductSearchValuesBulkRequest extends \DTS\eBaySDK\ProductMetadata\Types\GetProductSearchValuesBaseRequest
+class GetProductSearchValuesBulkRequest extends \DKH\eBaySDK\ProductMetadata\Types\GetProductSearchValuesBaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

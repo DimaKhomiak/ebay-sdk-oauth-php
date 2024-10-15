@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace DKH\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property integer $PaymentProfileID
  * @property string $PaymentProfileName
  */
-class SellerPaymentProfileType extends \DTS\eBaySDK\Types\BaseType
+class SellerPaymentProfileType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

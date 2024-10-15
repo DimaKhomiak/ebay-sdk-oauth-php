@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace DKH\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $carrier
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnShippingCostDetailType $shippingCost
+ * @property \DKH\eBaySDK\PostOrder\Types\ReturnShippingCostDetailType $shippingCost
  */
-class CarrierShippingCostInfoType extends \DTS\eBaySDK\Types\BaseType
+class CarrierShippingCostInfoType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class CarrierShippingCostInfoType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'carrier'
         ],
         'shippingCost' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnShippingCostDetailType',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\ReturnShippingCostDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingCost'

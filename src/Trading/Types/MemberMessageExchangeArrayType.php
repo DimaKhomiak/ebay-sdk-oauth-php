@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\MemberMessageExchangeType[] $MemberMessageExchange
+ * @property \DKH\eBaySDK\Trading\Types\MemberMessageExchangeType[] $MemberMessageExchange
  */
-class MemberMessageExchangeArrayType extends \DTS\eBaySDK\Types\BaseType
+class MemberMessageExchangeArrayType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'MemberMessageExchange' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MemberMessageExchangeType',
+            'type' => 'DKH\eBaySDK\Trading\Types\MemberMessageExchangeType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'MemberMessageExchange'

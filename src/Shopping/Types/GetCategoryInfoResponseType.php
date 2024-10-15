@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Shopping\Types;
+namespace DKH\eBaySDK\Shopping\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Shopping\Types\CategoryArrayType $CategoryArray
+ * @property \DKH\eBaySDK\Shopping\Types\CategoryArrayType $CategoryArray
  * @property integer $CategoryCount
  * @property \DateTime $UpdateTime
  * @property string $CategoryVersion
  */
-class GetCategoryInfoResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractResponseType
+class GetCategoryInfoResponseType extends \DKH\eBaySDK\Shopping\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'CategoryArray' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\CategoryArrayType',
+            'type' => 'DKH\eBaySDK\Shopping\Types\CategoryArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CategoryArray'

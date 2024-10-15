@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace DKH\eBaySDK\PostOrder\Types;
 
 /**
  *
  */
-class CreateReturnDraftRestRequest extends \DTS\eBaySDK\PostOrder\Types\SetReturnCreationSessionRequest
+class CreateReturnDraftRestRequest extends \DKH\eBaySDK\PostOrder\Types\SetReturnCreationSessionRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

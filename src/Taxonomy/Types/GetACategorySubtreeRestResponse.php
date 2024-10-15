@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Taxonomy\Types;
+namespace DKH\eBaySDK\Taxonomy\Types;
 
-use DTS\eBaySDK\StatusCodeTrait;
-use DTS\eBaySDK\HttpHeadersTrait;
+use DKH\eBaySDK\StatusCodeTrait;
+use DKH\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Taxonomy\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Taxonomy\Types\ErrorDetailV3[] $warnings
+ * @property \DKH\eBaySDK\Taxonomy\Types\ErrorDetailV3[] $errors
+ * @property \DKH\eBaySDK\Taxonomy\Types\ErrorDetailV3[] $warnings
  */
-class GetACategorySubtreeRestResponse extends \DTS\eBaySDK\Taxonomy\Types\CategorySubtree
+class GetACategorySubtreeRestResponse extends \DKH\eBaySDK\Taxonomy\Types\CategorySubtree
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;
@@ -28,13 +28,13 @@ class GetACategorySubtreeRestResponse extends \DTS\eBaySDK\Taxonomy\Types\Catego
      */
     private static $propertyTypes = [
         'errors' => [
-            'type' => 'DTS\eBaySDK\Taxonomy\Types\ErrorDetailV3',
+            'type' => 'DKH\eBaySDK\Taxonomy\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'errors'
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\Taxonomy\Types\ErrorDetailV3',
+            'type' => 'DKH\eBaySDK\Taxonomy\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
+namespace DKH\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ExtensionType[] $extension
+ * @property \DKH\eBaySDK\BusinessPoliciesManagement\Types\ExtensionType[] $extension
  */
-class BaseRequest extends \DTS\eBaySDK\Types\BaseType
+class BaseRequest extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'extension' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ExtensionType',
+            'type' => 'DKH\eBaySDK\BusinessPoliciesManagement\Types\ExtensionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'extension'

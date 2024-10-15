@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\HalfFinding\Types;
+namespace DKH\eBaySDK\HalfFinding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\HalfFinding\Enums\SortOrder $sortOrder
- * @property \DTS\eBaySDK\HalfFinding\Enums\SortOnType $sortOn
+ * @property \DKH\eBaySDK\HalfFinding\Enums\SortOrder $sortOrder
+ * @property \DKH\eBaySDK\HalfFinding\Enums\SortOnType $sortOn
  */
-class SortByType extends \DTS\eBaySDK\Types\BaseType
+class SortByType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

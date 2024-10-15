@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace DKH\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $annotationKey
- * @property \DTS\eBaySDK\Marketing\Enums\DataTypeEnum $dataType
+ * @property \DKH\eBaySDK\Marketing\Enums\DataTypeEnum $dataType
  */
-class DimensionKeyAnnotation extends \DTS\eBaySDK\Types\BaseType
+class DimensionKeyAnnotation extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $PictureSystemVersion
- * @property \DTS\eBaySDK\Trading\Types\SiteHostedPictureDetailsType $SiteHostedPictureDetails
+ * @property \DKH\eBaySDK\Trading\Types\SiteHostedPictureDetailsType $SiteHostedPictureDetails
  */
-class UploadSiteHostedPicturesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class UploadSiteHostedPicturesResponseType extends \DKH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class UploadSiteHostedPicturesResponseType extends \DTS\eBaySDK\Trading\Types\Ab
             'elementName' => 'PictureSystemVersion'
         ],
         'SiteHostedPictureDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SiteHostedPictureDetailsType',
+            'type' => 'DKH\eBaySDK\Trading\Types\SiteHostedPictureDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SiteHostedPictureDetails'

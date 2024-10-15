@@ -8,41 +8,41 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\VariationType[] $Variation
- * @property \DTS\eBaySDK\Trading\Types\PicturesType[] $Pictures
- * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecificsSet
- * @property \DTS\eBaySDK\Trading\Types\ModifyNameArrayType $ModifyNameList
+ * @property \DKH\eBaySDK\Trading\Types\VariationType[] $Variation
+ * @property \DKH\eBaySDK\Trading\Types\PicturesType[] $Pictures
+ * @property \DKH\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecificsSet
+ * @property \DKH\eBaySDK\Trading\Types\ModifyNameArrayType $ModifyNameList
  */
-class VariationsType extends \DTS\eBaySDK\Types\BaseType
+class VariationsType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Variation' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\VariationType',
+            'type' => 'DKH\eBaySDK\Trading\Types\VariationType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Variation'
         ],
         'Pictures' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PicturesType',
+            'type' => 'DKH\eBaySDK\Trading\Types\PicturesType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Pictures'
         ],
         'VariationSpecificsSet' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
+            'type' => 'DKH\eBaySDK\Trading\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VariationSpecificsSet'
         ],
         'ModifyNameList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ModifyNameArrayType',
+            'type' => 'DKH\eBaySDK\Trading\Types\ModifyNameArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ModifyNameList'

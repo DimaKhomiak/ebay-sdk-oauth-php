@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $Name
  * @property integer $ItemCount
  * @property integer $FavoriteSellerCount
- * @property \DTS\eBaySDK\Trading\Types\ItemArrayType $ItemArray
- * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType $FavoriteSearches
- * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType $FavoriteSellers
+ * @property \DKH\eBaySDK\Trading\Types\ItemArrayType $ItemArray
+ * @property \DKH\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType $FavoriteSearches
+ * @property \DKH\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType $FavoriteSellers
  */
-class UserDefinedListType extends \DTS\eBaySDK\Types\BaseType
+class UserDefinedListType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -44,19 +44,19 @@ class UserDefinedListType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'FavoriteSellerCount'
         ],
         'ItemArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemArrayType',
+            'type' => 'DKH\eBaySDK\Trading\Types\ItemArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ItemArray'
         ],
         'FavoriteSearches' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType',
+            'type' => 'DKH\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FavoriteSearches'
         ],
         'FavoriteSellers' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType',
+            'type' => 'DKH\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FavoriteSellers'

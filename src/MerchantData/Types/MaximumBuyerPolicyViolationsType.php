@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace DKH\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property integer $Count
- * @property \DTS\eBaySDK\MerchantData\Enums\PeriodCodeType $Period
+ * @property \DKH\eBaySDK\MerchantData\Enums\PeriodCodeType $Period
  */
-class MaximumBuyerPolicyViolationsType extends \DTS\eBaySDK\Types\BaseType
+class MaximumBuyerPolicyViolationsType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace DKH\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $InsuranceFee
- * @property \DTS\eBaySDK\MerchantData\Enums\InsuranceOptionCodeType $InsuranceOption
+ * @property \DKH\eBaySDK\MerchantData\Types\AmountType $InsuranceFee
+ * @property \DKH\eBaySDK\MerchantData\Enums\InsuranceOptionCodeType $InsuranceOption
  */
-class InsuranceDetailsType extends \DTS\eBaySDK\Types\BaseType
+class InsuranceDetailsType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'InsuranceFee' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'InsuranceFee'

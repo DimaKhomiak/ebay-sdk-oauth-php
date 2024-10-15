@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace DKH\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  * @property \DateTime $fromDate
  * @property \DateTime $toDate
  */
-class DateRangeFilterType extends \DTS\eBaySDK\Types\BaseType
+class DateRangeFilterType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

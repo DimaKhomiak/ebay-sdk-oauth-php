@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\PromotionalSaleStatusCodeType $Status
+ * @property \DKH\eBaySDK\Trading\Enums\PromotionalSaleStatusCodeType $Status
  * @property integer $PromotionalSaleID
  */
-class SetPromotionalSaleResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class SetPromotionalSaleResponseType extends \DKH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

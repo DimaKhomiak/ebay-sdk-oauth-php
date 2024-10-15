@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Finding\Types;
+namespace DKH\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Finding\Enums\SortOrderType $sortOrder
+ * @property \DKH\eBaySDK\Finding\Enums\SortOrderType $sortOrder
  */
-class BaseFindingServiceRequest extends \DTS\eBaySDK\Finding\Types\BestMatchFindingServiceRequest
+class BaseFindingServiceRequest extends \DKH\eBaySDK\Finding\Types\BestMatchFindingServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

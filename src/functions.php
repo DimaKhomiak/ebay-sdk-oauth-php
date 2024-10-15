@@ -1,11 +1,11 @@
 <?php
 
-namespace DTS\eBaySDK;
+namespace DKH\eBaySDK;
 
-use DTS\eBaySDK\Credentials\Credentials;
-use DTS\eBaySDK\Credentials\CredentialsInterface;
-use DTS\eBaySDK\Credentials\CredentialsProvider;
-use DTS\eBaySDK\CredentialsOAuth\CredentialsOAuth;
+use DKH\eBaySDK\Credentials\Credentials;
+use DKH\eBaySDK\Credentials\CredentialsInterface;
+use DKH\eBaySDK\Credentials\CredentialsProvider;
+use DKH\eBaySDK\CredentialsOAuth\CredentialsOAuth;
 
 /**
  * Returns a description of the type for the passed value.
@@ -106,7 +106,7 @@ function applyCredentials($value, array &$configuration)
     } else {
         throw new \InvalidArgumentException(
             'Credentials must be an instance of '
-            . 'DTS\eBaySDK\Credentials\CredentialsInterface, an associative '
+            . 'DKH\eBaySDK\Credentials\CredentialsInterface, an associative '
             . 'array that contains "appId", "certId", "devId", '
             . 'or a credentials provider function.'
         );
@@ -149,7 +149,7 @@ function applyCredentialsOAuth($value, array &$configuration)
     } else {
         throw new \InvalidArgumentException(
             'Credentials must be an instance of '
-            . 'DTS\eBaySDK\Credentials\CredentialsInterface, an associative '
+            . 'DKH\eBaySDK\Credentials\CredentialsInterface, an associative '
             . 'array that contains "appId", "certId", "devId", '
             . 'or a credentials provider function.'
         );

@@ -1,11 +1,11 @@
 <?php
 
-namespace DTS\eBaySDK\ServicesOAuth;
+namespace DKH\eBaySDK\ServicesOAuth;
 
-use DTS\eBaySDK as Functions;
-use DTS\eBaySDK\ConfigurationResolver;
-use DTS\eBaySDK\Parser\JsonParser;
-use DTS\eBaySDK\UriResolver;
+use DKH\eBaySDK as Functions;
+use DKH\eBaySDK\ConfigurationResolver;
+use DKH\eBaySDK\Parser\JsonParser;
+use DKH\eBaySDK\UriResolver;
 use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\ResponseInterface;
 
@@ -68,12 +68,12 @@ abstract class BaseRestServiceOAuth
             ],
             'debug' => [
                 'valid'   => ['bool', 'array'],
-                'fn'      => 'DTS\eBaySDK\applyDebug',
+                'fn'      => 'DKH\eBaySDK\applyDebug',
                 'default' => false,
             ],
             'httpHandler' => [
                 'valid'   => ['callable'],
-                'default' => 'DTS\eBaySDK\defaultHttpHandler',
+                'default' => 'DKH\eBaySDK\defaultHttpHandler',
             ],
             'httpOptions' => [
                 'valid'   => ['array'],

@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Types;
+namespace DKH\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\ProductRequest[] $productSearch
+ * @property \DKH\eBaySDK\Product\Types\ProductRequest[] $productSearch
  */
-class FindProductsRequest extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
+class FindProductsRequest extends \DKH\eBaySDK\Product\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'productSearch' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ProductRequest',
+            'type' => 'DKH\eBaySDK\Product\Types\ProductRequest',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'productSearch'

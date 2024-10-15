@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace DKH\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $OrderID
  * @property string $OrderLineItemID
- * @property \DTS\eBaySDK\MerchantData\Types\ShipmentType $Shipment
+ * @property \DKH\eBaySDK\MerchantData\Types\ShipmentType $Shipment
  * @property boolean $IsShipped
  * @property boolean $IsPaid
  */
-class SetShipmentTrackingInfoRequestType extends \DTS\eBaySDK\Types\BaseType
+class SetShipmentTrackingInfoRequestType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -37,7 +37,7 @@ class SetShipmentTrackingInfoRequestType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'OrderLineItemID'
         ],
         'Shipment' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ShipmentType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\ShipmentType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Shipment'

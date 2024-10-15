@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Catalog\Types;
+namespace DKH\eBaySDK\Catalog\Types;
 
 /**
  *
  * @property string $conflictCode
- * @property \DTS\eBaySDK\Catalog\Types\ProductAspect[] $differentiatingAspects
+ * @property \DKH\eBaySDK\Catalog\Types\ProductAspect[] $differentiatingAspects
  * @property string $epid
  * @property string $reason
  */
-class ConflictingProduct extends \DTS\eBaySDK\Types\BaseType
+class ConflictingProduct extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,7 +30,7 @@ class ConflictingProduct extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'conflictCode'
         ],
         'differentiatingAspects' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\ProductAspect',
+            'type' => 'DKH\eBaySDK\Catalog\Types\ProductAspect',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'differentiatingAspects'

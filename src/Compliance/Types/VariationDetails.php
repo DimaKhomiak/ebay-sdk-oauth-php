@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Compliance\Types;
+namespace DKH\eBaySDK\Compliance\Types;
 
 /**
  *
  * @property string $sku
- * @property \DTS\eBaySDK\Compliance\Types\NameValueList[] $variationAspects
+ * @property \DKH\eBaySDK\Compliance\Types\NameValueList[] $variationAspects
  */
-class VariationDetails extends \DTS\eBaySDK\Types\BaseType
+class VariationDetails extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class VariationDetails extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'sku'
         ],
         'variationAspects' => [
-            'type' => 'DTS\eBaySDK\Compliance\Types\NameValueList',
+            'type' => 'DKH\eBaySDK\Compliance\Types\NameValueList',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'variationAspects'

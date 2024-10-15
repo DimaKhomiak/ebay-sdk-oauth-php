@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  */
-class LocalMarketAutoDeclineEnabledDefinitionType extends \DTS\eBaySDK\Types\BaseType
+class LocalMarketAutoDeclineEnabledDefinitionType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

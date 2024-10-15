@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Merchandising\Types;
+namespace DKH\eBaySDK\Merchandising\Types;
 
 /**
  *
  */
-class GetTopSellingProductsRequest extends \DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest
+class GetTopSellingProductsRequest extends \DKH\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

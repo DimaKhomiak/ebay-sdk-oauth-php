@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Services;
+namespace DKH\eBaySDK\Marketing\Services;
 
-class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseService
+class MarketingService extends \DKH\eBaySDK\Marketing\Services\MarketingBaseService
 {
     const API_VERSION = 'v1';
 
@@ -21,7 +21,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'BulkCreateAdsByInventoryReference' => [
             'method' => 'POST',
             'resource' => 'ad_campaign/{campaign_id}/bulk_create_ads_by_inventory_reference',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRestResponse',
             'params' => [
                 'campaign_id' => [
                     'valid' => ['string'],
@@ -32,7 +32,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'BulkCreateAdsByListingID' => [
             'method' => 'POST',
             'resource' => 'campaign/{campaign_id}/bulk_create_ads_by_listing_id',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestResponse',
             'params' => [
                 'campaign_id' => [
                     'valid' => ['string'],
@@ -43,7 +43,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'BulkDeleteAdsByInventoryReference' => [
             'method' => 'POST',
             'resource' => 'campaign/{campaign_id}/bulk_delete_ads_by_inventory_reference',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRestResponse',
             'params' => [
                 'campaign_id' => [
                     'valid' => ['string'],
@@ -54,7 +54,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'BulkDeleteAdsByListingID' => [
             'method' => 'POST',
             'resource' => 'campaign/{campaign_id}/bulk_delete_ads_by_listing_id',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByListingIDRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\BulkDeleteAdsByListingIDRestResponse',
             'params' => [
                 'campaign_id' => [
                     'valid' => ['string'],
@@ -65,7 +65,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'BulkUpdateAdBidsByInventoryReference' => [
             'method' => 'POST',
             'resource' => 'ad_campaign/{campaign_id}/bulk_update_ads_bid_by_inventory_reference',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByInventoryReferenceRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\BulkUpdateAdBidsByInventoryReferenceRestResponse',
             'params' => [
                 'campaign_id' => [
                     'valid' => ['string'],
@@ -76,7 +76,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'BulkUpdateAdBidsByListingID' => [
             'method' => 'POST',
             'resource' => 'ad_campaign/{campaign_id}/bulk_update_ads_bid_by_listing_id',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByListingIDRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\BulkUpdateAdBidsByListingIDRestResponse',
             'params' => [
                 'campaign_id' => [
                     'valid' => ['string'],
@@ -87,7 +87,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'CreateAdByListingID' => [
             'method' => 'POST',
             'resource' => 'ad_campaign/{campaign_id}/ad',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\CreateAdByListingIDRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\CreateAdByListingIDRestResponse',
             'params' => [
                 'campaign_id' => [
                     'valid' => ['string'],
@@ -98,7 +98,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'CreateAdsByInventoryReference' => [
             'method' => 'POST',
             'resource' => 'ad_campaign/{campaign_id}/create_ads_by_inventory_reference',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRestResponse',
             'params' => [
                 'campaign_id' => [
                     'valid' => ['string'],
@@ -109,7 +109,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'DeleteAdByID' => [
             'method' => 'DELETE',
             'resource' => 'ad_campaign/{campaign_id}/ad/{ad_id}',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\DeleteAdByIDRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\DeleteAdByIDRestResponse',
             'params' => [
                 'ad_id' => [
                     'valid' => ['string'],
@@ -124,7 +124,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'DeleteAdsByInventoryReference' => [
             'method' => 'POST',
             'resource' => 'ad_campaign/{campaign_id}/delete_ads_by_inventory_reference',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestResponse',
             'params' => [
                 'campaign_id' => [
                     'valid' => ['string'],
@@ -135,7 +135,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'GetAdByID' => [
             'method' => 'GET',
             'resource' => 'ad_campaign/{campaign_id}/ad/{ad_id}',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetAdByIDRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\GetAdByIDRestResponse',
             'params' => [
                 'ad_id' => [
                     'valid' => ['string'],
@@ -150,7 +150,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'GetAds' => [
             'method' => 'GET',
             'resource' => 'ad_campaign/{campaign_id}/ad',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetAdsRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\GetAdsRestResponse',
             'params' => [
                 'campaign_id' => [
                     'valid' => ['string'],
@@ -171,7 +171,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'GetAdsByInventoryReference' => [
             'method' => 'GET',
             'resource' => 'ad_campaign/{campaign_id}/get_ads_by_inventory_reference',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestResponse',
             'params' => [
                 'campaign_id' => [
                     'valid' => ['string'],
@@ -190,7 +190,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'UpdateBid' => [
             'method' => 'POST',
             'resource' => 'ad_campaign/{campaign_id}/ad/{ad_id}/update_bid',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\UpdateBidRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\UpdateBidRestResponse',
             'params' => [
                 'ad_id' => [
                     'valid' => ['string'],
@@ -205,7 +205,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'CloneCampaign' => [
             'method' => 'POST',
             'resource' => 'ad_campaign/{campaign_id}/clone',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\CloneCampaignRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\CloneCampaignRestResponse',
             'params' => [
                 'campaign_id' => [
                     'valid' => ['string'],
@@ -216,14 +216,14 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'CreateCampaign' => [
             'method' => 'POST',
             'resource' => 'ad_campaign',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\CreateCampaignRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\CreateCampaignRestResponse',
             'params' => [
             ]
         ],
         'DeleteCampaign' => [
             'method' => 'DELETE',
             'resource' => 'ad_campaign/{campaign_id}',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\DeleteCampaignRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\DeleteCampaignRestResponse',
             'params' => [
                 'campaign_id' => [
                     'valid' => ['string'],
@@ -234,7 +234,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'EndCampaign' => [
             'method' => 'POST',
             'resource' => 'ad_campaign/{campaign_id}/end',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\EndCampaignRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\EndCampaignRestResponse',
             'params' => [
                 'campaign_id' => [
                     'valid' => ['string'],
@@ -245,7 +245,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'FindCampaignByAdReference' => [
             'method' => 'GET',
             'resource' => 'ad_campaign/find_campaign_by_ad_reference',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestResponse',
             'params' => [
                 'inventory_reference_id' => [
                     'valid' => ['string']
@@ -261,7 +261,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'GetAllCampaigns' => [
             'method' => 'GET',
             'resource' => 'ad_campaign',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetAllCampaignsRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\GetAllCampaignsRestResponse',
             'params' => [
                 'campaign_name' => [
                     'valid' => ['string']
@@ -286,7 +286,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'GetCampaignByName' => [
             'method' => 'GET',
             'resource' => 'ad_campaign/get_campaign_by_name',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetCampaignByNameRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\GetCampaignByNameRestResponse',
             'params' => [
                 'campaign_name' => [
                     'valid' => ['string'],
@@ -297,7 +297,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'GetCampaignByID' => [
             'method' => 'GET',
             'resource' => 'ad_campaign/{campaign_id}',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetCampaignByIDRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\GetCampaignByIDRestResponse',
             'params' => [
                 'campaign_id' => [
                     'valid' => ['string'],
@@ -308,7 +308,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'PauseCampaign' => [
             'method' => 'POST',
             'resource' => 'ad_campaign/{campaign_id}/pause',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\PauseCampaignRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\PauseCampaignRestResponse',
             'params' => [
                 'campaign_id' => [
                     'valid' => ['string'],
@@ -319,7 +319,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'ResumeCampaign' => [
             'method' => 'POST',
             'resource' => 'ad_campaign/{campaign_id}/resume',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\ResumeCampaignRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\ResumeCampaignRestResponse',
             'params' => [
                 'campaign_id' => [
                     'valid' => ['string'],
@@ -330,7 +330,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'UpdateCampaignIDentification' => [
             'method' => 'POST',
             'resource' => 'ad_campaign/{campaign_id}/update_campaign_identification',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\UpdateCampaignIDentificationRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\UpdateCampaignIDentificationRestResponse',
             'params' => [
                 'campaign_id' => [
                     'valid' => ['string'],
@@ -341,14 +341,14 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'CreateItemPromotion' => [
             'method' => 'POST',
             'resource' => 'item_promotion',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\CreateItemPromotionRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\CreateItemPromotionRestResponse',
             'params' => [
             ]
         ],
         'DeleteItemPromotion' => [
             'method' => 'DELETE',
             'resource' => 'item_promotion/{promotion_id}',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\DeleteItemPromotionRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\DeleteItemPromotionRestResponse',
             'params' => [
                 'promotion_id' => [
                     'valid' => ['string'],
@@ -359,7 +359,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'GetItemPromotion' => [
             'method' => 'GET',
             'resource' => 'item_promotion/{promotion_id}',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetItemPromotionRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\GetItemPromotionRestResponse',
             'params' => [
                 'promotion_id' => [
                     'valid' => ['string'],
@@ -370,7 +370,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'UpdateItemPromotion' => [
             'method' => 'PUT',
             'resource' => 'item_promotion/{promotion_id}',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\UpdateItemPromotionRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\UpdateItemPromotionRestResponse',
             'params' => [
                 'promotion_id' => [
                     'valid' => ['string'],
@@ -381,7 +381,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'GetListingsInSpecificPromotion' => [
             'method' => 'GET',
             'resource' => 'promotion/{promotion_id}/get_listing_set',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestResponse',
             'params' => [
                 'promotion_id' => [
                     'valid' => ['string']
@@ -403,7 +403,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'GetPromotions' => [
             'method' => 'GET',
             'resource' => 'promotion',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetPromotionsRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\GetPromotionsRestResponse',
             'params' => [
                 'limit' => [
                     'valid' => ['string']
@@ -428,7 +428,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'PauseAPromotion' => [
             'method' => 'POST',
             'resource' => 'promotion/{promotion_id}/pause',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\PauseAPromotionRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\PauseAPromotionRestResponse',
             'params' => [
                 'promotion_id' => [
                     'valid' => ['string'],
@@ -439,7 +439,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'ResumeAPromotion' => [
             'method' => 'POST',
             'resource' => 'promotion/{promotion_id}/resume',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\ResumeAPromotionRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\ResumeAPromotionRestResponse',
             'params' => [
                 'promotion_id' => [
                     'valid' => ['string'],
@@ -450,7 +450,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'GetPromotionSummaryReport' => [
             'method' => 'GET',
             'resource' => 'promotion_summary_report',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetPromotionSummaryReportRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\GetPromotionSummaryReportRestResponse',
             'params' => [
                 'marketplace_id' => [
                     'valid' => ['string'],
@@ -461,7 +461,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'GetSpecificReport' => [
             'method' => 'GET',
             'resource' => 'ad_report/{report_id}',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetSpecificReportRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\GetSpecificReportRestResponse',
             'params' => [
                 'report_id' => [
                     'valid' => ['string'],
@@ -472,14 +472,14 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'GetMetadataForAllReports' => [
             'method' => 'GET',
             'resource' => 'ad_report_metadata',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestResponse',
             'params' => [
             ]
         ],
         'GetMetadataForAReportType' => [
             'method' => 'GET',
             'resource' => 'ad_report_metadata/{report_type}',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetMetadataForAReportTypeRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\GetMetadataForAReportTypeRestResponse',
             'params' => [
                 'report_type' => [
                     'valid' => ['string'],
@@ -490,14 +490,14 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'CreateReportTask' => [
             'method' => 'POST',
             'resource' => 'ad_report_task',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\CreateReportTasktRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\CreateReportTasktRestResponse',
             'params' => [
             ]
         ],
         'DeleteSpecificReportTask' => [
             'method' => 'DELETE',
             'resource' => 'ad_report_task/{report_task_id}',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\DeleteSpecificReportTaskRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\DeleteSpecificReportTaskRestResponse',
             'params' => [
                 'report_task_id' => [
                     'valid' => ['string'],
@@ -508,7 +508,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'GetReportTasks' => [
             'method' => 'GET',
             'resource' => 'ad_report_task',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetReportTasksRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\GetReportTasksRestResponse',
             'params' => [
                 'limit' => [
                     'valid' => ['string']
@@ -524,7 +524,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'GetSpecificReportTask' => [
             'method' => 'GET',
             'resource' => 'ad_report_task/{report_task_id}',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetSpecificReportTaskRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\GetSpecificReportTaskRestResponse',
             'params' => [
                 'report_task_id' => [
                     'valid' => ['string'],
@@ -535,7 +535,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
         'GetAPromotionReport' => [
             'method' => 'GET',
             'resource' => 'promotion_report',
-            'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetAPromotionReportRestResponse',
+            'responseClass' => '\DKH\eBaySDK\Marketing\Types\GetAPromotionReportRestResponse',
             'params' => [
                 'limit' => [
                     'valid' => ['string']
@@ -566,757 +566,757 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRestResponse
      */
-    public function bulkCreateAdsByInventoryReference(\DTS\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRestRequest $request)
+    public function bulkCreateAdsByInventoryReference(\DKH\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRestRequest $request)
     {
         return $this->bulkCreateAdsByInventoryReferenceAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function bulkCreateAdsByInventoryReferenceAsync(\DTS\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRestRequest $request)
+    public function bulkCreateAdsByInventoryReferenceAsync(\DKH\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRestRequest $request)
     {
         return $this->callOperationAsync('BulkCreateAdsByInventoryReference', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestResponse
      */
-    public function bulkCreateAdsByListingID(\DTS\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestRequest $request)
+    public function bulkCreateAdsByListingID(\DKH\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestRequest $request)
     {
         return $this->bulkCreateAdsByListingIDAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function bulkCreateAdsByListingIDAsync(\DTS\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestRequest $request)
+    public function bulkCreateAdsByListingIDAsync(\DKH\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestRequest $request)
     {
         return $this->callOperationAsync('BulkCreateAdsByListingID', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRestResponse
      */
-    public function bulkDeleteAdsByInventoryReference(\DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRestRequest $request)
+    public function bulkDeleteAdsByInventoryReference(\DKH\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRestRequest $request)
     {
         return $this->bulkDeleteAdsByInventoryReferenceAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function bulkDeleteAdsByInventoryReferenceAsync(\DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRestRequest $request)
+    public function bulkDeleteAdsByInventoryReferenceAsync(\DKH\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRestRequest $request)
     {
         return $this->callOperationAsync('BulkDeleteAdsByInventoryReference', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByListingIDRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByListingIDRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\BulkDeleteAdsByListingIDRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\BulkDeleteAdsByListingIDRestResponse
      */
-    public function bulkDeleteAdsByListingID(\DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByListingIDRestRequest $request)
+    public function bulkDeleteAdsByListingID(\DKH\eBaySDK\Marketing\Types\BulkDeleteAdsByListingIDRestRequest $request)
     {
         return $this->bulkDeleteAdsByListingIDAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByListingIDRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\BulkDeleteAdsByListingIDRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function bulkDeleteAdsByListingIDAsync(\DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByListingIDRestRequest $request)
+    public function bulkDeleteAdsByListingIDAsync(\DKH\eBaySDK\Marketing\Types\BulkDeleteAdsByListingIDRestRequest $request)
     {
         return $this->callOperationAsync('BulkDeleteAdsByListingID', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByInventoryReferenceRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByInventoryReferenceRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\BulkUpdateAdBidsByInventoryReferenceRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\BulkUpdateAdBidsByInventoryReferenceRestResponse
      */
-    public function bulkUpdateAdBidsByInventoryReference(\DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByInventoryReferenceRestRequest $request)
+    public function bulkUpdateAdBidsByInventoryReference(\DKH\eBaySDK\Marketing\Types\BulkUpdateAdBidsByInventoryReferenceRestRequest $request)
     {
         return $this->bulkUpdateAdBidsByInventoryReferenceAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByInventoryReferenceRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\BulkUpdateAdBidsByInventoryReferenceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function bulkUpdateAdBidsByInventoryReferenceAsync(\DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByInventoryReferenceRestRequest $request)
+    public function bulkUpdateAdBidsByInventoryReferenceAsync(\DKH\eBaySDK\Marketing\Types\BulkUpdateAdBidsByInventoryReferenceRestRequest $request)
     {
         return $this->callOperationAsync('BulkUpdateAdBidsByInventoryReference', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByListingIDRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByListingIDRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\BulkUpdateAdBidsByListingIDRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\BulkUpdateAdBidsByListingIDRestResponse
      */
-    public function bulkUpdateAdBidsByListingID(\DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByListingIDRestRequest $request)
+    public function bulkUpdateAdBidsByListingID(\DKH\eBaySDK\Marketing\Types\BulkUpdateAdBidsByListingIDRestRequest $request)
     {
         return $this->bulkUpdateAdBidsByListingIDAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByListingIDRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\BulkUpdateAdBidsByListingIDRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function bulkUpdateAdBidsByListingIDAsync(\DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByListingIDRestRequest $request)
+    public function bulkUpdateAdBidsByListingIDAsync(\DKH\eBaySDK\Marketing\Types\BulkUpdateAdBidsByListingIDRestRequest $request)
     {
         return $this->callOperationAsync('BulkUpdateAdBidsByListingID', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CreateAdByListingIDRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\CreateAdByListingIDRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\CreateAdByListingIDRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\CreateAdByListingIDRestResponse
      */
-    public function createAdByListingID(\DTS\eBaySDK\Marketing\Types\CreateAdByListingIDRestRequest $request)
+    public function createAdByListingID(\DKH\eBaySDK\Marketing\Types\CreateAdByListingIDRestRequest $request)
     {
         return $this->createAdByListingIDAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CreateAdByListingIDRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\CreateAdByListingIDRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function createAdByListingIDAsync(\DTS\eBaySDK\Marketing\Types\CreateAdByListingIDRestRequest $request)
+    public function createAdByListingIDAsync(\DKH\eBaySDK\Marketing\Types\CreateAdByListingIDRestRequest $request)
     {
         return $this->callOperationAsync('CreateAdByListingID', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRestResponse
      */
-    public function createAdsByInventoryReference(\DTS\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRestRequest $request)
+    public function createAdsByInventoryReference(\DKH\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRestRequest $request)
     {
         return $this->createAdsByInventoryReferenceAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function createAdsByInventoryReferenceAsync(\DTS\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRestRequest $request)
+    public function createAdsByInventoryReferenceAsync(\DKH\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRestRequest $request)
     {
         return $this->callOperationAsync('CreateAdsByInventoryReference', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\DeleteAdByIDRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\DeleteAdByIDRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\DeleteAdByIDRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\DeleteAdByIDRestResponse
      */
-    public function deleteAdByID(\DTS\eBaySDK\Marketing\Types\DeleteAdByIDRestRequest $request)
+    public function deleteAdByID(\DKH\eBaySDK\Marketing\Types\DeleteAdByIDRestRequest $request)
     {
         return $this->deleteAdByIDAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\DeleteAdByIDRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\DeleteAdByIDRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function deleteAdByIDAsync(\DTS\eBaySDK\Marketing\Types\DeleteAdByIDRestRequest $request)
+    public function deleteAdByIDAsync(\DKH\eBaySDK\Marketing\Types\DeleteAdByIDRestRequest $request)
     {
         return $this->callOperationAsync('DeleteAdByID', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestResponse
      */
-    public function deleteAdsByInventoryReference(\DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestRequest $request)
+    public function deleteAdsByInventoryReference(\DKH\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestRequest $request)
     {
         return $this->deleteAdsByInventoryReferenceAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function deleteAdsByInventoryReferenceAsync(\DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestRequest $request)
+    public function deleteAdsByInventoryReferenceAsync(\DKH\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestRequest $request)
     {
         return $this->callOperationAsync('DeleteAdsByInventoryReference', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetAdByIDRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\GetAdByIDRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\GetAdByIDRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\GetAdByIDRestResponse
      */
-    public function getAdByID(\DTS\eBaySDK\Marketing\Types\GetAdByIDRestRequest $request)
+    public function getAdByID(\DKH\eBaySDK\Marketing\Types\GetAdByIDRestRequest $request)
     {
         return $this->getAdByIDAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetAdByIDRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\GetAdByIDRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getAdByIDAsync(\DTS\eBaySDK\Marketing\Types\GetAdByIDRestRequest $request)
+    public function getAdByIDAsync(\DKH\eBaySDK\Marketing\Types\GetAdByIDRestRequest $request)
     {
         return $this->callOperationAsync('GetAdByID', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetAdsRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\GetAdsRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\GetAdsRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\GetAdsRestResponse
      */
-    public function getAds(\DTS\eBaySDK\Marketing\Types\GetAdsRestRequest $request)
+    public function getAds(\DKH\eBaySDK\Marketing\Types\GetAdsRestRequest $request)
     {
         return $this->getAdsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetAdsRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\GetAdsRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getAdsAsync(\DTS\eBaySDK\Marketing\Types\GetAdsRestRequest $request)
+    public function getAdsAsync(\DKH\eBaySDK\Marketing\Types\GetAdsRestRequest $request)
     {
         return $this->callOperationAsync('GetAds', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestResponse
      */
-    public function getAdsByInventoryReference(\DTS\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestRequest $request)
+    public function getAdsByInventoryReference(\DKH\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestRequest $request)
     {
         return $this->getAdsByInventoryReferenceAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getAdsByInventoryReferenceAsync(\DTS\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestRequest $request)
+    public function getAdsByInventoryReferenceAsync(\DKH\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestRequest $request)
     {
         return $this->callOperationAsync('GetAdsByInventoryReference', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\UpdateBidRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\UpdateBidRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\UpdateBidRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\UpdateBidRestResponse
      */
-    public function updateBid(\DTS\eBaySDK\Marketing\Types\UpdateBidRestRequest $request)
+    public function updateBid(\DKH\eBaySDK\Marketing\Types\UpdateBidRestRequest $request)
     {
         return $this->updateBidAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\UpdateBidRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\UpdateBidRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function updateBidAsync(\DTS\eBaySDK\Marketing\Types\UpdateBidRestRequest $request)
+    public function updateBidAsync(\DKH\eBaySDK\Marketing\Types\UpdateBidRestRequest $request)
     {
         return $this->callOperationAsync('UpdateBid', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CloneCampaignRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\CloneCampaignRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\CloneCampaignRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\CloneCampaignRestResponse
      */
-    public function cloneCampaign(\DTS\eBaySDK\Marketing\Types\CloneCampaignRestRequest $request)
+    public function cloneCampaign(\DKH\eBaySDK\Marketing\Types\CloneCampaignRestRequest $request)
     {
         return $this->cloneCampaignAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CloneCampaignRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\CloneCampaignRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function cloneCampaignAsync(\DTS\eBaySDK\Marketing\Types\CloneCampaignRestRequest $request)
+    public function cloneCampaignAsync(\DKH\eBaySDK\Marketing\Types\CloneCampaignRestRequest $request)
     {
         return $this->callOperationAsync('CloneCampaign', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CreateCampaignRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\CreateCampaignRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\CreateCampaignRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\CreateCampaignRestResponse
      */
-    public function createCampaign(\DTS\eBaySDK\Marketing\Types\CreateCampaignRestRequest $request)
+    public function createCampaign(\DKH\eBaySDK\Marketing\Types\CreateCampaignRestRequest $request)
     {
         return $this->createCampaignAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CreateCampaignRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\CreateCampaignRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function createCampaignAsync(\DTS\eBaySDK\Marketing\Types\CreateCampaignRestRequest $request)
+    public function createCampaignAsync(\DKH\eBaySDK\Marketing\Types\CreateCampaignRestRequest $request)
     {
         return $this->callOperationAsync('CreateCampaign', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\DeleteCampaignRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\DeleteCampaignRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\DeleteCampaignRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\DeleteCampaignRestResponse
      */
-    public function deleteCampaign(\DTS\eBaySDK\Marketing\Types\DeleteCampaignRestRequest $request)
+    public function deleteCampaign(\DKH\eBaySDK\Marketing\Types\DeleteCampaignRestRequest $request)
     {
         return $this->deleteCampaignAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\DeleteCampaignRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\DeleteCampaignRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function deleteCampaignAsync(\DTS\eBaySDK\Marketing\Types\DeleteCampaignRestRequest $request)
+    public function deleteCampaignAsync(\DKH\eBaySDK\Marketing\Types\DeleteCampaignRestRequest $request)
     {
         return $this->callOperationAsync('DeleteCampaign', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\EndCampaignRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\EndCampaignRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\EndCampaignRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\EndCampaignRestResponse
      */
-    public function endCampaign(\DTS\eBaySDK\Marketing\Types\EndCampaignRestRequest $request)
+    public function endCampaign(\DKH\eBaySDK\Marketing\Types\EndCampaignRestRequest $request)
     {
         return $this->endCampaignAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\EndCampaignRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\EndCampaignRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function endCampaignAsync(\DTS\eBaySDK\Marketing\Types\EndCampaignRestRequest $request)
+    public function endCampaignAsync(\DKH\eBaySDK\Marketing\Types\EndCampaignRestRequest $request)
     {
         return $this->callOperationAsync('EndCampaign', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestResponse
      */
-    public function findCampaignByAdReference(\DTS\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestRequest $request)
+    public function findCampaignByAdReference(\DKH\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestRequest $request)
     {
         return $this->findCampaignByAdReferenceAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function findCampaignByAdReferenceAsync(\DTS\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestRequest $request)
+    public function findCampaignByAdReferenceAsync(\DKH\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestRequest $request)
     {
         return $this->callOperationAsync('FindCampaignByAdReference', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetAllCampaignsRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\GetAllCampaignsRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\GetAllCampaignsRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\GetAllCampaignsRestResponse
      */
-    public function getAllCampaigns(\DTS\eBaySDK\Marketing\Types\GetAllCampaignsRestRequest $request)
+    public function getAllCampaigns(\DKH\eBaySDK\Marketing\Types\GetAllCampaignsRestRequest $request)
     {
         return $this->getAllCampaignsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetAllCampaignsRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\GetAllCampaignsRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getAllCampaignsAsync(\DTS\eBaySDK\Marketing\Types\GetAllCampaignsRestRequest $request)
+    public function getAllCampaignsAsync(\DKH\eBaySDK\Marketing\Types\GetAllCampaignsRestRequest $request)
     {
         return $this->callOperationAsync('GetAllCampaigns', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetCampaignByNameRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\GetCampaignByNameRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\GetCampaignByNameRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\GetCampaignByNameRestResponse
      */
-    public function getCampaignByName(\DTS\eBaySDK\Marketing\Types\GetCampaignByNameRestRequest $request)
+    public function getCampaignByName(\DKH\eBaySDK\Marketing\Types\GetCampaignByNameRestRequest $request)
     {
         return $this->getCampaignByNameAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetCampaignByNameRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\GetCampaignByNameRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getCampaignByNameAsync(\DTS\eBaySDK\Marketing\Types\GetCampaignByNameRestRequest $request)
+    public function getCampaignByNameAsync(\DKH\eBaySDK\Marketing\Types\GetCampaignByNameRestRequest $request)
     {
         return $this->callOperationAsync('GetCampaignByName', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetCampaignByIDRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\GetCampaignByIDRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\GetCampaignByIDRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\GetCampaignByIDRestResponse
      */
-    public function getCampaignByID(\DTS\eBaySDK\Marketing\Types\GetCampaignByIDRestRequest $request)
+    public function getCampaignByID(\DKH\eBaySDK\Marketing\Types\GetCampaignByIDRestRequest $request)
     {
         return $this->getCampaignByIDAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetCampaignByIDRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\GetCampaignByIDRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getCampaignByIDAsync(\DTS\eBaySDK\Marketing\Types\GetCampaignByIDRestRequest $request)
+    public function getCampaignByIDAsync(\DKH\eBaySDK\Marketing\Types\GetCampaignByIDRestRequest $request)
     {
         return $this->callOperationAsync('GetCampaignByID', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\PauseCampaignRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\PauseCampaignRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\PauseCampaignRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\PauseCampaignRestResponse
      */
-    public function pauseCampaign(\DTS\eBaySDK\Marketing\Types\PauseCampaignRestRequest $request)
+    public function pauseCampaign(\DKH\eBaySDK\Marketing\Types\PauseCampaignRestRequest $request)
     {
         return $this->pauseCampaignAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\PauseCampaignRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\PauseCampaignRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function pauseCampaignAsync(\DTS\eBaySDK\Marketing\Types\PauseCampaignRestRequest $request)
+    public function pauseCampaignAsync(\DKH\eBaySDK\Marketing\Types\PauseCampaignRestRequest $request)
     {
         return $this->callOperationAsync('PauseCampaign', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\ResumeCampaignRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\ResumeCampaignRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\ResumeCampaignRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\ResumeCampaignRestResponse
      */
-    public function resumeCampaign(\DTS\eBaySDK\Marketing\Types\ResumeCampaignRestRequest $request)
+    public function resumeCampaign(\DKH\eBaySDK\Marketing\Types\ResumeCampaignRestRequest $request)
     {
         return $this->resumeCampaignAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\ResumeCampaignRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\ResumeCampaignRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function resumeCampaignAsync(\DTS\eBaySDK\Marketing\Types\ResumeCampaignRestRequest $request)
+    public function resumeCampaignAsync(\DKH\eBaySDK\Marketing\Types\ResumeCampaignRestRequest $request)
     {
         return $this->callOperationAsync('ResumeCampaign', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\UpdateCampaignIDentificationRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\UpdateCampaignIDentificationRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\UpdateCampaignIDentificationRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\UpdateCampaignIDentificationRestResponse
      */
-    public function updateCampaignIDentification(\DTS\eBaySDK\Marketing\Types\UpdateCampaignIDentificationRestRequest $request)
+    public function updateCampaignIDentification(\DKH\eBaySDK\Marketing\Types\UpdateCampaignIDentificationRestRequest $request)
     {
         return $this->updateCampaignIDentificationAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\UpdateCampaignIDentificationRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\UpdateCampaignIDentificationRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function updateCampaignIDentificationAsync(\DTS\eBaySDK\Marketing\Types\UpdateCampaignIDentificationRestRequest $request)
+    public function updateCampaignIDentificationAsync(\DKH\eBaySDK\Marketing\Types\UpdateCampaignIDentificationRestRequest $request)
     {
         return $this->callOperationAsync('UpdateCampaignIDentification', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CreateItemPromotionRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\CreateItemPromotionRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\CreateItemPromotionRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\CreateItemPromotionRestResponse
      */
-    public function createItemPromotion(\DTS\eBaySDK\Marketing\Types\CreateItemPromotionRestRequest $request)
+    public function createItemPromotion(\DKH\eBaySDK\Marketing\Types\CreateItemPromotionRestRequest $request)
     {
         return $this->createItemPromotionAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CreateItemPromotionRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\CreateItemPromotionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function createItemPromotionAsync(\DTS\eBaySDK\Marketing\Types\CreateItemPromotionRestRequest $request)
+    public function createItemPromotionAsync(\DKH\eBaySDK\Marketing\Types\CreateItemPromotionRestRequest $request)
     {
         return $this->callOperationAsync('CreateItemPromotion', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\DeleteItemPromotionRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\DeleteItemPromotionRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\DeleteItemPromotionRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\DeleteItemPromotionRestResponse
      */
-    public function deleteItemPromotion(\DTS\eBaySDK\Marketing\Types\DeleteItemPromotionRestRequest $request)
+    public function deleteItemPromotion(\DKH\eBaySDK\Marketing\Types\DeleteItemPromotionRestRequest $request)
     {
         return $this->deleteItemPromotionAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\DeleteItemPromotionRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\DeleteItemPromotionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function deleteItemPromotionAsync(\DTS\eBaySDK\Marketing\Types\DeleteItemPromotionRestRequest $request)
+    public function deleteItemPromotionAsync(\DKH\eBaySDK\Marketing\Types\DeleteItemPromotionRestRequest $request)
     {
         return $this->callOperationAsync('DeleteItemPromotion', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetItemPromotionRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\GetItemPromotionRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\GetItemPromotionRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\GetItemPromotionRestResponse
      */
-    public function getItemPromotion(\DTS\eBaySDK\Marketing\Types\GetItemPromotionRestRequest $request)
+    public function getItemPromotion(\DKH\eBaySDK\Marketing\Types\GetItemPromotionRestRequest $request)
     {
         return $this->getItemPromotionAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetItemPromotionRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\GetItemPromotionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getItemPromotionAsync(\DTS\eBaySDK\Marketing\Types\GetItemPromotionRestRequest $request)
+    public function getItemPromotionAsync(\DKH\eBaySDK\Marketing\Types\GetItemPromotionRestRequest $request)
     {
         return $this->callOperationAsync('GetItemPromotion', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\UpdateItemPromotionRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\UpdateItemPromotionRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\UpdateItemPromotionRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\UpdateItemPromotionRestResponse
      */
-    public function updateItemPromotion(\DTS\eBaySDK\Marketing\Types\UpdateItemPromotionRestRequest $request)
+    public function updateItemPromotion(\DKH\eBaySDK\Marketing\Types\UpdateItemPromotionRestRequest $request)
     {
         return $this->updateItemPromotionAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\UpdateItemPromotionRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\UpdateItemPromotionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function updateItemPromotionAsync(\DTS\eBaySDK\Marketing\Types\UpdateItemPromotionRestRequest $request)
+    public function updateItemPromotionAsync(\DKH\eBaySDK\Marketing\Types\UpdateItemPromotionRestRequest $request)
     {
         return $this->callOperationAsync('UpdateItemPromotion', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestResponse
      */
-    public function getListingsInSpecificPromotion(\DTS\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestRequest $request)
+    public function getListingsInSpecificPromotion(\DKH\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestRequest $request)
     {
         return $this->getListingsInSpecificPromotionAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getListingsInSpecificPromotionAsync(\DTS\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestRequest $request)
+    public function getListingsInSpecificPromotionAsync(\DKH\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestRequest $request)
     {
         return $this->callOperationAsync('GetListingsInSpecificPromotion', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetPromotionsRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\GetPromotionsRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\GetPromotionsRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\GetPromotionsRestResponse
      */
-    public function getPromotions(\DTS\eBaySDK\Marketing\Types\GetPromotionsRestRequest $request)
+    public function getPromotions(\DKH\eBaySDK\Marketing\Types\GetPromotionsRestRequest $request)
     {
         return $this->getPromotionsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetPromotionsRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\GetPromotionsRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getPromotionsAsync(\DTS\eBaySDK\Marketing\Types\GetPromotionsRestRequest $request)
+    public function getPromotionsAsync(\DKH\eBaySDK\Marketing\Types\GetPromotionsRestRequest $request)
     {
         return $this->callOperationAsync('GetPromotions', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\PauseAPromotionRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\PauseAPromotionRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\PauseAPromotionRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\PauseAPromotionRestResponse
      */
-    public function pauseAPromotion(\DTS\eBaySDK\Marketing\Types\PauseAPromotionRestRequest $request)
+    public function pauseAPromotion(\DKH\eBaySDK\Marketing\Types\PauseAPromotionRestRequest $request)
     {
         return $this->pauseAPromotionAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\PauseAPromotionRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\PauseAPromotionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function pauseAPromotionAsync(\DTS\eBaySDK\Marketing\Types\PauseAPromotionRestRequest $request)
+    public function pauseAPromotionAsync(\DKH\eBaySDK\Marketing\Types\PauseAPromotionRestRequest $request)
     {
         return $this->callOperationAsync('PauseAPromotion', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\ResumeAPromotionRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\ResumeAPromotionRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\ResumeAPromotionRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\ResumeAPromotionRestResponse
      */
-    public function resumeAPromotion(\DTS\eBaySDK\Marketing\Types\ResumeAPromotionRestRequest $request)
+    public function resumeAPromotion(\DKH\eBaySDK\Marketing\Types\ResumeAPromotionRestRequest $request)
     {
         return $this->resumeAPromotionAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\ResumeAPromotionRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\ResumeAPromotionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function resumeAPromotionAsync(\DTS\eBaySDK\Marketing\Types\ResumeAPromotionRestRequest $request)
+    public function resumeAPromotionAsync(\DKH\eBaySDK\Marketing\Types\ResumeAPromotionRestRequest $request)
     {
         return $this->callOperationAsync('ResumeAPromotion', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetPromotionSummaryReportRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\GetPromotionSummaryReportRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\GetPromotionSummaryReportRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\GetPromotionSummaryReportRestResponse
      */
-    public function getPromotionSummaryReport(\DTS\eBaySDK\Marketing\Types\GetPromotionSummaryReportRestRequest $request)
+    public function getPromotionSummaryReport(\DKH\eBaySDK\Marketing\Types\GetPromotionSummaryReportRestRequest $request)
     {
         return $this->getPromotionSummaryReportAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetPromotionSummaryReportRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\GetPromotionSummaryReportRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getPromotionSummaryReportAsync(\DTS\eBaySDK\Marketing\Types\GetPromotionSummaryReportRestRequest $request)
+    public function getPromotionSummaryReportAsync(\DKH\eBaySDK\Marketing\Types\GetPromotionSummaryReportRestRequest $request)
     {
         return $this->callOperationAsync('GetPromotionSummaryReport', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetSpecificReportRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\GetSpecificReportRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\GetSpecificReportRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\GetSpecificReportRestResponse
      */
-    public function getSpecificReport(\DTS\eBaySDK\Marketing\Types\GetSpecificReportRestRequest $request)
+    public function getSpecificReport(\DKH\eBaySDK\Marketing\Types\GetSpecificReportRestRequest $request)
     {
         return $this->getSpecificReportAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetSpecificReportRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\GetSpecificReportRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getSpecificReportAsync(\DTS\eBaySDK\Marketing\Types\GetSpecificReportRestRequest $request)
+    public function getSpecificReportAsync(\DKH\eBaySDK\Marketing\Types\GetSpecificReportRestRequest $request)
     {
         return $this->callOperationAsync('GetSpecificReport', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestResponse
      */
-    public function getMetadataForAllReports(\DTS\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestRequest $request)
+    public function getMetadataForAllReports(\DKH\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestRequest $request)
     {
         return $this->getMetadataForAllReportsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getMetadataForAllReportsAsync(\DTS\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestRequest $request)
+    public function getMetadataForAllReportsAsync(\DKH\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestRequest $request)
     {
         return $this->callOperationAsync('GetMetadataForAllReports', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetMetadataForAReportTypeRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\GetMetadataForAReportTypeRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\GetMetadataForAReportTypeRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\GetMetadataForAReportTypeRestResponse
      */
-    public function getMetadataForAReportType(\DTS\eBaySDK\Marketing\Types\GetMetadataForAReportTypeRestRequest $request)
+    public function getMetadataForAReportType(\DKH\eBaySDK\Marketing\Types\GetMetadataForAReportTypeRestRequest $request)
     {
         return $this->getMetadataForAReportTypeAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetMetadataForAReportTypeRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\GetMetadataForAReportTypeRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getMetadataForAReportTypeAsync(\DTS\eBaySDK\Marketing\Types\GetMetadataForAReportTypeRestRequest $request)
+    public function getMetadataForAReportTypeAsync(\DKH\eBaySDK\Marketing\Types\GetMetadataForAReportTypeRestRequest $request)
     {
         return $this->callOperationAsync('GetMetadataForAReportType', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CreateReportTaskRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\CreateReportTasktRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\CreateReportTaskRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\CreateReportTasktRestResponse
      */
-    public function createReportTask(\DTS\eBaySDK\Marketing\Types\CreateReportTaskRestRequest $request)
+    public function createReportTask(\DKH\eBaySDK\Marketing\Types\CreateReportTaskRestRequest $request)
     {
         return $this->createReportTaskAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CreateReportTaskRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\CreateReportTaskRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function createReportTaskAsync(\DTS\eBaySDK\Marketing\Types\CreateReportTaskRestRequest $request)
+    public function createReportTaskAsync(\DKH\eBaySDK\Marketing\Types\CreateReportTaskRestRequest $request)
     {
         return $this->callOperationAsync('CreateReportTask', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\DeleteSpecificReportTaskRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\DeleteSpecificReportTaskRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\DeleteSpecificReportTaskRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\DeleteSpecificReportTaskRestResponse
      */
-    public function deleteSpecificReportTask(\DTS\eBaySDK\Marketing\Types\DeleteSpecificReportTaskRestRequest $request)
+    public function deleteSpecificReportTask(\DKH\eBaySDK\Marketing\Types\DeleteSpecificReportTaskRestRequest $request)
     {
         return $this->deleteSpecificReportTaskAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\DeleteSpecificReportTaskRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\DeleteSpecificReportTaskRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function deleteSpecificReportTaskAsync(\DTS\eBaySDK\Marketing\Types\DeleteSpecificReportTaskRestRequest $request)
+    public function deleteSpecificReportTaskAsync(\DKH\eBaySDK\Marketing\Types\DeleteSpecificReportTaskRestRequest $request)
     {
         return $this->callOperationAsync('DeleteSpecificReportTask', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetReportTasksRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\GetReportTasksRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\GetReportTasksRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\GetReportTasksRestResponse
      */
-    public function getReportTasks(\DTS\eBaySDK\Marketing\Types\GetReportTasksRestRequest $request)
+    public function getReportTasks(\DKH\eBaySDK\Marketing\Types\GetReportTasksRestRequest $request)
     {
         return $this->getReportTasksAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetReportTasksRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\GetReportTasksRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getReportTasksAsync(\DTS\eBaySDK\Marketing\Types\GetReportTasksRestRequest $request)
+    public function getReportTasksAsync(\DKH\eBaySDK\Marketing\Types\GetReportTasksRestRequest $request)
     {
         return $this->callOperationAsync('GetReportTasks', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetSpecificReportTaskRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\GetSpecificReportTaskRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\GetSpecificReportTaskRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\GetSpecificReportTaskRestResponse
      */
-    public function getSpecificReportTask(\DTS\eBaySDK\Marketing\Types\GetSpecificReportTaskRestRequest $request)
+    public function getSpecificReportTask(\DKH\eBaySDK\Marketing\Types\GetSpecificReportTaskRestRequest $request)
     {
         return $this->getSpecificReportTaskAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetSpecificReportTaskRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\GetSpecificReportTaskRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getSpecificReportTaskAsync(\DTS\eBaySDK\Marketing\Types\GetSpecificReportTaskRestRequest $request)
+    public function getSpecificReportTaskAsync(\DKH\eBaySDK\Marketing\Types\GetSpecificReportTaskRestRequest $request)
     {
         return $this->callOperationAsync('GetSpecificReportTask', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetAPromotionReportRestRequest $request
-     * @return \DTS\eBaySDK\Marketing\Types\GetAPromotionReportRestResponse
+     * @param \DKH\eBaySDK\Marketing\Types\GetAPromotionReportRestRequest $request
+     * @return \DKH\eBaySDK\Marketing\Types\GetAPromotionReportRestResponse
      */
-    public function getAPromotionReport(\DTS\eBaySDK\Marketing\Types\GetAPromotionReportRestRequest $request)
+    public function getAPromotionReport(\DKH\eBaySDK\Marketing\Types\GetAPromotionReportRestRequest $request)
     {
         return $this->getAPromotionReportAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetAPromotionReportRestRequest $request
+     * @param \DKH\eBaySDK\Marketing\Types\GetAPromotionReportRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getAPromotionReportAsync(\DTS\eBaySDK\Marketing\Types\GetAPromotionReportRestRequest $request)
+    public function getAPromotionReportAsync(\DKH\eBaySDK\Marketing\Types\GetAPromotionReportRestRequest $request)
     {
         return $this->callOperationAsync('GetAPromotionReport', $request);
     }

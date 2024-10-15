@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace DKH\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string[] $brands
  * @property string[] $categoryIds
- * @property \DTS\eBaySDK\Marketing\Enums\CategoryScopeEnum $categoryScope
+ * @property \DKH\eBaySDK\Marketing\Enums\CategoryScopeEnum $categoryScope
  * @property string[] $listingConditionIds
- * @property \DTS\eBaySDK\Marketing\Types\Amount $maxPrice
- * @property \DTS\eBaySDK\Marketing\Types\Amount $minPrice
+ * @property \DKH\eBaySDK\Marketing\Types\Amount $maxPrice
+ * @property \DKH\eBaySDK\Marketing\Types\Amount $minPrice
  */
-class SelectionRule extends \DTS\eBaySDK\Types\BaseType
+class SelectionRule extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -50,13 +50,13 @@ class SelectionRule extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'listingConditionIds'
         ],
         'maxPrice' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
+            'type' => 'DKH\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'maxPrice'
         ],
         'minPrice' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
+            'type' => 'DKH\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'minPrice'

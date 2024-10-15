@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Finding\Types;
+namespace DKH\eBaySDK\Finding\Types;
 
 /**
  *
  * @property integer $count
- * @property \DTS\eBaySDK\Finding\Types\CategoryHistogram[] $childCategoryHistogram
+ * @property \DKH\eBaySDK\Finding\Types\CategoryHistogram[] $childCategoryHistogram
  */
-class CategoryHistogram extends \DTS\eBaySDK\Finding\Types\Category
+class CategoryHistogram extends \DKH\eBaySDK\Finding\Types\Category
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class CategoryHistogram extends \DTS\eBaySDK\Finding\Types\Category
             'elementName' => 'count'
         ],
         'childCategoryHistogram' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\CategoryHistogram',
+            'type' => 'DKH\eBaySDK\Finding\Types\CategoryHistogram',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'childCategoryHistogram'

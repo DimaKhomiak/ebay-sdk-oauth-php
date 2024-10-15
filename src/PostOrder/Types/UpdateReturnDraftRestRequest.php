@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace DKH\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $draftId
  */
-class UpdateReturnDraftRestRequest extends \DTS\eBaySDK\PostOrder\Types\SetReturnCreationSessionRequest
+class UpdateReturnDraftRestRequest extends \DKH\eBaySDK\PostOrder\Types\SetReturnCreationSessionRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

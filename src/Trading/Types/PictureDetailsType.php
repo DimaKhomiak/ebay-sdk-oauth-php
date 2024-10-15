@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $GalleryURL
- * @property \DTS\eBaySDK\Trading\Enums\GalleryTypeCodeType $GalleryType
- * @property \DTS\eBaySDK\Trading\Enums\PhotoDisplayCodeType $PhotoDisplay
+ * @property \DKH\eBaySDK\Trading\Enums\GalleryTypeCodeType $GalleryType
+ * @property \DKH\eBaySDK\Trading\Enums\PhotoDisplayCodeType $PhotoDisplay
  * @property string[] $PictureURL
- * @property \DTS\eBaySDK\Trading\Enums\PictureSourceCodeType $PictureSource
+ * @property \DKH\eBaySDK\Trading\Enums\PictureSourceCodeType $PictureSource
  * @property string $GalleryDuration
- * @property \DTS\eBaySDK\Trading\Enums\GalleryStatusCodeType $GalleryStatus
+ * @property \DKH\eBaySDK\Trading\Enums\GalleryStatusCodeType $GalleryStatus
  * @property string $GalleryErrorInfo
  * @property string[] $ExternalPictureURL
- * @property \DTS\eBaySDK\Trading\Types\ExtendedPictureDetailsType $ExtendedPictureDetails
+ * @property \DKH\eBaySDK\Trading\Types\ExtendedPictureDetailsType $ExtendedPictureDetails
  */
-class PictureDetailsType extends \DTS\eBaySDK\Types\BaseType
+class PictureDetailsType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -84,7 +84,7 @@ class PictureDetailsType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'ExternalPictureURL'
         ],
         'ExtendedPictureDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ExtendedPictureDetailsType',
+            'type' => 'DKH\eBaySDK\Trading\Types\ExtendedPictureDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ExtendedPictureDetails'

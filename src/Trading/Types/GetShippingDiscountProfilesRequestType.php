@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  */
-class GetShippingDiscountProfilesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetShippingDiscountProfilesRequestType extends \DKH\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -1,12 +1,12 @@
 <?php
-namespace DTS\eBaySDK\Types;
+namespace DKH\eBaySDK\Types;
 
 /**
  * Base class for objects that correspond to token types in the XML.
  *
  * @property string $value
  */
-class TokenType extends \DTS\eBaySDK\Types\BaseType
+class TokenType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

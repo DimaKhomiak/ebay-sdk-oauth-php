@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace DKH\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\SellerINREscalationReasonType $sellerINRReason
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\SellerSNADEscalationReasonType $sellerSNADReason
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\BuyerINREscalationReasonType $buyerINRReason
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\BuyerSNADEscalationReasonType $buyerSNADReason
+ * @property \DKH\eBaySDK\ResolutionCaseManagement\Enums\SellerINREscalationReasonType $sellerINRReason
+ * @property \DKH\eBaySDK\ResolutionCaseManagement\Enums\SellerSNADEscalationReasonType $sellerSNADReason
+ * @property \DKH\eBaySDK\ResolutionCaseManagement\Enums\BuyerINREscalationReasonType $buyerINRReason
+ * @property \DKH\eBaySDK\ResolutionCaseManagement\Enums\BuyerSNADEscalationReasonType $buyerSNADReason
  */
-class EscalationReasonType extends \DTS\eBaySDK\Types\BaseType
+class EscalationReasonType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

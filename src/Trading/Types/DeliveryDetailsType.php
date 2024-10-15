@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\DigitalDeliveryUserType $Recipient
- * @property \DTS\eBaySDK\Trading\Types\DigitalDeliveryUserType $Sender
+ * @property \DKH\eBaySDK\Trading\Types\DigitalDeliveryUserType $Recipient
+ * @property \DKH\eBaySDK\Trading\Types\DigitalDeliveryUserType $Sender
  */
-class DeliveryDetailsType extends \DTS\eBaySDK\Types\BaseType
+class DeliveryDetailsType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Recipient' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DigitalDeliveryUserType',
+            'type' => 'DKH\eBaySDK\Trading\Types\DigitalDeliveryUserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Recipient'
         ],
         'Sender' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DigitalDeliveryUserType',
+            'type' => 'DKH\eBaySDK\Trading\Types\DigitalDeliveryUserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Sender'

@@ -8,62 +8,62 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\BidderNoticePreferencesType $BidderNoticePreferences
- * @property \DTS\eBaySDK\Trading\Types\CombinedPaymentPreferencesType $CombinedPaymentPreferences
- * @property \DTS\eBaySDK\Trading\Types\SellerPaymentPreferencesType $SellerPaymentPreferences
- * @property \DTS\eBaySDK\Trading\Types\SellerFavoriteItemPreferencesType $SellerFavoriteItemPreferences
- * @property \DTS\eBaySDK\Trading\Types\EndOfAuctionEmailPreferencesType $EndOfAuctionEmailPreferences
+ * @property \DKH\eBaySDK\Trading\Types\BidderNoticePreferencesType $BidderNoticePreferences
+ * @property \DKH\eBaySDK\Trading\Types\CombinedPaymentPreferencesType $CombinedPaymentPreferences
+ * @property \DKH\eBaySDK\Trading\Types\SellerPaymentPreferencesType $SellerPaymentPreferences
+ * @property \DKH\eBaySDK\Trading\Types\SellerFavoriteItemPreferencesType $SellerFavoriteItemPreferences
+ * @property \DKH\eBaySDK\Trading\Types\EndOfAuctionEmailPreferencesType $EndOfAuctionEmailPreferences
  * @property boolean $EmailShipmentTrackingNumberPreference
  * @property boolean $RequiredShipPhoneNumberPreference
- * @property \DTS\eBaySDK\Trading\Types\UnpaidItemAssistancePreferencesType $UnpaidItemAssistancePreferences
- * @property \DTS\eBaySDK\Trading\Types\SellerExcludeShipToLocationPreferencesType $SellerExcludeShipToLocationPreferences
- * @property \DTS\eBaySDK\Trading\Types\PurchaseReminderEmailPreferencesType $PurchaseReminderEmailPreferences
- * @property \DTS\eBaySDK\Trading\Types\SellerProfilePreferencesType $SellerProfilePreferences
- * @property \DTS\eBaySDK\Trading\Types\SellerReturnPreferencesType $SellerReturnPreferences
+ * @property \DKH\eBaySDK\Trading\Types\UnpaidItemAssistancePreferencesType $UnpaidItemAssistancePreferences
+ * @property \DKH\eBaySDK\Trading\Types\SellerExcludeShipToLocationPreferencesType $SellerExcludeShipToLocationPreferences
+ * @property \DKH\eBaySDK\Trading\Types\PurchaseReminderEmailPreferencesType $PurchaseReminderEmailPreferences
+ * @property \DKH\eBaySDK\Trading\Types\SellerProfilePreferencesType $SellerProfilePreferences
+ * @property \DKH\eBaySDK\Trading\Types\SellerReturnPreferencesType $SellerReturnPreferences
  * @property boolean $OfferGlobalShippingProgramPreference
- * @property \DTS\eBaySDK\Trading\Types\DispatchCutoffTimePreferencesType $DispatchCutoffTimePreference
+ * @property \DKH\eBaySDK\Trading\Types\DispatchCutoffTimePreferencesType $DispatchCutoffTimePreference
  * @property boolean $GlobalShippingProgramListingPreference
  * @property boolean $OverrideGSPServiceWithIntlServicePreference
  * @property boolean $PickupDropoffSellerPreference
  * @property boolean $OutOfStockControlPreference
- * @property \DTS\eBaySDK\Trading\Types\EBayPLUSPreferenceType[] $eBayPLUSPreference
+ * @property \DKH\eBaySDK\Trading\Types\EBayPLUSPreferenceType[] $eBayPLUSPreference
  */
-class GetUserPreferencesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetUserPreferencesResponseType extends \DKH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'BidderNoticePreferences' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\BidderNoticePreferencesType',
+            'type' => 'DKH\eBaySDK\Trading\Types\BidderNoticePreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BidderNoticePreferences'
         ],
         'CombinedPaymentPreferences' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CombinedPaymentPreferencesType',
+            'type' => 'DKH\eBaySDK\Trading\Types\CombinedPaymentPreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CombinedPaymentPreferences'
         ],
         'SellerPaymentPreferences' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellerPaymentPreferencesType',
+            'type' => 'DKH\eBaySDK\Trading\Types\SellerPaymentPreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerPaymentPreferences'
         ],
         'SellerFavoriteItemPreferences' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellerFavoriteItemPreferencesType',
+            'type' => 'DKH\eBaySDK\Trading\Types\SellerFavoriteItemPreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerFavoriteItemPreferences'
         ],
         'EndOfAuctionEmailPreferences' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\EndOfAuctionEmailPreferencesType',
+            'type' => 'DKH\eBaySDK\Trading\Types\EndOfAuctionEmailPreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'EndOfAuctionEmailPreferences'
@@ -81,31 +81,31 @@ class GetUserPreferencesResponseType extends \DTS\eBaySDK\Trading\Types\Abstract
             'elementName' => 'RequiredShipPhoneNumberPreference'
         ],
         'UnpaidItemAssistancePreferences' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\UnpaidItemAssistancePreferencesType',
+            'type' => 'DKH\eBaySDK\Trading\Types\UnpaidItemAssistancePreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'UnpaidItemAssistancePreferences'
         ],
         'SellerExcludeShipToLocationPreferences' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellerExcludeShipToLocationPreferencesType',
+            'type' => 'DKH\eBaySDK\Trading\Types\SellerExcludeShipToLocationPreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerExcludeShipToLocationPreferences'
         ],
         'PurchaseReminderEmailPreferences' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PurchaseReminderEmailPreferencesType',
+            'type' => 'DKH\eBaySDK\Trading\Types\PurchaseReminderEmailPreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PurchaseReminderEmailPreferences'
         ],
         'SellerProfilePreferences' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellerProfilePreferencesType',
+            'type' => 'DKH\eBaySDK\Trading\Types\SellerProfilePreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerProfilePreferences'
         ],
         'SellerReturnPreferences' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellerReturnPreferencesType',
+            'type' => 'DKH\eBaySDK\Trading\Types\SellerReturnPreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerReturnPreferences'
@@ -117,7 +117,7 @@ class GetUserPreferencesResponseType extends \DTS\eBaySDK\Trading\Types\Abstract
             'elementName' => 'OfferGlobalShippingProgramPreference'
         ],
         'DispatchCutoffTimePreference' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DispatchCutoffTimePreferencesType',
+            'type' => 'DKH\eBaySDK\Trading\Types\DispatchCutoffTimePreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DispatchCutoffTimePreference'
@@ -147,7 +147,7 @@ class GetUserPreferencesResponseType extends \DTS\eBaySDK\Trading\Types\Abstract
             'elementName' => 'OutOfStockControlPreference'
         ],
         'eBayPLUSPreference' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\EBayPLUSPreferenceType',
+            'type' => 'DKH\eBaySDK\Trading\Types\EBayPLUSPreferenceType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'eBayPLUSPreference'

@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\StoreThemeType[] $Theme
- * @property \DTS\eBaySDK\Trading\Types\StoreColorSchemeArrayType $GenericColorSchemeArray
+ * @property \DKH\eBaySDK\Trading\Types\StoreThemeType[] $Theme
+ * @property \DKH\eBaySDK\Trading\Types\StoreColorSchemeArrayType $GenericColorSchemeArray
  */
-class StoreThemeArrayType extends \DTS\eBaySDK\Types\BaseType
+class StoreThemeArrayType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Theme' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreThemeType',
+            'type' => 'DKH\eBaySDK\Trading\Types\StoreThemeType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Theme'
         ],
         'GenericColorSchemeArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreColorSchemeArrayType',
+            'type' => 'DKH\eBaySDK\Trading\Types\StoreColorSchemeArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'GenericColorSchemeArray'

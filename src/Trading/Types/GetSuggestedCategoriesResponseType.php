@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SuggestedCategoryArrayType $SuggestedCategoryArray
+ * @property \DKH\eBaySDK\Trading\Types\SuggestedCategoryArrayType $SuggestedCategoryArray
  * @property integer $CategoryCount
  */
-class GetSuggestedCategoriesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetSuggestedCategoriesResponseType extends \DKH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'SuggestedCategoryArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SuggestedCategoryArrayType',
+            'type' => 'DKH\eBaySDK\Trading\Types\SuggestedCategoryArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SuggestedCategoryArray'

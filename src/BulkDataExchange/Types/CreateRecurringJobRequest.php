@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BulkDataExchange\Types;
+namespace DKH\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
  * @property string $UUID
- * @property \DTS\eBaySDK\BulkDataExchange\Types\DownloadJobRecurringFilter $downloadJobRecurringFilter
+ * @property \DKH\eBaySDK\BulkDataExchange\Types\DownloadJobRecurringFilter $downloadJobRecurringFilter
  * @property integer $frequencyInMinutes
  * @property string $downloadJobType
- * @property \DTS\eBaySDK\BulkDataExchange\Types\MonthlyRecurrence $monthlyRecurrence
- * @property \DTS\eBaySDK\BulkDataExchange\Types\WeeklyRecurrence $weeklyRecurrence
- * @property \DTS\eBaySDK\BulkDataExchange\Types\DailyRecurrence $dailyRecurrence
+ * @property \DKH\eBaySDK\BulkDataExchange\Types\MonthlyRecurrence $monthlyRecurrence
+ * @property \DKH\eBaySDK\BulkDataExchange\Types\WeeklyRecurrence $weeklyRecurrence
+ * @property \DKH\eBaySDK\BulkDataExchange\Types\DailyRecurrence $dailyRecurrence
  */
-class CreateRecurringJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
+class CreateRecurringJobRequest extends \DKH\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -33,7 +33,7 @@ class CreateRecurringJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\Base
             'elementName' => 'UUID'
         ],
         'downloadJobRecurringFilter' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\DownloadJobRecurringFilter',
+            'type' => 'DKH\eBaySDK\BulkDataExchange\Types\DownloadJobRecurringFilter',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'downloadJobRecurringFilter'
@@ -51,19 +51,19 @@ class CreateRecurringJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\Base
             'elementName' => 'downloadJobType'
         ],
         'monthlyRecurrence' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\MonthlyRecurrence',
+            'type' => 'DKH\eBaySDK\BulkDataExchange\Types\MonthlyRecurrence',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'monthlyRecurrence'
         ],
         'weeklyRecurrence' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\WeeklyRecurrence',
+            'type' => 'DKH\eBaySDK\BulkDataExchange\Types\WeeklyRecurrence',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'weeklyRecurrence'
         ],
         'dailyRecurrence' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\DailyRecurrence',
+            'type' => 'DKH\eBaySDK\BulkDataExchange\Types\DailyRecurrence',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'dailyRecurrence'

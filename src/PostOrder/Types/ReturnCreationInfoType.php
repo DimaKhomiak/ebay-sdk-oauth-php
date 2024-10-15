@@ -8,36 +8,36 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace DKH\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnItemType $item
- * @property \DTS\eBaySDK\PostOrder\Enums\ReturnReasonEnum $reason
- * @property \DTS\eBaySDK\PostOrder\Enums\ReturnTypeEnum $type
+ * @property \DKH\eBaySDK\PostOrder\Types\Text $comments
+ * @property \DKH\eBaySDK\PostOrder\Types\DateTime $creationDate
+ * @property \DKH\eBaySDK\PostOrder\Types\ReturnItemType $item
+ * @property \DKH\eBaySDK\PostOrder\Enums\ReturnReasonEnum $reason
+ * @property \DKH\eBaySDK\PostOrder\Enums\ReturnTypeEnum $type
  */
-class ReturnCreationInfoType extends \DTS\eBaySDK\Types\BaseType
+class ReturnCreationInfoType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'comments' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'comments'
         ],
         'creationDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'creationDate'
         ],
         'item' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnItemType',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\ReturnItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'item'

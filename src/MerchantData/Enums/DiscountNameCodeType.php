@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Enums;
+namespace DKH\eBaySDK\MerchantData\Enums;
 
 class DiscountNameCodeType
 {

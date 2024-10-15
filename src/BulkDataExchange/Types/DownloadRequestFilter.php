@@ -8,55 +8,55 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BulkDataExchange\Types;
+namespace DKH\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BulkDataExchange\Types\FeeSettlementReportFilter $feeSettlementReportFilter
- * @property \DTS\eBaySDK\BulkDataExchange\Types\SiteFilter $siteFilter
- * @property \DTS\eBaySDK\BulkDataExchange\Types\ActiveInventoryReportFilter $activeInventoryReportFilter
- * @property \DTS\eBaySDK\BulkDataExchange\Types\DateFilter $dateFilter
- * @property \DTS\eBaySDK\BulkDataExchange\Types\SoldReportFilter $soldReportFilter
- * @property \DTS\eBaySDK\BulkDataExchange\Types\OrderReportFilter $orderReportFilter
+ * @property \DKH\eBaySDK\BulkDataExchange\Types\FeeSettlementReportFilter $feeSettlementReportFilter
+ * @property \DKH\eBaySDK\BulkDataExchange\Types\SiteFilter $siteFilter
+ * @property \DKH\eBaySDK\BulkDataExchange\Types\ActiveInventoryReportFilter $activeInventoryReportFilter
+ * @property \DKH\eBaySDK\BulkDataExchange\Types\DateFilter $dateFilter
+ * @property \DKH\eBaySDK\BulkDataExchange\Types\SoldReportFilter $soldReportFilter
+ * @property \DKH\eBaySDK\BulkDataExchange\Types\OrderReportFilter $orderReportFilter
  */
-class DownloadRequestFilter extends \DTS\eBaySDK\Types\BaseType
+class DownloadRequestFilter extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'feeSettlementReportFilter' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\FeeSettlementReportFilter',
+            'type' => 'DKH\eBaySDK\BulkDataExchange\Types\FeeSettlementReportFilter',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'feeSettlementReportFilter'
         ],
         'siteFilter' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\SiteFilter',
+            'type' => 'DKH\eBaySDK\BulkDataExchange\Types\SiteFilter',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'siteFilter'
         ],
         'activeInventoryReportFilter' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\ActiveInventoryReportFilter',
+            'type' => 'DKH\eBaySDK\BulkDataExchange\Types\ActiveInventoryReportFilter',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'activeInventoryReportFilter'
         ],
         'dateFilter' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\DateFilter',
+            'type' => 'DKH\eBaySDK\BulkDataExchange\Types\DateFilter',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'dateFilter'
         ],
         'soldReportFilter' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\SoldReportFilter',
+            'type' => 'DKH\eBaySDK\BulkDataExchange\Types\SoldReportFilter',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'soldReportFilter'
         ],
         'orderReportFilter' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\OrderReportFilter',
+            'type' => 'DKH\eBaySDK\BulkDataExchange\Types\OrderReportFilter',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'orderReportFilter'

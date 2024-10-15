@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace DKH\eBaySDK\Account\Types;
 
 /**
  *
  * @property string $countryCode
  * @property string $jurisdictionId
  */
-class CreateASalesTaxTableRestRequest extends \DTS\eBaySDK\Account\Types\SalesTaxBase
+class CreateASalesTaxTableRestRequest extends \DKH\eBaySDK\Account\Types\SalesTaxBase
 {
     /**
      * @var array Properties belonging to objects of this class.

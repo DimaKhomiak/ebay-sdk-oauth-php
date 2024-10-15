@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Taxonomy\Enums;
+namespace DKH\eBaySDK\Taxonomy\Enums;
 
 class AspectDataTypeEnum
 {

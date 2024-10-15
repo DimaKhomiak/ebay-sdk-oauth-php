@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\SellingManagerSearchTypeCodeType $SearchType
+ * @property \DKH\eBaySDK\Trading\Enums\SellingManagerSearchTypeCodeType $SearchType
  * @property string $SearchValue
  */
-class SellingManagerSearchType extends \DTS\eBaySDK\Types\BaseType
+class SellingManagerSearchType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

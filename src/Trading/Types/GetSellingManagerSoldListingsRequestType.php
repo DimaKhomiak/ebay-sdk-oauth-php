@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerSearchType $Search
+ * @property \DKH\eBaySDK\Trading\Types\SellingManagerSearchType $Search
  * @property integer $StoreCategoryID
- * @property \DTS\eBaySDK\Trading\Enums\SellingManagerSoldListingsPropertyTypeCodeType[] $Filter
+ * @property \DKH\eBaySDK\Trading\Enums\SellingManagerSoldListingsPropertyTypeCodeType[] $Filter
  * @property boolean $Archived
- * @property \DTS\eBaySDK\Trading\Enums\SellingManagerSoldListingsSortTypeCodeType $Sort
- * @property \DTS\eBaySDK\Trading\Enums\SortOrderCodeType $SortOrder
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property \DTS\eBaySDK\Trading\Types\TimeRangeType $SaleDateRange
+ * @property \DKH\eBaySDK\Trading\Enums\SellingManagerSoldListingsSortTypeCodeType $Sort
+ * @property \DKH\eBaySDK\Trading\Enums\SortOrderCodeType $SortOrder
+ * @property \DKH\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \DKH\eBaySDK\Trading\Types\TimeRangeType $SaleDateRange
  */
-class GetSellingManagerSoldListingsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetSellingManagerSoldListingsRequestType extends \DKH\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Search' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerSearchType',
+            'type' => 'DKH\eBaySDK\Trading\Types\SellingManagerSearchType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Search'
@@ -64,13 +64,13 @@ class GetSellingManagerSoldListingsRequestType extends \DTS\eBaySDK\Trading\Type
             'elementName' => 'SortOrder'
         ],
         'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'type' => 'DKH\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Pagination'
         ],
         'SaleDateRange' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\TimeRangeType',
+            'type' => 'DKH\eBaySDK\Trading\Types\TimeRangeType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SaleDateRange'

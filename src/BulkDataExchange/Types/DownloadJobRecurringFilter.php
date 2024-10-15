@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BulkDataExchange\Types;
+namespace DKH\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BulkDataExchange\Types\OrderReportRecurringFilter $orderReportRecurringFilter
+ * @property \DKH\eBaySDK\BulkDataExchange\Types\OrderReportRecurringFilter $orderReportRecurringFilter
  */
-class DownloadJobRecurringFilter extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
+class DownloadJobRecurringFilter extends \DKH\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'orderReportRecurringFilter' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\OrderReportRecurringFilter',
+            'type' => 'DKH\eBaySDK\BulkDataExchange\Types\OrderReportRecurringFilter',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'orderReportRecurringFilter'

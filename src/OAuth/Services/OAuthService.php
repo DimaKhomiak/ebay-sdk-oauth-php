@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\OAuth\Services;
+namespace DKH\eBaySDK\OAuth\Services;
 
-use DTS\eBaySDK\ConfigurationResolver;
-use DTS\eBaySDK\Credentials\CredentialsProvider;
-use DTS\eBaySDK\UriResolver;
-use \DTS\eBaySDK as Functions;
+use DKH\eBaySDK\ConfigurationResolver;
+use DKH\eBaySDK\Credentials\CredentialsProvider;
+use DKH\eBaySDK\UriResolver;
+use \DKH\eBaySDK as Functions;
 use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\ResponseInterface;
 
@@ -27,33 +27,33 @@ class OAuthService
         'getUserToken' => [
             'method' => 'POST',
             'resource' => 'oauth2/token',
-            'responseClass' => '\DTS\eBaySDK\OAuth\Types\GetUserTokenRestResponse',
+            'responseClass' => '\DKH\eBaySDK\OAuth\Types\GetUserTokenRestResponse',
             'params' => [
             ]
         ],
         'refreshUserToken' => [
             'method' => 'POST',
             'resource' => 'oauth2/token',
-            'responseClass' => '\DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestResponse',
+            'responseClass' => '\DKH\eBaySDK\OAuth\Types\RefreshUserTokenRestResponse',
             'params' => [
             ]
         ],
         'getAppToken' => [
             'method' => 'POST',
             'resource' => 'oauth2/token',
-            'responseClass' => '\DTS\eBaySDK\OAuth\Types\GetAppTokenRestResponse',
+            'responseClass' => '\DKH\eBaySDK\OAuth\Types\GetAppTokenRestResponse',
             'params' => [
             ]
         ]
     ];
 
     /**
-     * @var \DTS\eBaySDK\ConfigurationResolver Resolves configuration options.
+     * @var \DKH\eBaySDK\ConfigurationResolver Resolves configuration options.
      */
     private $resolver;
 
     /**
-     * @var \DTS\eBaySDK\UriResolver Resolves uri parameters.
+     * @var \DKH\eBaySDK\UriResolver Resolves uri parameters.
      */
     private $uriResolver;
 
@@ -82,26 +82,26 @@ class OAuthService
         return [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\OAuth\Services\OAuthService::API_VERSION,
+                'default' => \DKH\eBaySDK\OAuth\Services\OAuthService::API_VERSION,
                 'required' => true
             ],
             'profile' => [
                 'valid' => ['string'],
-                'fn'    => 'DTS\eBaySDK\applyProfile',
+                'fn'    => 'DKH\eBaySDK\applyProfile',
             ],
             'credentials' => [
-                'valid'   => ['DTS\eBaySDK\Credentials\CredentialsInterface', 'array', 'callable'],
-                'fn'      => 'DTS\eBaySDK\applyCredentials',
+                'valid'   => ['DKH\eBaySDK\Credentials\CredentialsInterface', 'array', 'callable'],
+                'fn'      => 'DKH\eBaySDK\applyCredentials',
                 'default' => [CredentialsProvider::class, 'defaultProvider']
             ],
             'debug' => [
                 'valid'   => ['bool', 'array'],
-                'fn'      => 'DTS\eBaySDK\applyDebug',
+                'fn'      => 'DKH\eBaySDK\applyDebug',
                 'default' => false
             ],
             'httpHandler' => [
                 'valid'   => ['callable'],
-                'default' => 'DTS\eBaySDK\defaultHttpHandler'
+                'default' => 'DKH\eBaySDK\defaultHttpHandler'
             ],
             'httpOptions' => [
                 'valid'   => ['array'],
@@ -153,7 +153,7 @@ class OAuthService
     /**
      * Helper method to return the value of the credentials configuration option.
      *
-     * @return \DTS\eBaySDK\Credentials\CredentialsInterface
+     * @return \DKH\eBaySDK\Credentials\CredentialsInterface
      */
     public function getCredentials()
     {
@@ -193,22 +193,22 @@ class OAuthService
     }
 
     /**
-     * @param \DTS\eBaySDK\OAuth\Types\GetUserTokenRestRequest $request
-     * @return \DTS\eBaySDK\OAuth\Types\GetUserTokenRestResponse
+     * @param \DKH\eBaySDK\OAuth\Types\GetUserTokenRestRequest $request
+     * @return \DKH\eBaySDK\OAuth\Types\GetUserTokenRestResponse
      */
-    public function getUserToken(\DTS\eBaySDK\OAuth\Types\GetUserTokenRestRequest $request)
+    public function getUserToken(\DKH\eBaySDK\OAuth\Types\GetUserTokenRestRequest $request)
     {
         return $this->getUserTokenAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\OAuth\Types\GetUserTokenRestRequest $request
+     * @param \DKH\eBaySDK\OAuth\Types\GetUserTokenRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getUserTokenAsync(\DTS\eBaySDK\OAuth\Types\GetUserTokenRestRequest $request)
+    public function getUserTokenAsync(\DKH\eBaySDK\OAuth\Types\GetUserTokenRestRequest $request)
     {
         if (!$request) {
-            $request = new \DTS\eBaySDK\OAuth\Types\GetUserTokenRestRequest();
+            $request = new \DKH\eBaySDK\OAuth\Types\GetUserTokenRestRequest();
         }
         if (!isset($request->grant_type)) {
             $request->grant_type = 'authorization_code';
@@ -221,22 +221,22 @@ class OAuthService
     }
 
     /**
-     * @param \DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest $request
-     * @return \DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestResponse
+     * @param \DKH\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest $request
+     * @return \DKH\eBaySDK\OAuth\Types\RefreshUserTokenRestResponse
      */
-    public function refreshUserToken(\DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest $request)
+    public function refreshUserToken(\DKH\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest $request)
     {
         return $this->refreshUserTokenAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest $request
+     * @param \DKH\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function refreshUserTokenAsync(\DTS\eBaySDK\OAuth\Types\refreshUserTokenRestRequest $request)
+    public function refreshUserTokenAsync(\DKH\eBaySDK\OAuth\Types\refreshUserTokenRestRequest $request)
     {
         if (!$request) {
-            $request = new \DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest();
+            $request = new \DKH\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest();
         }
         if (!isset($request->grant_type)) {
             $request->grant_type = 'refresh_token';
@@ -246,22 +246,22 @@ class OAuthService
     }
 
     /**
-     * @param \DTS\eBaySDK\OAuth\Types\GetAppTokenRestRequest $request
-     * @return \DTS\eBaySDK\OAuth\Types\GetAppTokenRestResponse
+     * @param \DKH\eBaySDK\OAuth\Types\GetAppTokenRestRequest $request
+     * @return \DKH\eBaySDK\OAuth\Types\GetAppTokenRestResponse
      */
-    public function getAppToken(\DTS\eBaySDK\OAuth\Types\GetAppTokenRestRequest $request = null)
+    public function getAppToken(\DKH\eBaySDK\OAuth\Types\GetAppTokenRestRequest $request = null)
     {
         return $this->getAppTokenAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\OAuth\Types\GetAppTokenRestRequest $request
+     * @param \DKH\eBaySDK\OAuth\Types\GetAppTokenRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getAppTokenAsync(\DTS\eBaySDK\OAuth\Types\GetAppTokenRestRequest $request = null)
+    public function getAppTokenAsync(\DKH\eBaySDK\OAuth\Types\GetAppTokenRestRequest $request = null)
     {
         if (!$request) {
-            $request = new \DTS\eBaySDK\OAuth\Types\GetAppTokenRestRequest();
+            $request = new \DKH\eBaySDK\OAuth\Types\GetAppTokenRestRequest();
         }
         if (!isset($request->grant_type)) {
             $request->grant_type = 'client_credentials';
@@ -280,11 +280,11 @@ class OAuthService
      * Sends an asynchronous API request.
      *
      * @param string $name The name of the operation.
-     * @param \DTS\eBaySDK\Types\BaseType $request Request object containing the request information.
+     * @param \DKH\eBaySDK\Types\BaseType $request Request object containing the request information.
      *
      * @return \GuzzleHttp\Promise\PromiseInterface A promise that will be resolved with an object created from the JSON response.
      */
-    private function callOperationAsync($name, \DTS\eBaySDK\Types\BaseType $request = null)
+    private function callOperationAsync($name, \DKH\eBaySDK\Types\BaseType $request = null)
     {
         $operation = static::$operations[$name];
 

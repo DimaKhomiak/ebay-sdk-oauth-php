@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BulkDataExchange\Enums;
+namespace DKH\eBaySDK\BulkDataExchange\Enums;
 
 class RecurringJobStatus
 {

@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace DKH\eBaySDK\Account\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\RateTable[] $rateTables
+ * @property \DKH\eBaySDK\Account\Types\RateTable[] $rateTables
  */
-class RateTableResponse extends \DTS\eBaySDK\Types\BaseType
+class RateTableResponse extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'rateTables' => [
-            'type' => 'DTS\eBaySDK\Account\Types\RateTable',
+            'type' => 'DKH\eBaySDK\Account\Types\RateTable',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'rateTables'

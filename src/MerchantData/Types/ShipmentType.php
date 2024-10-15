@@ -8,38 +8,38 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace DKH\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property \DateTime $EstimatedDeliveryDate
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $InsuredValue
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $PackageDepth
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $PackageLength
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $PackageWidth
+ * @property \DKH\eBaySDK\MerchantData\Types\AmountType $InsuredValue
+ * @property \DKH\eBaySDK\MerchantData\Types\MeasureType $PackageDepth
+ * @property \DKH\eBaySDK\MerchantData\Types\MeasureType $PackageLength
+ * @property \DKH\eBaySDK\MerchantData\Types\MeasureType $PackageWidth
  * @property string $PayPalShipmentID
  * @property integer $ShipmentID
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $PostageTotal
+ * @property \DKH\eBaySDK\MerchantData\Types\AmountType $PostageTotal
  * @property \DateTime $PrintedTime
- * @property \DTS\eBaySDK\MerchantData\Types\AddressType $ShipFromAddress
- * @property \DTS\eBaySDK\MerchantData\Types\AddressType $ShippingAddress
- * @property \DTS\eBaySDK\MerchantData\Enums\ShippingFeatureCodeType[] $ShippingFeature
- * @property \DTS\eBaySDK\MerchantData\Enums\ShippingPackageCodeType $ShippingPackage
+ * @property \DKH\eBaySDK\MerchantData\Types\AddressType $ShipFromAddress
+ * @property \DKH\eBaySDK\MerchantData\Types\AddressType $ShippingAddress
+ * @property \DKH\eBaySDK\MerchantData\Enums\ShippingFeatureCodeType[] $ShippingFeature
+ * @property \DKH\eBaySDK\MerchantData\Enums\ShippingPackageCodeType $ShippingPackage
  * @property string $ShippingServiceUsed
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $WeightMajor
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $WeightMinor
- * @property \DTS\eBaySDK\MerchantData\Types\ItemTransactionIDType[] $ItemTransactionID
+ * @property \DKH\eBaySDK\MerchantData\Types\MeasureType $WeightMajor
+ * @property \DKH\eBaySDK\MerchantData\Types\MeasureType $WeightMinor
+ * @property \DKH\eBaySDK\MerchantData\Types\ItemTransactionIDType[] $ItemTransactionID
  * @property \DateTime $DeliveryDate
- * @property \DTS\eBaySDK\MerchantData\Enums\ShipmentDeliveryStatusCodeType $DeliveryStatus
+ * @property \DKH\eBaySDK\MerchantData\Enums\ShipmentDeliveryStatusCodeType $DeliveryStatus
  * @property \DateTime $RefundGrantedTime
  * @property \DateTime $RefundRequestedTime
- * @property \DTS\eBaySDK\MerchantData\Enums\ShipmentStatusCodeType $Status
+ * @property \DKH\eBaySDK\MerchantData\Enums\ShipmentStatusCodeType $Status
  * @property \DateTime $ShippedTime
  * @property string $Notes
- * @property \DTS\eBaySDK\MerchantData\Types\ShipmentTrackingDetailsType[] $ShipmentTrackingDetails
- * @property \DTS\eBaySDK\MerchantData\Types\ShipmentLineItemType $ShipmentLineItem
+ * @property \DKH\eBaySDK\MerchantData\Types\ShipmentTrackingDetailsType[] $ShipmentTrackingDetails
+ * @property \DKH\eBaySDK\MerchantData\Types\ShipmentLineItemType $ShipmentLineItem
  */
-class ShipmentType extends \DTS\eBaySDK\Types\BaseType
+class ShipmentType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -52,25 +52,25 @@ class ShipmentType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'EstimatedDeliveryDate'
         ],
         'InsuredValue' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'InsuredValue'
         ],
         'PackageDepth' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PackageDepth'
         ],
         'PackageLength' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PackageLength'
         ],
         'PackageWidth' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PackageWidth'
@@ -88,7 +88,7 @@ class ShipmentType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'ShipmentID'
         ],
         'PostageTotal' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PostageTotal'
@@ -100,13 +100,13 @@ class ShipmentType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'PrintedTime'
         ],
         'ShipFromAddress' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AddressType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShipFromAddress'
         ],
         'ShippingAddress' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AddressType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingAddress'
@@ -130,19 +130,19 @@ class ShipmentType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'ShippingServiceUsed'
         ],
         'WeightMajor' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'WeightMajor'
         ],
         'WeightMinor' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'WeightMinor'
         ],
         'ItemTransactionID' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ItemTransactionIDType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\ItemTransactionIDType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ItemTransactionID'
@@ -190,13 +190,13 @@ class ShipmentType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'Notes'
         ],
         'ShipmentTrackingDetails' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ShipmentTrackingDetailsType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\ShipmentTrackingDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ShipmentTrackingDetails'
         ],
         'ShipmentLineItem' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ShipmentLineItemType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\ShipmentLineItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShipmentLineItem'

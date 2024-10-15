@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
@@ -19,24 +19,24 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $ShippingServiceID
  * @property integer $ShippingTimeMax
  * @property integer $ShippingTimeMin
- * @property \DTS\eBaySDK\Trading\Enums\ShippingServiceCodeType $ShippingServiceCode
- * @property \DTS\eBaySDK\Trading\Enums\ShippingTypeCodeType[] $ServiceType
- * @property \DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType[] $ShippingPackage
+ * @property \DKH\eBaySDK\Trading\Enums\ShippingServiceCodeType $ShippingServiceCode
+ * @property \DKH\eBaySDK\Trading\Enums\ShippingTypeCodeType[] $ServiceType
+ * @property \DKH\eBaySDK\Trading\Enums\ShippingPackageCodeType[] $ShippingPackage
  * @property boolean $DimensionsRequired
  * @property boolean $ValidForSellingFlow
  * @property boolean $SurchargeApplicable
- * @property \DTS\eBaySDK\Trading\Enums\ShippingCarrierCodeType[] $ShippingCarrier
+ * @property \DKH\eBaySDK\Trading\Enums\ShippingCarrierCodeType[] $ShippingCarrier
  * @property boolean $CODService
- * @property \DTS\eBaySDK\Trading\Types\AnnouncementMessageType[] $DeprecationDetails
+ * @property \DKH\eBaySDK\Trading\Types\AnnouncementMessageType[] $DeprecationDetails
  * @property integer $MappedToShippingServiceID
  * @property string $CostGroupFlat
- * @property \DTS\eBaySDK\Trading\Types\ShippingServicePackageDetailsType[] $ShippingServicePackageDetails
+ * @property \DKH\eBaySDK\Trading\Types\ShippingServicePackageDetailsType[] $ShippingServicePackageDetails
  * @property boolean $WeightRequired
  * @property string $DetailVersion
  * @property \DateTime $UpdateTime
  * @property string $ShippingCategory
  */
-class ShippingServiceDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ShippingServiceDetailsType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -133,7 +133,7 @@ class ShippingServiceDetailsType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'CODService'
         ],
         'DeprecationDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AnnouncementMessageType',
+            'type' => 'DKH\eBaySDK\Trading\Types\AnnouncementMessageType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'DeprecationDetails'
@@ -151,7 +151,7 @@ class ShippingServiceDetailsType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'CostGroupFlat'
         ],
         'ShippingServicePackageDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ShippingServicePackageDetailsType',
+            'type' => 'DKH\eBaySDK\Trading\Types\ShippingServicePackageDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ShippingServicePackageDetails'

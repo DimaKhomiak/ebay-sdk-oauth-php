@@ -8,69 +8,69 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellingSummaryType $SellingSummary
- * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $ScheduledList
- * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $ActiveList
- * @property \DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $SoldList
- * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $UnsoldList
- * @property \DTS\eBaySDK\Trading\Types\MyeBaySellingSummaryType $Summary
- * @property \DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $DeletedFromSoldList
- * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $DeletedFromUnsoldList
+ * @property \DKH\eBaySDK\Trading\Types\SellingSummaryType $SellingSummary
+ * @property \DKH\eBaySDK\Trading\Types\PaginatedItemArrayType $ScheduledList
+ * @property \DKH\eBaySDK\Trading\Types\PaginatedItemArrayType $ActiveList
+ * @property \DKH\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $SoldList
+ * @property \DKH\eBaySDK\Trading\Types\PaginatedItemArrayType $UnsoldList
+ * @property \DKH\eBaySDK\Trading\Types\MyeBaySellingSummaryType $Summary
+ * @property \DKH\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $DeletedFromSoldList
+ * @property \DKH\eBaySDK\Trading\Types\PaginatedItemArrayType $DeletedFromUnsoldList
  */
-class GetMyeBaySellingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetMyeBaySellingResponseType extends \DKH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'SellingSummary' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingSummaryType',
+            'type' => 'DKH\eBaySDK\Trading\Types\SellingSummaryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingSummary'
         ],
         'ScheduledList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
+            'type' => 'DKH\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ScheduledList'
         ],
         'ActiveList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
+            'type' => 'DKH\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ActiveList'
         ],
         'SoldList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType',
+            'type' => 'DKH\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SoldList'
         ],
         'UnsoldList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
+            'type' => 'DKH\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'UnsoldList'
         ],
         'Summary' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyeBaySellingSummaryType',
+            'type' => 'DKH\eBaySDK\Trading\Types\MyeBaySellingSummaryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Summary'
         ],
         'DeletedFromSoldList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType',
+            'type' => 'DKH\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DeletedFromSoldList'
         ],
         'DeletedFromUnsoldList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
+            'type' => 'DKH\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DeletedFromUnsoldList'

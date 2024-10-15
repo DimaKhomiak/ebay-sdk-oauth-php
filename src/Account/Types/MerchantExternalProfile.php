@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace DKH\eBaySDK\Account\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\ExternalPaymentMethod $acceptedPaymentMethods
+ * @property \DKH\eBaySDK\Account\Types\ExternalPaymentMethod $acceptedPaymentMethods
  * @property string $accountCreationDate
- * @property \DTS\eBaySDK\Account\Types\ExternalPaymentMethod $billingPaymentMethods
- * @property \DTS\eBaySDK\Account\Types\InventorySizing $inventorySizing
+ * @property \DKH\eBaySDK\Account\Types\ExternalPaymentMethod $billingPaymentMethods
+ * @property \DKH\eBaySDK\Account\Types\InventorySizing $inventorySizing
  * @property string $merchantCategoryCode
- * @property \DTS\eBaySDK\Account\Enums\CurrencyCodeEnum $primaryCurrency
- * @property \DTS\eBaySDK\Account\Types\ReturnSnapshot $returnSnapshots
+ * @property \DKH\eBaySDK\Account\Enums\CurrencyCodeEnum $primaryCurrency
+ * @property \DKH\eBaySDK\Account\Types\ReturnSnapshot $returnSnapshots
  * @property string $sicCode
- * @property \DTS\eBaySDK\Account\Types\TransactionVolume $transactionVolume
+ * @property \DKH\eBaySDK\Account\Types\TransactionVolume $transactionVolume
  */
-class MerchantExternalProfile extends \DTS\eBaySDK\Types\BaseType
+class MerchantExternalProfile extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'acceptedPaymentMethods' => [
-            'type' => 'DTS\eBaySDK\Account\Types\ExternalPaymentMethod',
+            'type' => 'DKH\eBaySDK\Account\Types\ExternalPaymentMethod',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'acceptedPaymentMethods'
@@ -41,13 +41,13 @@ class MerchantExternalProfile extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'accountCreationDate'
         ],
         'billingPaymentMethods' => [
-            'type' => 'DTS\eBaySDK\Account\Types\ExternalPaymentMethod',
+            'type' => 'DKH\eBaySDK\Account\Types\ExternalPaymentMethod',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'billingPaymentMethods'
         ],
         'inventorySizing' => [
-            'type' => 'DTS\eBaySDK\Account\Types\InventorySizing',
+            'type' => 'DKH\eBaySDK\Account\Types\InventorySizing',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'inventorySizing'
@@ -65,7 +65,7 @@ class MerchantExternalProfile extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'primaryCurrency'
         ],
         'returnSnapshots' => [
-            'type' => 'DTS\eBaySDK\Account\Types\ReturnSnapshot',
+            'type' => 'DKH\eBaySDK\Account\Types\ReturnSnapshot',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnSnapshots'
@@ -77,7 +77,7 @@ class MerchantExternalProfile extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'sicCode'
         ],
         'transactionVolume' => [
-            'type' => 'DTS\eBaySDK\Account\Types\TransactionVolume',
+            'type' => 'DKH\eBaySDK\Account\Types\TransactionVolume',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'transactionVolume'

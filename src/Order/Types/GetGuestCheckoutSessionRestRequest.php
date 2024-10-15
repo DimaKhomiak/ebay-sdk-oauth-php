@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Order\Types;
+namespace DKH\eBaySDK\Order\Types;
 
 /**
  *
  * @property string $checkoutSessionId
  */
-class GetGuestCheckoutSessionRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetGuestCheckoutSessionRestRequest extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

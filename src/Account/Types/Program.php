@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace DKH\eBaySDK\Account\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Enums\ProgramTypeEnum $programType
+ * @property \DKH\eBaySDK\Account\Enums\ProgramTypeEnum $programType
  */
-class Program extends \DTS\eBaySDK\Types\BaseType
+class Program extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

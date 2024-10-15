@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AdFormatLeadType[] $AdFormatLead
+ * @property \DKH\eBaySDK\Trading\Types\AdFormatLeadType[] $AdFormatLead
  * @property integer $AdFormatLeadCount
  */
-class GetAdFormatLeadsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetAdFormatLeadsResponseType extends \DKH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'AdFormatLead' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AdFormatLeadType',
+            'type' => 'DKH\eBaySDK\Trading\Types\AdFormatLeadType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'AdFormatLead'

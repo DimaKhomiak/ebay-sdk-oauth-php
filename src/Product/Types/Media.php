@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Types;
+namespace DKH\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\MediaIdentifier $mediaIdentifier
- * @property \DTS\eBaySDK\Product\Enums\MediaType $mediaType
+ * @property \DKH\eBaySDK\Product\Types\MediaIdentifier $mediaIdentifier
+ * @property \DKH\eBaySDK\Product\Enums\MediaType $mediaType
  */
-class Media extends \DTS\eBaySDK\Types\BaseType
+class Media extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'mediaIdentifier' => [
-            'type' => 'DTS\eBaySDK\Product\Types\MediaIdentifier',
+            'type' => 'DKH\eBaySDK\Product\Types\MediaIdentifier',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'mediaIdentifier'

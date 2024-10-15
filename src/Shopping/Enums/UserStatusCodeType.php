@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Shopping\Enums;
+namespace DKH\eBaySDK\Shopping\Enums;
 
 class UserStatusCodeType
 {

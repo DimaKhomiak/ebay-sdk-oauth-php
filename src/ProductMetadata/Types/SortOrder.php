@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ProductMetadata\Types;
+namespace DKH\eBaySDK\ProductMetadata\Types;
 
 /**
  *
  * @property string $propertyName
- * @property \DTS\eBaySDK\ProductMetadata\Enums\OrderType $order
+ * @property \DKH\eBaySDK\ProductMetadata\Enums\OrderType $order
  */
-class SortOrder extends \DTS\eBaySDK\Types\BaseType
+class SortOrder extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

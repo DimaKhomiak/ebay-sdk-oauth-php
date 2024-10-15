@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace DKH\eBaySDK\Inventory\Types;
 
 /**
  *
  * @property string $href
- * @property \DTS\eBaySDK\Inventory\Types\InventoryItem[] $inventoryItems
+ * @property \DKH\eBaySDK\Inventory\Types\InventoryItem[] $inventoryItems
  * @property integer $limit
  * @property string $next
  * @property string $prev
  * @property integer $size
  * @property integer $total
  */
-class InventoryItems extends \DTS\eBaySDK\Types\BaseType
+class InventoryItems extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -33,7 +33,7 @@ class InventoryItems extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'href'
         ],
         'inventoryItems' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\InventoryItem',
+            'type' => 'DKH\eBaySDK\Inventory\Types\InventoryItem',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'inventoryItems'

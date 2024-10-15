@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace DKH\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\RuleTemplateDetailType[] $ruleTemplates
+ * @property \DKH\eBaySDK\PostOrder\Types\RuleTemplateDetailType[] $ruleTemplates
  */
-class GetDispositionRuleTemplatesResponse extends \DTS\eBaySDK\Types\BaseType
+class GetDispositionRuleTemplatesResponse extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ruleTemplates' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleTemplateDetailType',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\RuleTemplateDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ruleTemplates'

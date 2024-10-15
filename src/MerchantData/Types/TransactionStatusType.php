@@ -8,25 +8,25 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace DKH\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Enums\PaymentStatusCodeType $eBayPaymentStatus
- * @property \DTS\eBaySDK\MerchantData\Enums\CheckoutStatusCodeType $CheckoutStatus
+ * @property \DKH\eBaySDK\MerchantData\Enums\PaymentStatusCodeType $eBayPaymentStatus
+ * @property \DKH\eBaySDK\MerchantData\Enums\CheckoutStatusCodeType $CheckoutStatus
  * @property \DateTime $LastTimeModified
- * @property \DTS\eBaySDK\MerchantData\Enums\BuyerPaymentMethodCodeType $PaymentMethodUsed
- * @property \DTS\eBaySDK\MerchantData\Enums\CompleteStatusCodeType $CompleteStatus
+ * @property \DKH\eBaySDK\MerchantData\Enums\BuyerPaymentMethodCodeType $PaymentMethodUsed
+ * @property \DKH\eBaySDK\MerchantData\Enums\CompleteStatusCodeType $CompleteStatus
  * @property boolean $BuyerSelectedShipping
- * @property \DTS\eBaySDK\MerchantData\Enums\PaymentHoldStatusCodeType $PaymentHoldStatus
+ * @property \DKH\eBaySDK\MerchantData\Enums\PaymentHoldStatusCodeType $PaymentHoldStatus
  * @property boolean $IntegratedMerchantCreditCardEnabled
- * @property \DTS\eBaySDK\MerchantData\Enums\InquiryStatusCodeType $InquiryStatus
- * @property \DTS\eBaySDK\MerchantData\Enums\ReturnStatusCodeType $ReturnStatus
- * @property \DTS\eBaySDK\MerchantData\Enums\BuyerPaymentInstrumentCodeType $PaymentInstrument
- * @property \DTS\eBaySDK\MerchantData\Enums\DigitalStatusCodeType $DigitalStatus
- * @property \DTS\eBaySDK\MerchantData\Enums\CancelStatusCodeType $CancelStatus
+ * @property \DKH\eBaySDK\MerchantData\Enums\InquiryStatusCodeType $InquiryStatus
+ * @property \DKH\eBaySDK\MerchantData\Enums\ReturnStatusCodeType $ReturnStatus
+ * @property \DKH\eBaySDK\MerchantData\Enums\BuyerPaymentInstrumentCodeType $PaymentInstrument
+ * @property \DKH\eBaySDK\MerchantData\Enums\DigitalStatusCodeType $DigitalStatus
+ * @property \DKH\eBaySDK\MerchantData\Enums\CancelStatusCodeType $CancelStatus
  */
-class TransactionStatusType extends \DTS\eBaySDK\Types\BaseType
+class TransactionStatusType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

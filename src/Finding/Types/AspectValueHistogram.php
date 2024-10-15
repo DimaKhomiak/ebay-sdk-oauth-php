@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Finding\Types;
+namespace DKH\eBaySDK\Finding\Types;
 
 /**
  *
  * @property integer $count
  * @property string $valueName
  */
-class AspectValueHistogram extends \DTS\eBaySDK\Types\BaseType
+class AspectValueHistogram extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

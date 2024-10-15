@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace DKH\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string[] $campaignIds
  * @property string $dateFrom
  * @property string $dateTo
- * @property \DTS\eBaySDK\Marketing\Types\Dimension[] $dimensions
- * @property \DTS\eBaySDK\Marketing\Types\InventoryReference[] $inventoryReferences
+ * @property \DKH\eBaySDK\Marketing\Types\Dimension[] $dimensions
+ * @property \DKH\eBaySDK\Marketing\Types\InventoryReference[] $inventoryReferences
  * @property string[] $listingIds
- * @property \DTS\eBaySDK\Marketing\Types\Bas:MarketplaceIdEnum $marketplaceId
+ * @property \DKH\eBaySDK\Marketing\Types\Bas:MarketplaceIdEnum $marketplaceId
  * @property string[] $metricKeys
- * @property \DTS\eBaySDK\Marketing\Enums\ReportFormatEnum $reportFormat
- * @property \DTS\eBaySDK\Marketing\Enums\ReportTypeEnum $reportType
+ * @property \DKH\eBaySDK\Marketing\Enums\ReportFormatEnum $reportFormat
+ * @property \DKH\eBaySDK\Marketing\Enums\ReportTypeEnum $reportType
  */
-class CreateReportTask extends \DTS\eBaySDK\Types\BaseType
+class CreateReportTask extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -48,13 +48,13 @@ class CreateReportTask extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'dateTo'
         ],
         'dimensions' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Dimension',
+            'type' => 'DKH\eBaySDK\Marketing\Types\Dimension',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'dimensions'
         ],
         'inventoryReferences' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\InventoryReference',
+            'type' => 'DKH\eBaySDK\Marketing\Types\InventoryReference',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'inventoryReferences'
@@ -66,7 +66,7 @@ class CreateReportTask extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'listingIds'
         ],
         'marketplaceId' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Bas:MarketplaceIdEnum',
+            'type' => 'DKH\eBaySDK\Marketing\Types\Bas:MarketplaceIdEnum',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'marketplaceId'

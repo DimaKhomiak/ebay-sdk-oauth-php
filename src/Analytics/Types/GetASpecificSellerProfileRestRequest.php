@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Analytics\Types;
+namespace DKH\eBaySDK\Analytics\Types;
 
 /**
  *
  * @property string $cycle
  * @property string $program
  */
-class GetASpecificSellerProfileRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetASpecificSellerProfileRestRequest extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

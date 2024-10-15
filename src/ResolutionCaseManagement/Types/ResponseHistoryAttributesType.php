@@ -8,29 +8,29 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace DKH\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\AppealRef $appealRef
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\MoneyMovementRef $moneyMovementRef
+ * @property \DKH\eBaySDK\ResolutionCaseManagement\Types\AppealRef $appealRef
+ * @property \DKH\eBaySDK\ResolutionCaseManagement\Types\MoneyMovementRef $moneyMovementRef
  * @property string $onholdReason
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\OnHoldReasonDetailType $onholdReasonDetail
+ * @property \DKH\eBaySDK\ResolutionCaseManagement\Types\OnHoldReasonDetailType $onholdReasonDetail
  */
-class ResponseHistoryAttributesType extends \DTS\eBaySDK\Types\BaseType
+class ResponseHistoryAttributesType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'appealRef' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\AppealRef',
+            'type' => 'DKH\eBaySDK\ResolutionCaseManagement\Types\AppealRef',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'appealRef'
         ],
         'moneyMovementRef' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\MoneyMovementRef',
+            'type' => 'DKH\eBaySDK\ResolutionCaseManagement\Types\MoneyMovementRef',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'moneyMovementRef'
@@ -42,7 +42,7 @@ class ResponseHistoryAttributesType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'onholdReason'
         ],
         'onholdReasonDetail' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\OnHoldReasonDetailType',
+            'type' => 'DKH\eBaySDK\ResolutionCaseManagement\Types\OnHoldReasonDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'onholdReasonDetail'

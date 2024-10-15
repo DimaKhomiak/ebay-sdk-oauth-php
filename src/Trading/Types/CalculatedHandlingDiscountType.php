@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\HandlingNameCodeType $DiscountName
- * @property \DTS\eBaySDK\Trading\Types\AmountType $OrderHandlingAmount
- * @property \DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalAmount
- * @property \DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalOffAmount
+ * @property \DKH\eBaySDK\Trading\Enums\HandlingNameCodeType $DiscountName
+ * @property \DKH\eBaySDK\Trading\Types\AmountType $OrderHandlingAmount
+ * @property \DKH\eBaySDK\Trading\Types\AmountType $EachAdditionalAmount
+ * @property \DKH\eBaySDK\Trading\Types\AmountType $EachAdditionalOffAmount
  * @property double $EachAdditionalPercentOff
  */
-class CalculatedHandlingDiscountType extends \DTS\eBaySDK\Types\BaseType
+class CalculatedHandlingDiscountType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -31,19 +31,19 @@ class CalculatedHandlingDiscountType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'DiscountName'
         ],
         'OrderHandlingAmount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DKH\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OrderHandlingAmount'
         ],
         'EachAdditionalAmount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DKH\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'EachAdditionalAmount'
         ],
         'EachAdditionalOffAmount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DKH\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'EachAdditionalOffAmount'

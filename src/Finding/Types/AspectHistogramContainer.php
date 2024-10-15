@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Finding\Types;
+namespace DKH\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\Aspect[] $aspect
+ * @property \DKH\eBaySDK\Finding\Types\Aspect[] $aspect
  */
-class AspectHistogramContainer extends \DTS\eBaySDK\Types\BaseType
+class AspectHistogramContainer extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'aspect' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\Aspect',
+            'type' => 'DKH\eBaySDK\Finding\Types\Aspect',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'aspect'

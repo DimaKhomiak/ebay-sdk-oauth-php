@@ -8,90 +8,90 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace DKH\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\OfferOtherSolutionOptionType $offerOtherSolution
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoOptionType $provideTrackingInfo
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundOptionType $issueFullRefund
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\IssuePartialRefundOptionType $issuePartialRefund
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoOptionType $provideShippingInfo
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\RequestBuyerToReturnOptionType $requestBuyerToReturn
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingOrTrackingInfoOptionType $provideShippingOrTrackingInfo
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideRefundInfoOptionType $provideRefundInfo
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ContactCustomerSupportOptionType $contactCustomerSupport
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\EscalateToCustomerSupportOptionType $escalateToCustomerSupport
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportOptionType $appealToCustomerSupport
+ * @property \DKH\eBaySDK\ResolutionCaseManagement\Types\OfferOtherSolutionOptionType $offerOtherSolution
+ * @property \DKH\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoOptionType $provideTrackingInfo
+ * @property \DKH\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundOptionType $issueFullRefund
+ * @property \DKH\eBaySDK\ResolutionCaseManagement\Types\IssuePartialRefundOptionType $issuePartialRefund
+ * @property \DKH\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoOptionType $provideShippingInfo
+ * @property \DKH\eBaySDK\ResolutionCaseManagement\Types\RequestBuyerToReturnOptionType $requestBuyerToReturn
+ * @property \DKH\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingOrTrackingInfoOptionType $provideShippingOrTrackingInfo
+ * @property \DKH\eBaySDK\ResolutionCaseManagement\Types\ProvideRefundInfoOptionType $provideRefundInfo
+ * @property \DKH\eBaySDK\ResolutionCaseManagement\Types\ContactCustomerSupportOptionType $contactCustomerSupport
+ * @property \DKH\eBaySDK\ResolutionCaseManagement\Types\EscalateToCustomerSupportOptionType $escalateToCustomerSupport
+ * @property \DKH\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportOptionType $appealToCustomerSupport
  */
-class ActivityOptionListType extends \DTS\eBaySDK\Types\BaseType
+class ActivityOptionListType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'offerOtherSolution' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\OfferOtherSolutionOptionType',
+            'type' => 'DKH\eBaySDK\ResolutionCaseManagement\Types\OfferOtherSolutionOptionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'offerOtherSolution'
         ],
         'provideTrackingInfo' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoOptionType',
+            'type' => 'DKH\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoOptionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'provideTrackingInfo'
         ],
         'issueFullRefund' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundOptionType',
+            'type' => 'DKH\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundOptionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'issueFullRefund'
         ],
         'issuePartialRefund' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\IssuePartialRefundOptionType',
+            'type' => 'DKH\eBaySDK\ResolutionCaseManagement\Types\IssuePartialRefundOptionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'issuePartialRefund'
         ],
         'provideShippingInfo' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoOptionType',
+            'type' => 'DKH\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoOptionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'provideShippingInfo'
         ],
         'requestBuyerToReturn' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\RequestBuyerToReturnOptionType',
+            'type' => 'DKH\eBaySDK\ResolutionCaseManagement\Types\RequestBuyerToReturnOptionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'requestBuyerToReturn'
         ],
         'provideShippingOrTrackingInfo' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingOrTrackingInfoOptionType',
+            'type' => 'DKH\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingOrTrackingInfoOptionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'provideShippingOrTrackingInfo'
         ],
         'provideRefundInfo' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideRefundInfoOptionType',
+            'type' => 'DKH\eBaySDK\ResolutionCaseManagement\Types\ProvideRefundInfoOptionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'provideRefundInfo'
         ],
         'contactCustomerSupport' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ContactCustomerSupportOptionType',
+            'type' => 'DKH\eBaySDK\ResolutionCaseManagement\Types\ContactCustomerSupportOptionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'contactCustomerSupport'
         ],
         'escalateToCustomerSupport' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\EscalateToCustomerSupportOptionType',
+            'type' => 'DKH\eBaySDK\ResolutionCaseManagement\Types\EscalateToCustomerSupportOptionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'escalateToCustomerSupport'
         ],
         'appealToCustomerSupport' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportOptionType',
+            'type' => 'DKH\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportOptionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'appealToCustomerSupport'

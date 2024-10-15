@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $SaleTemplateID
- * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
+ * @property \DKH\eBaySDK\Trading\Types\FeesType $Fees
  * @property string $CategoryID
  * @property string $Category2ID
  * @property boolean $VerifyOnly
  * @property string $SaleTemplateName
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
+ * @property \DKH\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
  */
-class ReviseSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class ReviseSellingManagerTemplateResponseType extends \DKH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -33,7 +33,7 @@ class ReviseSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Type
             'elementName' => 'SaleTemplateID'
         ],
         'Fees' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\FeesType',
+            'type' => 'DKH\eBaySDK\Trading\Types\FeesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Fees'
@@ -63,7 +63,7 @@ class ReviseSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Type
             'elementName' => 'SaleTemplateName'
         ],
         'SellingManagerProductDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
+            'type' => 'DKH\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerProductDetails'

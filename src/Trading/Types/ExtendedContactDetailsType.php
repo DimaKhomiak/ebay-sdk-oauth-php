@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ContactHoursDetailsType $ContactHoursDetails
+ * @property \DKH\eBaySDK\Trading\Types\ContactHoursDetailsType $ContactHoursDetails
  * @property boolean $ClassifiedAdContactByEmailEnabled
  */
-class ExtendedContactDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ExtendedContactDetailsType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ContactHoursDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ContactHoursDetailsType',
+            'type' => 'DKH\eBaySDK\Trading\Types\ContactHoursDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ContactHoursDetails'

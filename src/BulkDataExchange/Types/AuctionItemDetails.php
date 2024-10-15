@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BulkDataExchange\Types;
+namespace DKH\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
  * @property boolean $includeBidCount
  * @property boolean $includeReservePriceMet
  */
-class AuctionItemDetails extends \DTS\eBaySDK\Types\BaseType
+class AuctionItemDetails extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

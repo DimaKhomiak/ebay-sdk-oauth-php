@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
+namespace DKH\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfileList $paymentProfileList
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfileList $returnPolicyProfileList
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfileList $shippingPolicyProfile
+ * @property \DKH\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfileList $paymentProfileList
+ * @property \DKH\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfileList $returnPolicyProfileList
+ * @property \DKH\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfileList $shippingPolicyProfile
  */
-class GetSellerProfilesResponse extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse
+class GetSellerProfilesResponse extends \DKH\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'paymentProfileList' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfileList',
+            'type' => 'DKH\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfileList',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paymentProfileList'
         ],
         'returnPolicyProfileList' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfileList',
+            'type' => 'DKH\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfileList',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnPolicyProfileList'
         ],
         'shippingPolicyProfile' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfileList',
+            'type' => 'DKH\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfileList',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingPolicyProfile'

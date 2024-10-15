@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace DKH\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  */
-class RequestBuyerToReturnOptionType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
+class RequestBuyerToReturnOptionType extends \DKH\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
 {
     /**
      * @var array Properties belonging to objects of this class.

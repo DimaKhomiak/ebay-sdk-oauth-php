@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ItemIDArrayType $CanceledItemIDArray
+ * @property \DKH\eBaySDK\Trading\Types\ItemIDArrayType $CanceledItemIDArray
  * @property boolean $EligibleForRelist
  * @property string $SellerID
  */
-class ItemsCanceledEventType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class ItemsCanceledEventType extends \DKH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'CanceledItemIDArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemIDArrayType',
+            'type' => 'DKH\eBaySDK\Trading\Types\ItemIDArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CanceledItemIDArray'

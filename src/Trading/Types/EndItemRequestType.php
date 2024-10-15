@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Enums\EndReasonCodeType $EndingReason
+ * @property \DKH\eBaySDK\Trading\Enums\EndReasonCodeType $EndingReason
  */
-class EndItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class EndItemRequestType extends \DKH\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

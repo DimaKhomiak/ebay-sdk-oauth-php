@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ProductMetadata\Types;
+namespace DKH\eBaySDK\ProductMetadata\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ProductMetadata\Types\VersionDetails $namesDetails
- * @property \DTS\eBaySDK\ProductMetadata\Types\VersionDetails $valueDetails
+ * @property \DKH\eBaySDK\ProductMetadata\Types\VersionDetails $namesDetails
+ * @property \DKH\eBaySDK\ProductMetadata\Types\VersionDetails $valueDetails
  */
-class GetCompatibilitySearchDataVersionResponse extends \DTS\eBaySDK\ProductMetadata\Types\BaseServiceResponse
+class GetCompatibilitySearchDataVersionResponse extends \DKH\eBaySDK\ProductMetadata\Types\BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'namesDetails' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\VersionDetails',
+            'type' => 'DKH\eBaySDK\ProductMetadata\Types\VersionDetails',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'namesDetails'
         ],
         'valueDetails' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\VersionDetails',
+            'type' => 'DKH\eBaySDK\ProductMetadata\Types\VersionDetails',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'valueDetails'

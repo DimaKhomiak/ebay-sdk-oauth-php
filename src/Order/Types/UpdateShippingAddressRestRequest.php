@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Order\Types;
+namespace DKH\eBaySDK\Order\Types;
 
 /**
  *
  * @property string $checkoutSessionId
  */
-class UpdateShippingAddressRestRequest extends \DTS\eBaySDK\Order\Types\ShippingAddressImpl
+class UpdateShippingAddressRestRequest extends \DKH\eBaySDK\Order\Types\ShippingAddressImpl
 {
     /**
      * @var array Properties belonging to objects of this class.

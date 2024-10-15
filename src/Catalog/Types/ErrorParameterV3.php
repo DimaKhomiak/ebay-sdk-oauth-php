@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Catalog\Types;
+namespace DKH\eBaySDK\Catalog\Types;
 
 /**
  *
  * @property string $name
  * @property string $value
  */
-class ErrorParameterV3 extends \DTS\eBaySDK\Types\BaseType
+class ErrorParameterV3 extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

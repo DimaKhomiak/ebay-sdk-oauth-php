@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace DKH\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
@@ -17,7 +17,7 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
  * @property integer $totalPages
  * @property integer $totalEntries
  */
-class PaginationOutput extends \DTS\eBaySDK\Types\BaseType
+class PaginationOutput extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

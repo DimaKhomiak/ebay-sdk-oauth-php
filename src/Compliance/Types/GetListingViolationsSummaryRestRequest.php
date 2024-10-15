@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Compliance\Types;
+namespace DKH\eBaySDK\Compliance\Types;
 
 /**
  *
  * @property string $compliance_type
  */
-class GetListingViolationsSummaryRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetListingViolationsSummaryRestRequest extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

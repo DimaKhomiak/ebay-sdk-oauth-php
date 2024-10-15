@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace DKH\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $carrier
- * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
+ * @property \DKH\eBaySDK\PostOrder\Types\Text $comments
  * @property string $itemId
- * @property \DTS\eBaySDK\PostOrder\Enums\ReturnReasonEnum $reason
+ * @property \DKH\eBaySDK\PostOrder\Enums\ReturnReasonEnum $reason
  * @property string $requestType
  * @property integer $returnQuantity
  * @property string $transactionId
- * @property \DTS\eBaySDK\PostOrder\Enums\ReturnTypeEnum $type
+ * @property \DKH\eBaySDK\PostOrder\Enums\ReturnTypeEnum $type
  */
-class ReturnRequestType extends \DTS\eBaySDK\Types\BaseType
+class ReturnRequestType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -34,7 +34,7 @@ class ReturnRequestType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'carrier'
         ],
         'comments' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
+            'type' => 'DKH\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'comments'

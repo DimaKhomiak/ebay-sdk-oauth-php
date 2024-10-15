@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace DKH\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\AddressType $Address
+ * @property \DKH\eBaySDK\MerchantData\Types\AddressType $Address
  * @property string $Fax
  * @property string $Email
  * @property string $AdditionalContactInformation
  * @property string $TradeRegistrationNumber
  * @property boolean $LegalInvoice
  * @property string $TermsAndConditions
- * @property \DTS\eBaySDK\MerchantData\Types\VATDetailsType $VATDetails
+ * @property \DKH\eBaySDK\MerchantData\Types\VATDetailsType $VATDetails
  */
-class BusinessSellerDetailsType extends \DTS\eBaySDK\Types\BaseType
+class BusinessSellerDetailsType extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Address' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AddressType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Address'
@@ -70,7 +70,7 @@ class BusinessSellerDetailsType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'TermsAndConditions'
         ],
         'VATDetails' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\VATDetailsType',
+            'type' => 'DKH\eBaySDK\MerchantData\Types\VATDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VATDetails'

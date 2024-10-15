@@ -8,32 +8,32 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace DKH\eBaySDK\Account\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\CategoryType[] $categoryTypes
+ * @property \DKH\eBaySDK\Account\Types\CategoryType[] $categoryTypes
  * @property string $description
  * @property boolean $freightShipping
  * @property string $fulfillmentPolicyId
  * @property boolean $globalShipping
- * @property \DTS\eBaySDK\Account\Types\TimeDuration $handlingTime
+ * @property \DKH\eBaySDK\Account\Types\TimeDuration $handlingTime
  * @property boolean $localPickup
- * @property \DTS\eBaySDK\Account\Enums\MarketplaceIdEnum $marketplaceId
+ * @property \DKH\eBaySDK\Account\Enums\MarketplaceIdEnum $marketplaceId
  * @property string $name
  * @property boolean $pickupDropOff
- * @property \DTS\eBaySDK\Account\Types\ShippingOption[] $shippingOptions
- * @property \DTS\eBaySDK\Account\Types\RegionSet $shipToLocations
- * @property \DTS\eBaySDK\Account\Types\ErrorDetailV3[] $warnings
+ * @property \DKH\eBaySDK\Account\Types\ShippingOption[] $shippingOptions
+ * @property \DKH\eBaySDK\Account\Types\RegionSet $shipToLocations
+ * @property \DKH\eBaySDK\Account\Types\ErrorDetailV3[] $warnings
  */
-class SetFulfillmentPolicyResponse extends \DTS\eBaySDK\Types\BaseType
+class SetFulfillmentPolicyResponse extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'categoryTypes' => [
-            'type' => 'DTS\eBaySDK\Account\Types\CategoryType',
+            'type' => 'DKH\eBaySDK\Account\Types\CategoryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'categoryTypes'
@@ -63,7 +63,7 @@ class SetFulfillmentPolicyResponse extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'globalShipping'
         ],
         'handlingTime' => [
-            'type' => 'DTS\eBaySDK\Account\Types\TimeDuration',
+            'type' => 'DKH\eBaySDK\Account\Types\TimeDuration',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'handlingTime'
@@ -93,19 +93,19 @@ class SetFulfillmentPolicyResponse extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'pickupDropOff'
         ],
         'shippingOptions' => [
-            'type' => 'DTS\eBaySDK\Account\Types\ShippingOption',
+            'type' => 'DKH\eBaySDK\Account\Types\ShippingOption',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'shippingOptions'
         ],
         'shipToLocations' => [
-            'type' => 'DTS\eBaySDK\Account\Types\RegionSet',
+            'type' => 'DKH\eBaySDK\Account\Types\RegionSet',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shipToLocations'
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\Account\Types\ErrorDetailV3',
+            'type' => 'DKH\eBaySDK\Account\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

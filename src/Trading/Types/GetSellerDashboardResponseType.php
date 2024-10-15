@@ -8,62 +8,62 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace DKH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SearchStandingDashboardType $SearchStanding
- * @property \DTS\eBaySDK\Trading\Types\SellerFeeDiscountDashboardType $SellerFeeDiscount
- * @property \DTS\eBaySDK\Trading\Types\PowerSellerDashboardType $PowerSellerStatus
- * @property \DTS\eBaySDK\Trading\Types\PolicyComplianceDashboardType $PolicyCompliance
- * @property \DTS\eBaySDK\Trading\Types\BuyerSatisfactionDashboardType $BuyerSatisfaction
- * @property \DTS\eBaySDK\Trading\Types\SellerAccountDashboardType $SellerAccount
- * @property \DTS\eBaySDK\Trading\Types\PerformanceDashboardType[] $Performance
+ * @property \DKH\eBaySDK\Trading\Types\SearchStandingDashboardType $SearchStanding
+ * @property \DKH\eBaySDK\Trading\Types\SellerFeeDiscountDashboardType $SellerFeeDiscount
+ * @property \DKH\eBaySDK\Trading\Types\PowerSellerDashboardType $PowerSellerStatus
+ * @property \DKH\eBaySDK\Trading\Types\PolicyComplianceDashboardType $PolicyCompliance
+ * @property \DKH\eBaySDK\Trading\Types\BuyerSatisfactionDashboardType $BuyerSatisfaction
+ * @property \DKH\eBaySDK\Trading\Types\SellerAccountDashboardType $SellerAccount
+ * @property \DKH\eBaySDK\Trading\Types\PerformanceDashboardType[] $Performance
  */
-class GetSellerDashboardResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetSellerDashboardResponseType extends \DKH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'SearchStanding' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SearchStandingDashboardType',
+            'type' => 'DKH\eBaySDK\Trading\Types\SearchStandingDashboardType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SearchStanding'
         ],
         'SellerFeeDiscount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellerFeeDiscountDashboardType',
+            'type' => 'DKH\eBaySDK\Trading\Types\SellerFeeDiscountDashboardType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerFeeDiscount'
         ],
         'PowerSellerStatus' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PowerSellerDashboardType',
+            'type' => 'DKH\eBaySDK\Trading\Types\PowerSellerDashboardType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PowerSellerStatus'
         ],
         'PolicyCompliance' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PolicyComplianceDashboardType',
+            'type' => 'DKH\eBaySDK\Trading\Types\PolicyComplianceDashboardType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PolicyCompliance'
         ],
         'BuyerSatisfaction' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\BuyerSatisfactionDashboardType',
+            'type' => 'DKH\eBaySDK\Trading\Types\BuyerSatisfactionDashboardType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BuyerSatisfaction'
         ],
         'SellerAccount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellerAccountDashboardType',
+            'type' => 'DKH\eBaySDK\Trading\Types\SellerAccountDashboardType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerAccount'
         ],
         'Performance' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PerformanceDashboardType',
+            'type' => 'DKH\eBaySDK\Trading\Types\PerformanceDashboardType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Performance'

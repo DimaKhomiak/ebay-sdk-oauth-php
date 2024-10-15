@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\HalfFinding\Types;
+namespace DKH\eBaySDK\HalfFinding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\HalfFinding\Enums\ItemFilterType $name
+ * @property \DKH\eBaySDK\HalfFinding\Enums\ItemFilterType $name
  * @property string[] $value
  */
-class ItemFilter extends \DTS\eBaySDK\Types\BaseType
+class ItemFilter extends \DKH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
