@@ -1,19 +1,19 @@
 {
-    "name": "dimakhomiak/ebay-sdk-oauth-php",
+    "name": "dkh/ebay-sdk-oauth-php",
     "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
     "keywords": ["ebay", "api", "sdk"],
-    "homepage": "http://devbay.net/",
+    "homepage": "https://github.com/DimaKhomiak",
     "type": "library",
     "license": "(Apache-2.0 and MIT)",
     "authors": [
         {
-            "name": "David T. Sadler",
-            "email": "davidtsadler@googlemail.com",
-            "homepage": "http://davidtsadler.com"
+            "name": "Dmytro Khomiak",
+            "email": "khomiak.dmytro@gmail.com",
+            "homepage": "https://github.com/DimaKhomiak"
         }
     ],
     "support": {
-        "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
+        "issues": "https://github.com/DimaKhomiak/ebay-sdk-oauth-php"
     },
     "require": {
         "php": ">=5.5",
@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "DTS\\eBaySDK\\": "src/"
+            "DKH\\eBaySDK\\": "src/"
         },
         "files": ["src/functions.php"]
     },
     "autoload-dev": {
         "psr-4": {
-            "DTS\\eBaySDK\\Test\\": "test/"
+            "DKH\\eBaySDK\\Test\\": "test/"
         },
         "classmap": ["build/"]
     }
