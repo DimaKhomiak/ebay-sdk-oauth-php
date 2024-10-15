@@ -88,7 +88,7 @@ class Sdk
 
         $configuration = arrayMergeDeep($configuration, $config);
 
-        $service = "DTS\\eBaySDK\\{$namespace}\\Services\\{$namespace}Service";
+        $service = "DKH\\eBaySDK\\{$namespace}\\Services\\{$namespace}Service";
 
         return new $service($configuration);
     }

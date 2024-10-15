@@ -43,9 +43,9 @@ class TreeCompiler
         $this->vars = [];
         $this->source = $this->indentation = '';
         $this->write("<?php\n")
-            ->write('use DTS\\eBaySDK\\JmesPath\\TreeInterpreter as Ti;')
-            ->write('use DTS\\eBaySDK\\JmesPath\\FnDispatcher as Fn;')
-            ->write('use DTS\\eBaySDK\\JmesPath\\Utils;')
+            ->write('use DKH\\eBaySDK\\JmesPath\\TreeInterpreter as Ti;')
+            ->write('use DKH\\eBaySDK\\JmesPath\\FnDispatcher as Fn;')
+            ->write('use DKH\\eBaySDK\\JmesPath\\Utils;')
             ->write('')
             ->write('function %s(Ti $interpreter, $value) {', $fnName)
             ->indent()
@@ -178,7 +178,7 @@ class TreeCompiler
                 ->indent()
                 ->write('$value = isset(%s) ? %s : null;', $arr, $arr)
                 ->outdent()
-            ->write('} elseif ($value instanceof \\stdClass || $value instanceof DTS\\eBaySDK\\JmesPath\\JmesPathableObjectInterface) {')
+            ->write('} elseif ($value instanceof \\stdClass || $value instanceof DKH\\eBaySDK\\JmesPath\\JmesPathableObjectInterface) {')
                 ->indent()
                 ->write('$value = isset(%s) ? %s : null;', $obj, $obj)
                 ->outdent()
