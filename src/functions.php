@@ -1,9 +1,11 @@
 <?php
+
 namespace DTS\eBaySDK;
 
 use DTS\eBaySDK\Credentials\Credentials;
-use DTS\eBaySDK\Credentials\CredentialsProvider;
 use DTS\eBaySDK\Credentials\CredentialsInterface;
+use DTS\eBaySDK\Credentials\CredentialsProvider;
+use DTS\eBaySDK\CredentialsOAuth\CredentialsOAuth;
 
 /**
  * Returns a description of the type for the passed value.
@@ -16,12 +18,13 @@ function describeType($value)
 {
     switch (gettype($value)) {
         case 'object':
-            return 'object('. get_class($value) . ')';
+            return 'object(' . get_class($value) . ')';
         case 'array':
             return 'array(' . count($value) . ')';
         default:
             ob_start();
             var_dump($value);
+
             return str_replace('double(', 'float(', rtrim(ob_get_clean()));
     }
 }
@@ -29,13 +32,14 @@ function describeType($value)
 /**
  * Merges multiple arrays, recursively, and returns the merged array.
  * Code taken from
- * https://api.drupal.org/api/drupal/includes!bootstrap.inc/function/drupal_array_merge_deep/7
+ * https://api.drupal.org/api/drupal/includes!bootstrap.inc/function/drupal_array_merge_deep/7.
  *
  * @return array The merged array.
  */
 function arrayMergeDeep()
 {
     $args = func_get_args();
+
     return arrayMergeDeepArray($args);
 }
 
@@ -55,11 +59,11 @@ function arrayMergeDeepArray(array $arrays)
             // Renumber integer keys as array_merge_recursive() does. Note that PHP
             // automatically converts array keys that are integer strings (e.g., '1')
             // to integers.
-            if (is_integer($key)) {
+            if (is_int($key)) {
                 $result[] = $value;
             } elseif (isset($result[$key]) && is_array($result[$key]) && is_array($value)) {
                 // Recurse when both values are arrays.
-                $result[$key] = arrayMergeDeepArray(array($result[$key], $value));
+                $result[$key] = arrayMergeDeepArray([$result[$key], $value]);
             } else {
                 // Otherwise, use the latter value, overriding any previous value.
                 $result[$key] = $value;
@@ -109,6 +113,50 @@ function applyCredentials($value, array &$configuration)
     }
 }
 
+
+
+/**
+ * Resolve and apply the passed credentials for OAuth.
+ *
+ * @param mixed $value The credentials.
+ * @param array &$configuration The configuration array where the resolved credentials will be stored.
+ *
+ * @throws \InvalidArgumentException.
+ */
+function applyCredentialsOAuth($value, array &$configuration)
+{
+    if (is_callable($value)) {
+        $c = $value();
+        if ($c instanceof \InvalidArgumentException) {
+            throw $c;
+        } else {
+            $configuration['credentials'] = $c;
+        }
+    } elseif ($value instanceof CredentialsInterface) {
+        return;
+    } elseif (is_array($value)
+        && isset($value['appId'])
+        && isset($value['certId'])
+        && isset($value['devId'])
+        && isset($value['iafToken'])
+    ) {
+        $configuration['credentials'] = new CredentialsOAuth(
+            $value['appId'],
+            $value['certId'],
+            $value['devId'],
+            $value['iafToken']
+        );
+    } else {
+        throw new \InvalidArgumentException(
+            'Credentials must be an instance of '
+            . 'DTS\eBaySDK\Credentials\CredentialsInterface, an associative '
+            . 'array that contains "appId", "certId", "devId", '
+            . 'or a credentials provider function.'
+        );
+    }
+}
+
+
 /**
  * Resolves the credentials with a ini provider.
  *
@@ -140,7 +188,7 @@ function applyDebug($value, array &$configuration)
  *
  * @param array &$configuration Not used.
  *
- * @return \DTS\eBaySDK\HttpHandler
+ * @return HttpHandler
  */
 function defaultHttpHandler(array &$configuration)
 {
@@ -156,7 +204,7 @@ function defaultHttpHandler(array &$configuration)
  */
 function checkPropertyType($type)
 {
-    if (\DTS\eBaySDK\Sdk::$STRICT_PROPERTY_TYPES) {
+    if (Sdk::$STRICT_PROPERTY_TYPES) {
         return true;
     }
 
