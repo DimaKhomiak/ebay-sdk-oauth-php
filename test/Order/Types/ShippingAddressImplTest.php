@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Order\Types;
+namespace DKH\eBaySDK\Test\Order\Types;
 
-use DTS\eBaySDK\Order\Types\ShippingAddressImpl;
+use DKH\eBaySDK\Order\Types\ShippingAddressImpl;
 
 class ShippingAddressImplTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ShippingAddressImplTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\ShippingAddressImpl', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Order\Types\ShippingAddressImpl', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Inventory\Types;
+namespace DKH\eBaySDK\Test\Inventory\Types;
 
-use DTS\eBaySDK\Inventory\Types\CreateOrReplaceInventoryItemRestRequest;
+use DKH\eBaySDK\Inventory\Types\CreateOrReplaceInventoryItemRestRequest;
 
 class CreateOrReplaceInventoryItemRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CreateOrReplaceInventoryItemRestRequestTest extends \PHPUnit_Framework_Tes
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\CreateOrReplaceInventoryItemRestRequest', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Inventory\Types\CreateOrReplaceInventoryItemRestRequest', $this->obj);
     }
 
     public function testExtendsInventoryItem()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\InventoryItem', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Inventory\Types\InventoryItem', $this->obj);
     }
 }

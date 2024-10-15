@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\BulkDataExchange\Types;
+namespace DKH\eBaySDK\Test\BulkDataExchange\Types;
 
-use DTS\eBaySDK\BulkDataExchange\Types\SiteFilter;
+use DKH\eBaySDK\BulkDataExchange\Types\SiteFilter;
 
 class SiteFilterTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class SiteFilterTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\SiteFilter', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\BulkDataExchange\Types\SiteFilter', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

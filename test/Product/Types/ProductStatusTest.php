@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Product\Types;
+namespace DKH\eBaySDK\Test\Product\Types;
 
-use DTS\eBaySDK\Product\Types\ProductStatus;
+use DKH\eBaySDK\Product\Types\ProductStatus;
 
 class ProductStatusTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ProductStatusTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Product\Types\ProductStatus', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Product\Types\ProductStatus', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

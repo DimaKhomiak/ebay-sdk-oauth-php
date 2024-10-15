@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
+namespace DKH\eBaySDK\Test\ResolutionCaseManagement\Types;
 
-use DTS\eBaySDK\ResolutionCaseManagement\Types\Money;
+use DKH\eBaySDK\ResolutionCaseManagement\Types\Money;
 
 class MoneyTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class MoneyTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\Money', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\ResolutionCaseManagement\Types\Money', $this->obj);
     }
 
     public function testExtendsDecimalType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\DecimalType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\DecimalType', $this->obj);
     }
 }

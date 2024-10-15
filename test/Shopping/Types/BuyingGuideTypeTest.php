@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Shopping\Types;
+namespace DKH\eBaySDK\Test\Shopping\Types;
 
-use DTS\eBaySDK\Shopping\Types\BuyingGuideType;
+use DKH\eBaySDK\Shopping\Types\BuyingGuideType;
 
 class BuyingGuideTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class BuyingGuideTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\BuyingGuideType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Shopping\Types\BuyingGuideType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

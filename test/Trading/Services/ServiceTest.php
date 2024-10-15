@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\Test\Trading\Services;
+namespace DKH\eBaySDK\Test\Trading\Services;
 
-use DTS\eBaySDK\Trading\Services\TradingBaseService;
-use DTS\eBaySDK\Trading\Services\TradingService;
-use DTS\eBaySDK\Test\Trading\Mocks\Service;
-use DTS\eBaySDK\Test\Mocks\HttpHandler;
+use DKH\eBaySDK\Trading\Services\TradingBaseService;
+use DKH\eBaySDK\Trading\Services\TradingService;
+use DKH\eBaySDK\Test\Trading\Mocks\Service;
+use DKH\eBaySDK\Test\Mocks\HttpHandler;
 
 class ServiceTest extends \PHPUnit_Framework_TestCase
 {

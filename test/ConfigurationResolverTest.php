@@ -1,8 +1,8 @@
 <?php
-namespace DTS\eBaySDK\Test;
+namespace DKH\eBaySDK\Test;
 
-use DTS\eBaySDK\ConfigurationResolver;
-use DTS\eBaySDK\Test\Mocks\StaticMethods;
+use DKH\eBaySDK\ConfigurationResolver;
+use DKH\eBaySDK\Test\Mocks\StaticMethods;
 
 class ConfigurationResolverTest extends \PHPUnit_Framework_TestCase
 {

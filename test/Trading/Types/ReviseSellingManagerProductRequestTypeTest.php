@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace DKH\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\ReviseSellingManagerProductRequestType;
+use DKH\eBaySDK\Trading\Types\ReviseSellingManagerProductRequestType;
 
 class ReviseSellingManagerProductRequestTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ReviseSellingManagerProductRequestTypeTest extends \PHPUnit_Framework_Test
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ReviseSellingManagerProductRequestType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Trading\Types\ReviseSellingManagerProductRequestType', $this->obj);
     }
 
     public function testExtendsAbstractRequestType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }
 }

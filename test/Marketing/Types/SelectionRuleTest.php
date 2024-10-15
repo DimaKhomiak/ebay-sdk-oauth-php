@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Marketing\Types;
+namespace DKH\eBaySDK\Test\Marketing\Types;
 
-use DTS\eBaySDK\Marketing\Types\SelectionRule;
+use DKH\eBaySDK\Marketing\Types\SelectionRule;
 
 class SelectionRuleTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class SelectionRuleTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\SelectionRule', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Marketing\Types\SelectionRule', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

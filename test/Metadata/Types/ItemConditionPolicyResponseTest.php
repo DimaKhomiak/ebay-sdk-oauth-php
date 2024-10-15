@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Metadata\Types;
+namespace DKH\eBaySDK\Test\Metadata\Types;
 
-use DTS\eBaySDK\Metadata\Types\ItemConditionPolicyResponse;
+use DKH\eBaySDK\Metadata\Types\ItemConditionPolicyResponse;
 
 class ItemConditionPolicyResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ItemConditionPolicyResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Types\ItemConditionPolicyResponse', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Metadata\Types\ItemConditionPolicyResponse', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Test\Mocks;
+namespace DKH\eBaySDK\Test\Mocks;
 
-class StringType extends \DTS\eBaySDK\Types\StringType
+class StringType extends \DKH\eBaySDK\Types\StringType
 {
     private static $propertyTypes = [];
 

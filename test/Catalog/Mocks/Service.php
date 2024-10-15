@@ -1,15 +1,15 @@
 <?php
-namespace DTS\eBaySDK\Test\Catalog\Mocks;
+namespace DKH\eBaySDK\Test\Catalog\Mocks;
 
-use DTS\eBaySDK\Test\Mocks\ComplexClass;
+use DKH\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
+class Service extends \DKH\eBaySDK\Catalog\Services\CatalogBaseService
 {
     protected static $operations = [
         'testOperation' => [
             'method' => 'GET',
             'resource' => 'item/{item_id}',
-            'responseClass' => '\DTS\eBaySDK\Test\Mocks\ComplexClass',
+            'responseClass' => '\DKH\eBaySDK\Test\Mocks\ComplexClass',
             'params' => [
             ]
         ]

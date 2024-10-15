@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Browse\Enums;
+namespace DKH\eBaySDK\Test\Browse\Enums;
 
-use DTS\eBaySDK\Browse\Enums\AvailabilityThresholdEnum;
+use DKH\eBaySDK\Browse\Enums\AvailabilityThresholdEnum;
 
 class AvailabilityThresholdEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class AvailabilityThresholdEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Browse\Enums\AvailabilityThresholdEnum', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Browse\Enums\AvailabilityThresholdEnum', $this->obj);
     }
 }

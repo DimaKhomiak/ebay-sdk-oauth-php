@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Metadata\Enums;
+namespace DKH\eBaySDK\Test\Metadata\Enums;
 
-use DTS\eBaySDK\Metadata\Enums\CompatibleVehicleTypeEnum;
+use DKH\eBaySDK\Metadata\Enums\CompatibleVehicleTypeEnum;
 
 class CompatibleVehicleTypeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class CompatibleVehicleTypeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Enums\CompatibleVehicleTypeEnum', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Metadata\Enums\CompatibleVehicleTypeEnum', $this->obj);
     }
 }

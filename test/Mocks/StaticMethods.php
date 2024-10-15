@@ -1,5 +1,5 @@
 <?php
-namespace DTS\eBaySDK\Test\Mocks;
+namespace DKH\eBaySDK\Test\Mocks;
 
 class StaticMethods
 {

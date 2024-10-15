@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
+namespace DKH\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
-use DTS\eBaySDK\BusinessPoliciesManagement\Types\Insurance;
+use DKH\eBaySDK\BusinessPoliciesManagement\Types\Insurance;
 
 class InsuranceTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class InsuranceTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\Insurance', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\BusinessPoliciesManagement\Types\Insurance', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

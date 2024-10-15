@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Marketing\Types;
+namespace DKH\eBaySDK\Test\Marketing\Types;
 
-use DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestRequest;
+use DKH\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestRequest;
 
 class DeleteAdsByInventoryReferenceRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class DeleteAdsByInventoryReferenceRestRequestTest extends \PHPUnit_Framework_Te
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestRequest', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestRequest', $this->obj);
     }
 
     public function testExtendsDeleteAdsByInventoryReferenceRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRequest', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRequest', $this->obj);
     }
 }

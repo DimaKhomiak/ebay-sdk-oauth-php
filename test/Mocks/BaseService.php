@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Test\Mocks;
+namespace DKH\eBaySDK\Test\Mocks;
 
-class BaseService extends \DTS\eBaySDK\Services\BaseService
+class BaseService extends \DKH\eBaySDK\Services\BaseService
 {
     public function __construct(array $config)
     {

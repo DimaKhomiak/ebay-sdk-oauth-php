@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace DKH\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\GetCategoriesRequestType;
+use DKH\eBaySDK\Trading\Types\GetCategoriesRequestType;
 
 class GetCategoriesRequestTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetCategoriesRequestTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetCategoriesRequestType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Trading\Types\GetCategoriesRequestType', $this->obj);
     }
 
     public function testExtendsAbstractRequestType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }
 }

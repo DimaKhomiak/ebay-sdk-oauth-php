@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Shopping\Enums;
+namespace DKH\eBaySDK\Test\Shopping\Enums;
 
-use DTS\eBaySDK\Shopping\Enums\SortOrderCodeType;
+use DKH\eBaySDK\Shopping\Enums\SortOrderCodeType;
 
 class SortOrderCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class SortOrderCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Enums\SortOrderCodeType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Shopping\Enums\SortOrderCodeType', $this->obj);
     }
 }

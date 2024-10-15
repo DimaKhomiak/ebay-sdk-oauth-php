@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Enums;
+namespace DKH\eBaySDK\Test\ResolutionCaseManagement\Enums;
 
-use DTS\eBaySDK\ResolutionCaseManagement\Enums\UPICaseStatusType;
+use DKH\eBaySDK\ResolutionCaseManagement\Enums\UPICaseStatusType;
 
 class UPICaseStatusTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class UPICaseStatusTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\UPICaseStatusType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\ResolutionCaseManagement\Enums\UPICaseStatusType', $this->obj);
     }
 }

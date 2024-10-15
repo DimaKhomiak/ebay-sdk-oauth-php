@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\BulkDataExchange\Types;
+namespace DKH\eBaySDK\Test\BulkDataExchange\Types;
 
-use DTS\eBaySDK\BulkDataExchange\Types\StartDownloadJobRequest;
+use DKH\eBaySDK\BulkDataExchange\Types\StartDownloadJobRequest;
 
 class StartDownloadJobRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class StartDownloadJobRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\StartDownloadJobRequest', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\BulkDataExchange\Types\StartDownloadJobRequest', $this->obj);
     }
 
     public function testExtendsBaseServiceRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\BulkDataExchange\Types\BaseServiceRequest', $this->obj);
     }
 }

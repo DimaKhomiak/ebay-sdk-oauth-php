@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Inventory\Enums;
+namespace DKH\eBaySDK\Test\Inventory\Enums;
 
-use DTS\eBaySDK\Inventory\Enums\DayOfWeekEnum;
+use DKH\eBaySDK\Inventory\Enums\DayOfWeekEnum;
 
 class DayOfWeekEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class DayOfWeekEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Enums\DayOfWeekEnum', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Inventory\Enums\DayOfWeekEnum', $this->obj);
     }
 }

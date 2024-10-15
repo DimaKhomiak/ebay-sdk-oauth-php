@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ReturnManagement\Enums;
+namespace DKH\eBaySDK\Test\ReturnManagement\Enums;
 
-use DTS\eBaySDK\ReturnManagement\Enums\MetadataEntryType;
+use DKH\eBaySDK\ReturnManagement\Enums\MetadataEntryType;
 
 class MetadataEntryTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class MetadataEntryTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Enums\MetadataEntryType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\ReturnManagement\Enums\MetadataEntryType', $this->obj);
     }
 }

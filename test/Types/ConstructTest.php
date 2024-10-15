@@ -1,9 +1,9 @@
 <?php
-namespace DTS\eBaySDK\Types\Test;
+namespace DKH\eBaySDK\Types\Test;
 
-use DTS\eBaySDK\Test\Mocks\AmountClass;
-use DTS\eBaySDK\Test\Mocks\ComplexClass;
-use DTS\eBaySDK\Test\Mocks\SimpleClass;
+use DKH\eBaySDK\Test\Mocks\AmountClass;
+use DKH\eBaySDK\Test\Mocks\ComplexClass;
+use DKH\eBaySDK\Test\Mocks\SimpleClass;
 
 class ConstructTest extends \PHPUnit_Framework_TestCase
 {
@@ -80,16 +80,16 @@ class ConstructTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(2, count($obj->strings));
         $this->assertEquals('foo', $obj->strings[0]);
         $this->assertEquals('bar', $obj->strings[1]);
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\RepeatableType', $obj->strings);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\RepeatableType', $obj->strings);
 
         $this->assertEquals(2, count($obj->integers));
         $this->assertEquals(111, $obj->integers[0]);
         $this->assertEquals(222, $obj->integers[1]);
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\RepeatableType', $obj->integers);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\RepeatableType', $obj->integers);
 
         $this->assertEquals(543.21, $obj->AmountClass->value);
         $this->assertEquals('one', $obj->AmountClass->AttributeOne);
-        $this->assertInstanceOf('\DTS\eBaySDK\Test\Mocks\AmountClass', $obj->AmountClass);
+        $this->assertInstanceOf('\DKH\eBaySDK\Test\Mocks\AmountClass', $obj->AmountClass);
 
         $this->assertEquals(123, $obj->SimpleClass->integer);
         $this->assertEquals('foo', $obj->SimpleClass->string);
@@ -100,7 +100,7 @@ class ConstructTest extends \PHPUnit_Framework_TestCase
             new \DateTime('2000-01-01T00:00:00.000Z', new \DateTimeZone('UTC')),
             $obj->SimpleClass->DateTime
         );
-        $this->assertInstanceOf('\DTS\eBaySDK\Test\Mocks\SimpleClass', $obj->SimpleClass);
+        $this->assertInstanceOf('\DKH\eBaySDK\Test\Mocks\SimpleClass', $obj->SimpleClass);
 
         $this->assertEquals(3, count($obj->SimpleClass->integers));
         $this->assertEquals(100, $obj->SimpleClass->integers[0]);
@@ -108,22 +108,22 @@ class ConstructTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(300, $obj->SimpleClass->integers[2]);
 
         $this->assertEquals(3, count($obj->simpleClasses));
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\RepeatableType', $obj->simpleClasses);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\RepeatableType', $obj->simpleClasses);
 
         $this->assertEquals(2, count($obj->decimalTypes));
         $this->assertEquals(1, $obj->decimalTypes[0]->value);
         $this->assertEquals(2.34, $obj->decimalTypes[1]->value);
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\RepeatableType', $obj->strings);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\RepeatableType', $obj->strings);
 
         $this->assertEquals(1, $obj->anyType);
 
         $this->assertEquals(2, count($obj->anyTypes));
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\RepeatableType', $obj->anyTypes);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\RepeatableType', $obj->anyTypes);
     }
 
     public function testSettingInvalidPropertyViaCtor()
     {
-        $this->setExpectedException('\DTS\eBaySDK\Exceptions\UnknownPropertyException', 'Unknown property bar');
+        $this->setExpectedException('\DKH\eBaySDK\Exceptions\UnknownPropertyException', 'Unknown property bar');
 
         new ComplexClass([
             'bar' => 'bar'
@@ -132,7 +132,7 @@ class ConstructTest extends \PHPUnit_Framework_TestCase
 
     public function testSettingInvalidPropertyTypeViaCtor()
     {
-        $this->setExpectedException('\DTS\eBaySDK\Exceptions\InvalidPropertyTypeException', 'Invalid property type provided for string. Expected string but got integer');
+        $this->setExpectedException('\DKH\eBaySDK\Exceptions\InvalidPropertyTypeException', 'Invalid property type provided for string. Expected string but got integer');
 
         new ComplexClass([
             'string' => 123

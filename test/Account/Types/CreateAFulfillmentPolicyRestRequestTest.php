@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Account\Types;
+namespace DKH\eBaySDK\Test\Account\Types;
 
-use DTS\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestRequest;
+use DKH\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestRequest;
 
 class CreateAFulfillmentPolicyRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CreateAFulfillmentPolicyRestRequestTest extends \PHPUnit_Framework_TestCas
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestRequest', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestRequest', $this->obj);
     }
 
     public function testExtendsFulfillmentPolicyRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\FulfillmentPolicyRequest', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Account\Types\FulfillmentPolicyRequest', $this->obj);
     }
 }

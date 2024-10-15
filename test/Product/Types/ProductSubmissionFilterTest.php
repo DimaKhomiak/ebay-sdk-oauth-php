@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Product\Types;
+namespace DKH\eBaySDK\Test\Product\Types;
 
-use DTS\eBaySDK\Product\Types\ProductSubmissionFilter;
+use DKH\eBaySDK\Product\Types\ProductSubmissionFilter;
 
 class ProductSubmissionFilterTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ProductSubmissionFilterTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Product\Types\ProductSubmissionFilter', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Product\Types\ProductSubmissionFilter', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Enums;
+namespace DKH\eBaySDK\Test\MerchantData\Enums;
 
-use DTS\eBaySDK\MerchantData\Enums\AckCodeType;
+use DKH\eBaySDK\MerchantData\Enums\AckCodeType;
 
 class AckCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class AckCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\AckCodeType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\MerchantData\Enums\AckCodeType', $this->obj);
     }
 }

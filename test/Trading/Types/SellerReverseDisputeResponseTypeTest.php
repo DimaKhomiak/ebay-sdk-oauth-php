@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace DKH\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\SellerReverseDisputeResponseType;
+use DKH\eBaySDK\Trading\Types\SellerReverseDisputeResponseType;
 
 class SellerReverseDisputeResponseTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class SellerReverseDisputeResponseTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellerReverseDisputeResponseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Trading\Types\SellerReverseDisputeResponseType', $this->obj);
     }
 
     public function testExtendsAbstractResponseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }
 }

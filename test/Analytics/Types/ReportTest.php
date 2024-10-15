@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Analytics\Types;
+namespace DKH\eBaySDK\Test\Analytics\Types;
 
-use DTS\eBaySDK\Analytics\Types\Report;
+use DKH\eBaySDK\Analytics\Types\Report;
 
 class ReportTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ReportTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Types\Report', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Analytics\Types\Report', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Marketing\Types;
+namespace DKH\eBaySDK\Test\Marketing\Types;
 
-use DTS\eBaySDK\Marketing\Types\CreateItemPromotionRestRequest;
+use DKH\eBaySDK\Marketing\Types\CreateItemPromotionRestRequest;
 
 class CreateItemPromotionRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CreateItemPromotionRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\CreateItemPromotionRestRequest', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Marketing\Types\CreateItemPromotionRestRequest', $this->obj);
     }
 
     public function testExtendsItemPromotion()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\ItemPromotion', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Marketing\Types\ItemPromotion', $this->obj);
     }
 }

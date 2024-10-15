@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Types;
+namespace DKH\eBaySDK\Test\MerchantData\Types;
 
-use DTS\eBaySDK\MerchantData\Types\TaxIdentifierAttributeType;
+use DKH\eBaySDK\MerchantData\Types\TaxIdentifierAttributeType;
 
 class TaxIdentifierAttributeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class TaxIdentifierAttributeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\TaxIdentifierAttributeType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\MerchantData\Types\TaxIdentifierAttributeType', $this->obj);
     }
 
     public function testExtendsStringType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\StringType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\StringType', $this->obj);
     }
 }

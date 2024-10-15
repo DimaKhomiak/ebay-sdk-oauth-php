@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Enums;
+namespace DKH\eBaySDK\Test\Trading\Enums;
 
-use DTS\eBaySDK\Trading\Enums\FeedbackResponseCodeType;
+use DKH\eBaySDK\Trading\Enums\FeedbackResponseCodeType;
 
 class FeedbackResponseCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class FeedbackResponseCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\FeedbackResponseCodeType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Trading\Enums\FeedbackResponseCodeType', $this->obj);
     }
 }

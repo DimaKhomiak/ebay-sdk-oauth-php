@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Merchandising\Types;
+namespace DKH\eBaySDK\Test\Merchandising\Types;
 
-use DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest;
+use DKH\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest;
 
 class BaseMerchandisingServiceRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class BaseMerchandisingServiceRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest', $this->obj);
     }
 
     public function testExtendsBaseServiceRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\BaseServiceRequest', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Merchandising\Types\BaseServiceRequest', $this->obj);
     }
 }

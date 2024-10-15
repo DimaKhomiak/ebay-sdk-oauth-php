@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\RelatedItemsManagement\Enums;
+namespace DKH\eBaySDK\Test\RelatedItemsManagement\Enums;
 
-use DTS\eBaySDK\RelatedItemsManagement\Enums\BundleStatusEnum;
+use DKH\eBaySDK\RelatedItemsManagement\Enums\BundleStatusEnum;
 
 class BundleStatusEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class BundleStatusEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Enums\BundleStatusEnum', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\RelatedItemsManagement\Enums\BundleStatusEnum', $this->obj);
     }
 }

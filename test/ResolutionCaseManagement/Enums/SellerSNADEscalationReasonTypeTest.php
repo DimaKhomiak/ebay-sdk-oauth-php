@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Enums;
+namespace DKH\eBaySDK\Test\ResolutionCaseManagement\Enums;
 
-use DTS\eBaySDK\ResolutionCaseManagement\Enums\SellerSNADEscalationReasonType;
+use DKH\eBaySDK\ResolutionCaseManagement\Enums\SellerSNADEscalationReasonType;
 
 class SellerSNADEscalationReasonTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class SellerSNADEscalationReasonTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\SellerSNADEscalationReasonType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\ResolutionCaseManagement\Enums\SellerSNADEscalationReasonType', $this->obj);
     }
 }

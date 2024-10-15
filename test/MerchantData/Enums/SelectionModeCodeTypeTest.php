@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Enums;
+namespace DKH\eBaySDK\Test\MerchantData\Enums;
 
-use DTS\eBaySDK\MerchantData\Enums\SelectionModeCodeType;
+use DKH\eBaySDK\MerchantData\Enums\SelectionModeCodeType;
 
 class SelectionModeCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class SelectionModeCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\SelectionModeCodeType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\MerchantData\Enums\SelectionModeCodeType', $this->obj);
     }
 }

@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Test\Mocks;
+namespace DKH\eBaySDK\Test\Mocks;
 
-class Service extends \DTS\eBaySDK\Test\Mocks\BaseService
+class Service extends \DKH\eBaySDK\Test\Mocks\BaseService
 {
     public function __construct(array $config)
     {
@@ -16,21 +16,21 @@ class Service extends \DTS\eBaySDK\Test\Mocks\BaseService
         );
     }
 
-    public function foo(\DTS\eBaySDK\Test\Mocks\ComplexClass $request)
+    public function foo(\DKH\eBaySDK\Test\Mocks\ComplexClass $request)
     {
         return $this->callOperationAsync(
             'foo',
             $request,
-            '\DTS\eBaySDK\Test\Mocks\ComplexClass'
+            '\DKH\eBaySDK\Test\Mocks\ComplexClass'
         )->wait();
     }
 
-    public function bar(\DTS\eBaySDK\Test\Mocks\ComplexClass $request)
+    public function bar(\DKH\eBaySDK\Test\Mocks\ComplexClass $request)
     {
         return $this->callOperationAsync(
             'foo',
             $request,
-            '\DTS\eBaySDK\Test\Mocks\ComplexClass'
+            '\DKH\eBaySDK\Test\Mocks\ComplexClass'
         )->wait();
     }
 }

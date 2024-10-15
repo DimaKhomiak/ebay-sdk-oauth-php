@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Marketing\Enums;
+namespace DKH\eBaySDK\Test\Marketing\Enums;
 
-use DTS\eBaySDK\Marketing\Enums\ReportTypeEnum;
+use DKH\eBaySDK\Marketing\Enums\ReportTypeEnum;
 
 class ReportTypeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ReportTypeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Enums\ReportTypeEnum', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Marketing\Enums\ReportTypeEnum', $this->obj);
     }
 }

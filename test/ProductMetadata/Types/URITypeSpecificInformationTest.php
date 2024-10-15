@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ProductMetadata\Types;
+namespace DKH\eBaySDK\Test\ProductMetadata\Types;
 
-use DTS\eBaySDK\ProductMetadata\Types\URITypeSpecificInformation;
+use DKH\eBaySDK\ProductMetadata\Types\URITypeSpecificInformation;
 
 class URITypeSpecificInformationTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class URITypeSpecificInformationTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\URITypeSpecificInformation', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\ProductMetadata\Types\URITypeSpecificInformation', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

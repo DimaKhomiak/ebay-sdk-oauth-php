@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Inventory\Types;
+namespace DKH\eBaySDK\Test\Inventory\Types;
 
-use DTS\eBaySDK\Inventory\Types\PublishOfferRestRequest;
+use DKH\eBaySDK\Inventory\Types\PublishOfferRestRequest;
 
 class PublishOfferRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class PublishOfferRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\PublishOfferRestRequest', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Inventory\Types\PublishOfferRestRequest', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

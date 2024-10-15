@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Enums;
+namespace DKH\eBaySDK\Test\PostOrder\Enums;
 
-use DTS\eBaySDK\PostOrder\Enums\LabelActionEnum;
+use DKH\eBaySDK\PostOrder\Enums\LabelActionEnum;
 
 class LabelActionEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class LabelActionEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\LabelActionEnum', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\PostOrder\Enums\LabelActionEnum', $this->obj);
     }
 }

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Shopping\Types;
+namespace DKH\eBaySDK\Test\Shopping\Types;
 
-use DTS\eBaySDK\Shopping\Types\DistanceType;
+use DKH\eBaySDK\Shopping\Types\DistanceType;
 
 class DistanceTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class DistanceTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\DistanceType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Shopping\Types\DistanceType', $this->obj);
     }
 
     public function testExtendsDoubleType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\DoubleType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\DoubleType', $this->obj);
     }
 }

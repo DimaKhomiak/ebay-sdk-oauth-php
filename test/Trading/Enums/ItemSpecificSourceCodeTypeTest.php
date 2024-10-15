@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Enums;
+namespace DKH\eBaySDK\Test\Trading\Enums;
 
-use DTS\eBaySDK\Trading\Enums\ItemSpecificSourceCodeType;
+use DKH\eBaySDK\Trading\Enums\ItemSpecificSourceCodeType;
 
 class ItemSpecificSourceCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ItemSpecificSourceCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ItemSpecificSourceCodeType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Trading\Enums\ItemSpecificSourceCodeType', $this->obj);
     }
 }

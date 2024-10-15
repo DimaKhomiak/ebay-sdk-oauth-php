@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\BulkDataExchange\Types;
+namespace DKH\eBaySDK\Test\BulkDataExchange\Types;
 
-use DTS\eBaySDK\BulkDataExchange\Types\DateFilter;
+use DKH\eBaySDK\BulkDataExchange\Types\DateFilter;
 
 class DateFilterTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class DateFilterTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\DateFilter', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\BulkDataExchange\Types\DateFilter', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

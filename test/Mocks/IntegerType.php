@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Test\Mocks;
+namespace DKH\eBaySDK\Test\Mocks;
 
-class IntegerType extends \DTS\eBaySDK\Types\IntegerType
+class IntegerType extends \DKH\eBaySDK\Types\IntegerType
 {
     private static $propertyTypes = [];
 

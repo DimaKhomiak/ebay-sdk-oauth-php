@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Enums;
+namespace DKH\eBaySDK\Test\PostOrder\Enums;
 
-use DTS\eBaySDK\PostOrder\Enums\EligibilityCheckTypeEnum;
+use DKH\eBaySDK\PostOrder\Enums\EligibilityCheckTypeEnum;
 
 class EligibilityCheckTypeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class EligibilityCheckTypeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\EligibilityCheckTypeEnum', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\PostOrder\Enums\EligibilityCheckTypeEnum', $this->obj);
     }
 }

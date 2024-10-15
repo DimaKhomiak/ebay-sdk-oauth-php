@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Catalog\Enums;
+namespace DKH\eBaySDK\Test\Catalog\Enums;
 
-use DTS\eBaySDK\Catalog\Enums\AspectModeEnum;
+use DKH\eBaySDK\Catalog\Enums\AspectModeEnum;
 
 class AspectModeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class AspectModeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Enums\AspectModeEnum', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Catalog\Enums\AspectModeEnum', $this->obj);
     }
 }

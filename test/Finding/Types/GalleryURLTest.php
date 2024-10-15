@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Finding\Types;
+namespace DKH\eBaySDK\Test\Finding\Types;
 
-use DTS\eBaySDK\Finding\Types\GalleryURL;
+use DKH\eBaySDK\Finding\Types\GalleryURL;
 
 class GalleryURLTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GalleryURLTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\GalleryURL', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Finding\Types\GalleryURL', $this->obj);
     }
 
     public function testExtendsURIType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\URIType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\URIType', $this->obj);
     }
 }

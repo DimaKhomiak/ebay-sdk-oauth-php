@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Account\Types;
+namespace DKH\eBaySDK\Test\Account\Types;
 
-use DTS\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestRequest;
+use DKH\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestRequest;
 
 class DeleteAFulfillmentPolicyRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class DeleteAFulfillmentPolicyRestRequestTest extends \PHPUnit_Framework_TestCas
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestRequest', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestRequest', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

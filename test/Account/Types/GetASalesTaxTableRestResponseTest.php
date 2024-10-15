@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Account\Types;
+namespace DKH\eBaySDK\Test\Account\Types;
 
-use DTS\eBaySDK\Account\Types\GetASalesTaxTableRestResponse;
+use DKH\eBaySDK\Account\Types\GetASalesTaxTableRestResponse;
 
 class GetASalesTaxTableRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetASalesTaxTableRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\GetASalesTaxTableRestResponse', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Account\Types\GetASalesTaxTableRestResponse', $this->obj);
     }
 
     public function testExtendsSalesTax()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\SalesTax', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Account\Types\SalesTax', $this->obj);
     }
 }

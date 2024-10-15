@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Order\Types;
+namespace DKH\eBaySDK\Test\Order\Types;
 
-use DTS\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestRequest;
+use DKH\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestRequest;
 
 class UpdateGuestLineItemQuantityRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class UpdateGuestLineItemQuantityRestRequestTest extends \PHPUnit_Framework_Test
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestRequest', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestRequest', $this->obj);
     }
 
     public function testExtendsUpdateQuantity()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\UpdateQuantity', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Order\Types\UpdateQuantity', $this->obj);
     }
 }

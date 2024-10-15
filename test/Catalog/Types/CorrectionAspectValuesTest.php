@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Catalog\Types;
+namespace DKH\eBaySDK\Test\Catalog\Types;
 
-use DTS\eBaySDK\Catalog\Types\CorrectionAspectValues;
+use DKH\eBaySDK\Catalog\Types\CorrectionAspectValues;
 
 class CorrectionAspectValuesTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CorrectionAspectValuesTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\CorrectionAspectValues', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Catalog\Types\CorrectionAspectValues', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\RelatedItemsManagement\Types;
+namespace DKH\eBaySDK\Test\RelatedItemsManagement\Types;
 
-use DTS\eBaySDK\RelatedItemsManagement\Types\UpdateBundleStatusRequest;
+use DKH\eBaySDK\RelatedItemsManagement\Types\UpdateBundleStatusRequest;
 
 class UpdateBundleStatusRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class UpdateBundleStatusRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\UpdateBundleStatusRequest', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\RelatedItemsManagement\Types\UpdateBundleStatusRequest', $this->obj);
     }
 
     public function testExtendsBaseRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\BaseRequest', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\RelatedItemsManagement\Types\BaseRequest', $this->obj);
     }
 }

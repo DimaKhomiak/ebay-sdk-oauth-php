@@ -1,13 +1,13 @@
 <?php
-namespace DTS\eBaySDK\Test\Services;
+namespace DKH\eBaySDK\Test\Services;
 
-use DTS\eBaySDK\Test\TestTraits\ManageEnv;
-use DTS\eBaySDK\Services\BaseService;
-use DTS\eBaySDK\Credentials\Credentials;
-use DTS\eBaySDK\Credentials\CredentialsProvider;
-use DTS\eBaySDK\Test\Mocks\Service;
-use DTS\eBaySDK\Test\Mocks\ComplexClass;
-use DTS\eBaySDK\Test\Mocks\HttpHandler;
+use DKH\eBaySDK\Test\TestTraits\ManageEnv;
+use DKH\eBaySDK\Services\BaseService;
+use DKH\eBaySDK\Credentials\Credentials;
+use DKH\eBaySDK\Credentials\CredentialsProvider;
+use DKH\eBaySDK\Test\Mocks\Service;
+use DKH\eBaySDK\Test\Mocks\ComplexClass;
+use DKH\eBaySDK\Test\Mocks\HttpHandler;
 
 class ServiceTest extends \PHPUnit_Framework_TestCase
 {
@@ -25,22 +25,22 @@ class ServiceTest extends \PHPUnit_Framework_TestCase
 
         $this->assertArrayHasKey('credentials', $d);
         $this->assertEquals([
-            'valid'   => ['DTS\eBaySDK\Credentials\CredentialsInterface', 'array', 'callable'],
-            'fn'      => 'DTS\eBaySDK\applyCredentials',
+            'valid'   => ['DKH\eBaySDK\Credentials\CredentialsInterface', 'array', 'callable'],
+            'fn'      => 'DKH\eBaySDK\applyCredentials',
             'default' => [CredentialsProvider::class, 'defaultProvider']
         ], $d['credentials']);
 
         $this->assertArrayHasKey('debug', $d);
         $this->assertEquals([
             'valid'   => ['bool', 'array'],
-            'fn'      => 'DTS\eBaySDK\applyDebug',
+            'fn'      => 'DKH\eBaySDK\applyDebug',
             'default' => false
         ], $d['debug']);
 
         $this->assertArrayHasKey('httpHandler', $d);
         $this->assertEquals([
             'valid'   => ['callable'],
-            'default' => 'DTS\eBaySDK\defaultHttpHandler'
+            'default' => 'DKH\eBaySDK\defaultHttpHandler'
         ], $d['httpHandler']);
 
         $this->assertArrayHasKey('httpOptions', $d);
@@ -52,7 +52,7 @@ class ServiceTest extends \PHPUnit_Framework_TestCase
         $this->assertArrayHasKey('profile', $d);
         $this->assertEquals([
             'valid' => ['string'],
-            'fn'    => 'DTS\eBaySDK\applyProfile',
+            'fn'    => 'DKH\eBaySDK\applyProfile',
         ], $d['profile']);
 
         $this->assertArrayHasKey('sandbox', $d);
@@ -114,7 +114,7 @@ class ServiceTest extends \PHPUnit_Framework_TestCase
         $s = new Service(['httpHandler' => new HttpHandler()]);
         $r = $s->foo(new ComplexClass());
 
-        $this->assertInstanceOf('\DTS\eBaySDK\Test\Mocks\ComplexClass', $r);
+        $this->assertInstanceOf('\DKH\eBaySDK\Test\Mocks\ComplexClass', $r);
     }
 
     public function testDebugging()

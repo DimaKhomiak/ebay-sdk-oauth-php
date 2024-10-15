@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ReturnManagement\Types;
+namespace DKH\eBaySDK\Test\ReturnManagement\Types;
 
-use DTS\eBaySDK\ReturnManagement\Types\ProvideSellerInfoResponse;
+use DKH\eBaySDK\ReturnManagement\Types\ProvideSellerInfoResponse;
 
 class ProvideSellerInfoResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ProvideSellerInfoResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\ProvideSellerInfoResponse', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\ReturnManagement\Types\ProvideSellerInfoResponse', $this->obj);
     }
 
     public function testExtendsBaseResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\BaseResponse', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\ReturnManagement\Types\BaseResponse', $this->obj);
     }
 }

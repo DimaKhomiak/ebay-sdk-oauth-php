@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace DKH\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\GetStoreCategoryUpdateStatusResponseType;
+use DKH\eBaySDK\Trading\Types\GetStoreCategoryUpdateStatusResponseType;
 
 class GetStoreCategoryUpdateStatusResponseTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetStoreCategoryUpdateStatusResponseTypeTest extends \PHPUnit_Framework_Te
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetStoreCategoryUpdateStatusResponseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Trading\Types\GetStoreCategoryUpdateStatusResponseType', $this->obj);
     }
 
     public function testExtendsAbstractResponseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }
 }

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Types;
+namespace DKH\eBaySDK\Test\PostOrder\Types;
 
-use DTS\eBaySDK\PostOrder\Types\EscalationEligibilityInfo;
+use DKH\eBaySDK\PostOrder\Types\EscalationEligibilityInfo;
 
 class EscalationEligibilityInfoTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class EscalationEligibilityInfoTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\EscalationEligibilityInfo', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\PostOrder\Types\EscalationEligibilityInfo', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

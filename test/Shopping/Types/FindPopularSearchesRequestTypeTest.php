@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Shopping\Types;
+namespace DKH\eBaySDK\Test\Shopping\Types;
 
-use DTS\eBaySDK\Shopping\Types\FindPopularSearchesRequestType;
+use DKH\eBaySDK\Shopping\Types\FindPopularSearchesRequestType;
 
 class FindPopularSearchesRequestTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class FindPopularSearchesRequestTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\FindPopularSearchesRequestType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Shopping\Types\FindPopularSearchesRequestType', $this->obj);
     }
 
     public function testExtendsAbstractRequestType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\AbstractRequestType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Shopping\Types\AbstractRequestType', $this->obj);
     }
 }

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Enums;
+namespace DKH\eBaySDK\Test\PostOrder\Enums;
 
-use DTS\eBaySDK\PostOrder\Enums\CaseTypeEnum;
+use DKH\eBaySDK\PostOrder\Enums\CaseTypeEnum;
 
 class CaseTypeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class CaseTypeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\CaseTypeEnum', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\PostOrder\Enums\CaseTypeEnum', $this->obj);
     }
 }

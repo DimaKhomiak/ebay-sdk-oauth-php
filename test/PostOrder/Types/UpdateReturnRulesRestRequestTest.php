@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Types;
+namespace DKH\eBaySDK\Test\PostOrder\Types;
 
-use DTS\eBaySDK\PostOrder\Types\UpdateReturnRulesRestRequest;
+use DKH\eBaySDK\PostOrder\Types\UpdateReturnRulesRestRequest;
 
 class UpdateReturnRulesRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class UpdateReturnRulesRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\UpdateReturnRulesRestRequest', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\PostOrder\Types\UpdateReturnRulesRestRequest', $this->obj);
     }
 
     public function testExtendsModifyDispositionRuleRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ModifyDispositionRuleRequest', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\PostOrder\Types\ModifyDispositionRuleRequest', $this->obj);
     }
 }

@@ -1,9 +1,9 @@
 <?php
-namespace DTS\eBaySDK\Test\Shopping\Mocks;
+namespace DKH\eBaySDK\Test\Shopping\Mocks;
 
-use DTS\eBaySDK\Test\Mocks\ComplexClass;
+use DKH\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\Shopping\Services\ShoppingBaseService
+class Service extends \DKH\eBaySDK\Shopping\Services\ShoppingBaseService
 {
     public function __construct(array $config)
     {
@@ -15,7 +15,7 @@ class Service extends \DTS\eBaySDK\Shopping\Services\ShoppingBaseService
         return $this->callOperationAsync(
             'testOperation',
             new ComplexClass(),
-            '\DTS\eBaySDK\Test\Mocks\ComplexClass'
+            '\DKH\eBaySDK\Test\Mocks\ComplexClass'
         )->wait();
     }
 }

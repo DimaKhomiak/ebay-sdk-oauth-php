@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Types;
+namespace DKH\eBaySDK\Test\MerchantData\Types;
 
-use DTS\eBaySDK\MerchantData\Types\ReviseInventoryStatusResponseType;
+use DKH\eBaySDK\MerchantData\Types\ReviseInventoryStatusResponseType;
 
 class ReviseInventoryStatusResponseTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ReviseInventoryStatusResponseTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\ReviseInventoryStatusResponseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\MerchantData\Types\ReviseInventoryStatusResponseType', $this->obj);
     }
 
     public function testExtendsAbstractResponseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\AbstractResponseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\MerchantData\Types\AbstractResponseType', $this->obj);
     }
 }

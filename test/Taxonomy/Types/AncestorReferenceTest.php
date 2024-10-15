@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Taxonomy\Types;
+namespace DKH\eBaySDK\Test\Taxonomy\Types;
 
-use DTS\eBaySDK\Taxonomy\Types\AncestorReference;
+use DKH\eBaySDK\Taxonomy\Types\AncestorReference;
 
 class AncestorReferenceTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class AncestorReferenceTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\AncestorReference', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Taxonomy\Types\AncestorReference', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

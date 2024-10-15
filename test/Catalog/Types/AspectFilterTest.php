@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Catalog\Types;
+namespace DKH\eBaySDK\Test\Catalog\Types;
 
-use DTS\eBaySDK\Catalog\Types\AspectFilter;
+use DKH\eBaySDK\Catalog\Types\AspectFilter;
 
 class AspectFilterTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class AspectFilterTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\AspectFilter', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Catalog\Types\AspectFilter', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

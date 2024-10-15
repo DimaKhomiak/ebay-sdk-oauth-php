@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Catalog\Types;
+namespace DKH\eBaySDK\Test\Catalog\Types;
 
-use DTS\eBaySDK\Catalog\Types\ProcessResolution;
+use DKH\eBaySDK\Catalog\Types\ProcessResolution;
 
 class ProcessResolutionTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ProcessResolutionTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\ProcessResolution', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Catalog\Types\ProcessResolution', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

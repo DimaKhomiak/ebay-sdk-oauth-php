@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Feedback\Types;
+namespace DKH\eBaySDK\Test\Feedback\Types;
 
-use DTS\eBaySDK\Feedback\Types\TransactionKey;
+use DKH\eBaySDK\Feedback\Types\TransactionKey;
 
 class TransactionKeyTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class TransactionKeyTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Feedback\Types\TransactionKey', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Feedback\Types\TransactionKey', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

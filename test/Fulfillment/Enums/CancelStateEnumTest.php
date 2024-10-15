@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Fulfillment\Enums;
+namespace DKH\eBaySDK\Test\Fulfillment\Enums;
 
-use DTS\eBaySDK\Fulfillment\Enums\CancelStateEnum;
+use DKH\eBaySDK\Fulfillment\Enums\CancelStateEnum;
 
 class CancelStateEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class CancelStateEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Enums\CancelStateEnum', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Fulfillment\Enums\CancelStateEnum', $this->obj);
     }
 }

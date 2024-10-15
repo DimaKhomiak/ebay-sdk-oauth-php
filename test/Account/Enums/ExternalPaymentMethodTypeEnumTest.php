@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Account\Enums;
+namespace DKH\eBaySDK\Test\Account\Enums;
 
-use DTS\eBaySDK\Account\Enums\ExternalPaymentMethodTypeEnum;
+use DKH\eBaySDK\Account\Enums\ExternalPaymentMethodTypeEnum;
 
 class ExternalPaymentMethodTypeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ExternalPaymentMethodTypeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Enums\ExternalPaymentMethodTypeEnum', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Account\Enums\ExternalPaymentMethodTypeEnum', $this->obj);
     }
 }

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Marketing\Enums;
+namespace DKH\eBaySDK\Test\Marketing\Enums;
 
-use DTS\eBaySDK\Marketing\Enums\CategoryScopeEnum;
+use DKH\eBaySDK\Marketing\Enums\CategoryScopeEnum;
 
 class CategoryScopeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class CategoryScopeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Enums\CategoryScopeEnum', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Marketing\Enums\CategoryScopeEnum', $this->obj);
     }
 }

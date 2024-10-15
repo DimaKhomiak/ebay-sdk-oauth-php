@@ -1,9 +1,9 @@
 <?php
-namespace DTS\eBaySDK\Test\Finding\Mocks;
+namespace DKH\eBaySDK\Test\Finding\Mocks;
 
-use DTS\eBaySDK\Test\Mocks\ComplexClass;
+use DKH\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\Finding\Services\FindingBaseService
+class Service extends \DKH\eBaySDK\Finding\Services\FindingBaseService
 {
     public function __construct(array $config)
     {
@@ -15,7 +15,7 @@ class Service extends \DTS\eBaySDK\Finding\Services\FindingBaseService
         return $this->callOperationAsync(
             'testOperation',
             new ComplexClass(),
-            '\DTS\eBaySDK\Test\Mocks\ComplexClass'
+            '\DKH\eBaySDK\Test\Mocks\ComplexClass'
         )->wait();
     }
 }

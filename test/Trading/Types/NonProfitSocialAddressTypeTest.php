@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace DKH\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\NonProfitSocialAddressType;
+use DKH\eBaySDK\Trading\Types\NonProfitSocialAddressType;
 
 class NonProfitSocialAddressTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class NonProfitSocialAddressTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\NonProfitSocialAddressType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Trading\Types\NonProfitSocialAddressType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

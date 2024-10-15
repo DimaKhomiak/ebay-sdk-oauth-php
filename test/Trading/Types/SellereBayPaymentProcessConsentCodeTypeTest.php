@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace DKH\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\SellereBayPaymentProcessConsentCodeType;
+use DKH\eBaySDK\Trading\Types\SellereBayPaymentProcessConsentCodeType;
 
 class SellereBayPaymentProcessConsentCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class SellereBayPaymentProcessConsentCodeTypeTest extends \PHPUnit_Framework_Tes
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellereBayPaymentProcessConsentCodeType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Trading\Types\SellereBayPaymentProcessConsentCodeType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

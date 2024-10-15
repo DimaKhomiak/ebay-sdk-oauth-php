@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ProductMetadata\Types;
+namespace DKH\eBaySDK\Test\ProductMetadata\Types;
 
-use DTS\eBaySDK\ProductMetadata\Types\StringValue;
+use DKH\eBaySDK\ProductMetadata\Types\StringValue;
 
 class StringValueTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class StringValueTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\StringValue', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\ProductMetadata\Types\StringValue', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

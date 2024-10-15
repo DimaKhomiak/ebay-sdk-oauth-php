@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Types;
+namespace DKH\eBaySDK\Test\PostOrder\Types;
 
-use DTS\eBaySDK\PostOrder\Types\ReturnEligibilityItemPerCheckTypeResult;
+use DKH\eBaySDK\PostOrder\Types\ReturnEligibilityItemPerCheckTypeResult;
 
 class ReturnEligibilityItemPerCheckTypeResultTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ReturnEligibilityItemPerCheckTypeResultTest extends \PHPUnit_Framework_Tes
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ReturnEligibilityItemPerCheckTypeResult', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\PostOrder\Types\ReturnEligibilityItemPerCheckTypeResult', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

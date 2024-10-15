@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Finding\Types;
+namespace DKH\eBaySDK\Test\Finding\Types;
 
-use DTS\eBaySDK\Finding\Types\PaginationInput;
+use DKH\eBaySDK\Finding\Types\PaginationInput;
 
 class PaginationInputTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class PaginationInputTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\PaginationInput', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Finding\Types\PaginationInput', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

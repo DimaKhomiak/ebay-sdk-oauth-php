@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Shopping\Types;
+namespace DKH\eBaySDK\Test\Shopping\Types;
 
-use DTS\eBaySDK\Shopping\Types\FindReviewsAndGuidesRequestType;
+use DKH\eBaySDK\Shopping\Types\FindReviewsAndGuidesRequestType;
 
 class FindReviewsAndGuidesRequestTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class FindReviewsAndGuidesRequestTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\FindReviewsAndGuidesRequestType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Shopping\Types\FindReviewsAndGuidesRequestType', $this->obj);
     }
 
     public function testExtendsAbstractRequestType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\AbstractRequestType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Shopping\Types\AbstractRequestType', $this->obj);
     }
 }

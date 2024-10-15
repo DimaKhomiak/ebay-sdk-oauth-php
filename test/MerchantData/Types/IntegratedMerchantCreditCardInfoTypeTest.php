@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Types;
+namespace DKH\eBaySDK\Test\MerchantData\Types;
 
-use DTS\eBaySDK\MerchantData\Types\IntegratedMerchantCreditCardInfoType;
+use DKH\eBaySDK\MerchantData\Types\IntegratedMerchantCreditCardInfoType;
 
 class IntegratedMerchantCreditCardInfoTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class IntegratedMerchantCreditCardInfoTypeTest extends \PHPUnit_Framework_TestCa
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\IntegratedMerchantCreditCardInfoType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\MerchantData\Types\IntegratedMerchantCreditCardInfoType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 }

@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Test\Mocks;
+namespace DKH\eBaySDK\Test\Mocks;
 
-class DoubleType extends \DTS\eBaySDK\Types\DoubleType
+class DoubleType extends \DKH\eBaySDK\Types\DoubleType
 {
     private static $propertyTypes = [];
 

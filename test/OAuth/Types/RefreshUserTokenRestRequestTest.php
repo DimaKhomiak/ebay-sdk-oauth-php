@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Test\OAuth\Types;
+namespace DKH\eBaySDK\Test\OAuth\Types;
 
-use DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest;
+use DKH\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest;
 
 class RefreshUserTokenRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -14,12 +14,12 @@ class RefreshUserTokenRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\BaseType', $this->obj);
     }
 
     public function testProperties()
@@ -30,6 +30,6 @@ class RefreshUserTokenRestRequestTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals('foo', $this->obj->grant_type);
         $this->assertEquals('bar', $this->obj->refresh_token);
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\RepeatableType', $this->obj->scope);
+        $this->assertInstanceOf('\DKH\eBaySDK\Types\RepeatableType', $this->obj->scope);
     }
 }
